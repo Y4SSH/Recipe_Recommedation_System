@@ -38,7 +38,6 @@ build/
 
 # Project-generated backups and archives
 /backups/
-/AI-chef--main/_archive_*/
 
 # Local data and static test files at repo root
 /Cleaned_Indian_Food_Dataset.csv
