@@ -1,0 +1,141 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test-backend:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:15
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: cooklyai_test
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+      redis:
+        image: redis:7-alpine
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: backend/package-lock.json
+
+    - name: Install backend dependencies
+      run: cd backend && npm ci
+
+    - name: Run backend linter
+      run: cd backend && npm run lint
+
+    - name: Generate Prisma client
+      run: cd backend && npx prisma generate
+
+    - name: Run backend tests
+      run: cd backend && npm test
+      env:
+        DATABASE_URL: postgresql://postgres:postgres@localhost:5432/cooklyai_test
+        JWT_SECRET: test_secret
+        JWT_REFRESH_SECRET: test_refresh_secret
+        REDIS_URL: redis://localhost:6379
+
+  test-frontend:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: frontend/package-lock.json
+
+    - name: Install frontend dependencies
+      run: cd frontend && npm ci
+
+    - name: Run frontend linter
+      run: cd frontend && npm run lint
+
+    - name: Run frontend tests
+      run: cd frontend && npm test
+
+  e2e:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:15
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: cooklyai_test
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+      redis:
+        image: redis:7-alpine
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    - name: Install backend dependencies
+      run: cd backend && npm ci
+
+    - name: Install frontend dependencies
+      run: cd frontend && npm ci
+
+    - name: Install Playwright
+      run: cd frontend && npx playwright install
+
+    - name: Generate Prisma client
+      run: cd backend && npx prisma generate
+
+    - name: Run migrations
+      run: cd backend && npx prisma migrate deploy
+      env:
+        DATABASE_URL: postgresql://postgres:postgres@localhost:5432/cooklyai_test
+
+    - name: Seed database
+      run: cd backend && npm run prisma:seed
+      env:
+        DATABASE_URL: postgresql://postgres:postgres@localhost:5432/cooklyai_test
+
+    - name: Start backend
+      run: cd backend && npm run dev &
+      env:
+        DATABASE_URL: postgresql://postgres:postgres@localhost:5432/cooklyai_test
+        JWT_SECRET: test_secret
+        JWT_REFRESH_SECRET: test_refresh_secret
+        REDIS_URL: redis://localhost:6379
+        PORT: 8000
+
+    - name: Wait for backend
+      run: sleep 10
+
+    - name: Run e2e tests
+      run: cd frontend && npm run test:e2e
+      env:
+        NEXT_PUBLIC_API_BASE_URL: http://localhost:8000

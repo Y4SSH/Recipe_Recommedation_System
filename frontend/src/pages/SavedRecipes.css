@@ -1,0 +1,19 @@
+.saved-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-xl);
+  padding: var(--space-md) var(--space-lg);
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-md);
+}
+
+.saved-count {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.saved-content {
+  padding-bottom: var(--space-4xl);
+}

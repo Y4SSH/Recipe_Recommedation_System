@@ -1,0 +1,54 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local env and secrets
+.env
+.env.*
+!.env.example
+
+# Database and runtime artifacts
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.tmp
+
+# Model/cache artifacts
+.huggingface/
+.cache/
+
+# Node artifacts (if used in subfolders)
+node_modules/
+.next/
+dist/
+build/
+
+# Project-generated backups and archives
+/backups/
+/AI-chef--main/_archive_*/
+
+# Local data and static test files at repo root
+/Cleaned_Indian_Food_Dataset.csv
+/*.jpg
+/*.jpeg
+/*.png
+/*.webp
+/api-tester.html
+/recipe-ui.html
+
+# Temporary auth test files
+/backend-python/.tmp_test_email.txt
+/backend-python/.tmp_test_token.txt

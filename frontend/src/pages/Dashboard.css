@@ -1,0 +1,232 @@
+.dashboard-glow {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 400px;
+  background: radial-gradient(ellipse, rgba(255,107,53,0.08) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.dashboard-header {
+  padding: var(--space-3xl) 0 var(--space-xl);
+  position: relative;
+}
+
+.dashboard-greeting {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+
+.dashboard-title {
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: var(--space-xs);
+}
+
+.wave-emoji {
+  display: inline-block;
+  animation: float 3s ease-in-out infinite;
+}
+
+.dashboard-subtitle {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+}
+
+.dashboard-main {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: var(--space-xl);
+  padding-bottom: var(--space-4xl);
+  position: relative;
+}
+
+.input-section-card {
+  padding: var(--space-xl);
+}
+
+.input-section-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-xl);
+}
+
+.input-section-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  background: rgba(255, 107, 53, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+  flex-shrink: 0;
+}
+
+.input-section-header h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.input-section-header p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.filters-section {
+  margin-top: var(--space-xl);
+  padding-top: var(--space-xl);
+  border-top: 1px solid var(--glass-border);
+}
+
+.filters-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: var(--space-md);
+  color: var(--text-secondary);
+}
+
+.filters-optional {
+  font-weight: 400;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.filters-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+}
+
+.filters-grid select {
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23666' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  padding-right: 36px;
+}
+
+.filters-grid label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.dashboard-cta {
+  width: 100%;
+  margin-top: var(--space-xl);
+  padding: 18px;
+  font-size: 1.1rem;
+  animation: glow 3s ease-in-out infinite;
+}
+
+/* Sidebar */
+.dashboard-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.quick-add-card {
+  padding: var(--space-xl);
+}
+
+.quick-add-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.quick-add-card > p {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  margin-bottom: var(--space-md);
+}
+
+.quick-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.quick-tag {
+  padding: 8px 16px;
+  border-radius: var(--radius-full);
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all var(--transition-base);
+}
+
+.quick-tag:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: rgba(255, 107, 53, 0.08);
+}
+
+.quick-tag-active {
+  background: rgba(255, 107, 53, 0.15) !important;
+  border-color: var(--primary) !important;
+  color: var(--primary) !important;
+}
+
+.tip-card {
+  padding: var(--space-xl);
+}
+
+.tip-icon {
+  font-size: 1.5rem;
+  margin-bottom: var(--space-sm);
+}
+
+.tip-card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: var(--space-xs);
+}
+
+.tip-card p {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+  .dashboard-main {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-sidebar {
+    flex-direction: row;
+  }
+
+  .quick-add-card, .tip-card {
+    flex: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .dashboard-title {
+    font-size: 1.8rem;
+  }
+
+  .filters-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-sidebar {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local database and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.tmp
+
+# Model/cache artifacts
+.huggingface/
+.cache/
+
+# Local test artifacts
+.tmp_test_email.txt
+.tmp_test_token.txt
+
+# Build/package artifacts
+dist/
+build/

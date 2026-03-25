@@ -1,0 +1,135 @@
+.profile-grid {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: var(--space-xl);
+  padding-bottom: var(--space-4xl);
+  align-items: start;
+}
+
+.profile-card {
+  padding: var(--space-2xl);
+}
+
+.profile-avatar-section {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-2xl);
+  padding-bottom: var(--space-xl);
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.profile-avatar-lg {
+  width: 72px;
+  height: 72px;
+  border-radius: var(--radius-xl);
+  background: var(--gradient-warm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.profile-name {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.profile-email {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.profile-detail-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-md);
+  color: var(--text-muted);
+}
+
+.profile-detail-item div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.detail-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.detail-value {
+  font-size: 1rem;
+  color: var(--text-primary);
+}
+
+.detail-mono {
+  font-family: monospace;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.profile-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.profile-actions-card {
+  padding: var(--space-xl);
+}
+
+.profile-actions-card h3 {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: 1rem;
+  margin-bottom: var(--space-md);
+}
+
+.profile-actions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.profile-action-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 12px;
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  transition: all var(--transition-base);
+  text-align: left;
+}
+
+.profile-action-item:hover {
+  background: var(--glass-bg);
+  color: var(--text-primary);
+}
+
+.profile-logout {
+  width: 100%;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .profile-grid {
+    grid-template-columns: 1fr;
+  }
+}
