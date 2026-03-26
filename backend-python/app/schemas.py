@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ConfigDict
 from typing import List, Optional
 from datetime import datetime
 
@@ -140,6 +140,7 @@ class FeedbackOut(BaseModel):
 
 
 class HealthDetails(BaseModel):
+    model_config = ConfigDict(protected_namespaces=())
     status: str
     recipes_loaded: int
     embeddings_ready: bool
