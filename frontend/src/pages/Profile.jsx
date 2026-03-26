@@ -1,13 +1,46 @@
+import { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import { useToast } from '../context/ToastContext';
-import { User, Mail, Calendar, LogOut, ChefHat, Settings, Shield } from 'lucide-react';
+import { User, Mail, Calendar, LogOut, ChefHat, Settings, Shield, Locate, Save, Activity } from 'lucide-react';
 import './Profile.css';
 
 export default function Profile() {
-  const { user, logout } = useAuth();
+  const { user, logout, updateProfile } = useAuth();
   const navigate = useNavigate();
   const toast = useToast();
+
+  const [diet, setDiet] = useState('');
+  const [allergies, setAllergies] = useState('');
+  const [locality, setLocality] = useState('');
+  const [saving, setSaving] = useState(false);
+
+  useEffect(() => {
+    if (user?.preferences) {
+      try {
+        const p = JSON.parse(user.preferences);
+        setDiet(p.diet || '');
+        setAllergies(p.allergies || '');
+        setLocality(p.locality || '');
+      } catch (e) {
+        // silent
+      }
+    }
+  }, [user?.preferences]);
+
+  const handleSavePreferences = async (e) => {
+    e.preventDefault();
+    setSaving(true);
+    try {
+      const prefs = JSON.stringify({ diet, allergies, locality });
+      await updateProfile({ preferences: prefs });
+      toast.success('Preferences saved completely!');
+    } catch {
+      toast.error('Failed to save preferences');
+    } finally {
+      setSaving(false);
+    }
+  };
 
   const handleLogout = () => {
     logout();
@@ -70,6 +103,58 @@ export default function Profile() {
                   </div>
                 </div>
               </div>
+            </div>
+
+            <div className="profile-card glass profile-customization">
+              <div className="profile-card-header">
+                <h3><Settings size={20} /> Personal Customizations</h3>
+                <p>Help ChefAI understand your specific requirements better</p>
+              </div>
+              <form onSubmit={handleSavePreferences} className="customization-form">
+                <div className="input-group">
+                  <label htmlFor="pref-diet"><Activity size={16} /> Dietary Preference</label>
+                  <select 
+                    id="pref-diet" 
+                    className="input-field input-select"
+                    value={diet}
+                    onChange={(e) => setDiet(e.target.value)}
+                  >
+                    <option value="">No specific diet (Neutral)</option>
+                    <option value="Vegetarian">Vegetarian</option>
+                    <option value="Non-Vegetarian">Non-Vegetarian</option>
+                    <option value="Vegan">Vegan</option>
+                    <option value="Keto">Keto</option>
+                  </select>
+                </div>
+
+                <div className="input-group">
+                  <label htmlFor="pref-allergies"><Shield size={16} /> Allergies & Exclusions</label>
+                  <input
+                    id="pref-allergies"
+                    type="text"
+                    className="input-field"
+                    placeholder="e.g., Peanuts, Shellfish, Dairy"
+                    value={allergies}
+                    onChange={(e) => setAllergies(e.target.value)}
+                  />
+                </div>
+
+                <div className="input-group">
+                  <label htmlFor="pref-locality"><Locate size={16} /> Regional Cuisine Preference</label>
+                  <input
+                    id="pref-locality"
+                    type="text"
+                    className="input-field"
+                    placeholder="e.g., South Indian, Mexican, Continental"
+                    value={locality}
+                    onChange={(e) => setLocality(e.target.value)}
+                  />
+                </div>
+
+                <button type="submit" className="btn btn-primary customization-save" disabled={saving}>
+                  <Save size={18} /> {saving ? 'Saving...' : 'Save Preferences'}
+                </button>
+              </form>
             </div>
           </div>
 

@@ -103,13 +103,54 @@
   padding: var(--space-xl);
 }
 
+.rd-section-header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--glass-border);
+  padding-bottom: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.rd-servings-scaler {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  background: var(--bg-dark);
+  padding: 4px 8px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--glass-border);
+}
+
+.scaler-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  color: var(--text-secondary);
+  background: var(--glass-bg);
+  transition: all var(--transition-fast);
+}
+
+.scaler-btn:hover {
+  background: var(--primary);
+  color: var(--bg-dark);
+}
+
+.scaler-value {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  min-width: 70px;
+  text-align: center;
+}
+
 .rd-section-title {
   font-family: var(--font-display);
   font-size: 1.4rem;
-  font-weight: 600;
-  margin-bottom: var(--space-lg);
-  padding-bottom: var(--space-md);
-  border-bottom: 1px solid var(--glass-border);
+  font-weight: 500;
 }
 
 .rd-ingredients-list {
@@ -201,7 +242,7 @@
 
 .rd-info-card h3, .rd-rating-card h3 {
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: var(--space-md);
 }
 
@@ -226,7 +267,7 @@
 
 .rd-info-value {
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--text-primary);
 }
 

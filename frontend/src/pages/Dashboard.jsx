@@ -3,11 +3,17 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { useToast } from '../context/ToastContext';
 import IngredientInput from '../components/home/IngredientInput';
-import { Sparkles, Clock, Globe, Leaf, Users, ArrowRight, ChefHat } from 'lucide-react';
+import { Sparkles, Clock, Globe, Leaf, Users, ArrowRight, Settings, ChevronDown, ChevronUp } from 'lucide-react';
 import './Dashboard.css';
 
 const CUISINES = ['', 'Indian', 'South Indian Recipes', 'North Indian Recipes', 'Chinese', 'Italian Recipes', 'Continental', 'Thai', 'Mexican', 'Bengali Recipes', 'Punjabi', 'Andhra', 'Kerala Recipes', 'Chettinad', 'Maharashtrian Recipes', 'Gujarati Recipes'];
 const DIETS = ['', 'vegetarian', 'vegan', 'gluten-free', 'keto'];
+
+const QUICK_TAGS = {
+  'neutral': ['chicken', 'rice', 'onion', 'tomato', 'garlic', 'potato', 'paneer', 'dal', 'ginger', 'coconut', 'egg', 'fish'],
+  'veg': ['paneer', 'rice', 'onion', 'tomato', 'garlic', 'potato', 'dal', 'ginger', 'coconut', 'mushroom', 'spinach', 'butter'],
+  'non-veg': ['chicken', 'egg', 'fish', 'mutton', 'rice', 'onion', 'garlic', 'ginger', 'tomato', 'potato', 'coconut', 'butter']
+};
 
 export default function Dashboard() {
   const { user } = useAuth();
@@ -15,10 +21,11 @@ export default function Dashboard() {
   const toast = useToast();
 
   const [ingredients, setIngredients] = useState([]);
+  const [dietMode, setDietMode] = useState('neutral');
   const [timeLimit, setTimeLimit] = useState('');
-  const [cuisine, setCuisine] = useState('');
-  const [diet, setDiet] = useState('');
   const [servings, setServings] = useState('');
+  const [cuisine, setCuisine] = useState('');
+  const [optionsOpen, setOptionsOpen] = useState(false);
 
   const handleGetRecommendations = () => {
     if (ingredients.length === 0) {
@@ -28,10 +35,14 @@ export default function Dashboard() {
 
     const params = new URLSearchParams();
     params.set('ingredients', ingredients.join(','));
+    
     if (timeLimit) params.set('timeLimit', timeLimit);
-    if (cuisine) params.set('cuisine', cuisine);
-    if (diet) params.set('diet', diet);
     if (servings) params.set('servings', servings);
+    if (cuisine) params.set('cuisine', cuisine);
+    
+    if (dietMode === 'veg') {
+      params.set('diet', 'vegetarian');
+    }
 
     navigate(`/recommendations?${params.toString()}`);
   };
@@ -44,118 +55,135 @@ export default function Dashboard() {
   };
 
   return (
-    <div className="page">
-      <div className="dashboard-glow" />
-      <div className="container">
-        <div className="dashboard-header animate-fade-in-up">
-          <div>
-            <p className="dashboard-greeting">{greeting()},</p>
-            <h1 className="dashboard-title">
-              {user?.name?.split(' ')[0] || 'Chef'} <span className="wave-emoji">👋</span>
-            </h1>
-            <p className="dashboard-subtitle">What would you like to cook today?</p>
-          </div>
+    <div className="page dashboard-abstract-page">
+      {/* Abstract Background Elements */}
+      <div className="dashboard-grid-overlay" />
+      <div className="dashboard-orb dashboard-orb-1" />
+      <div className="dashboard-orb dashboard-orb-2" />
+      <div className="dashboard-orb-3" />
+
+      <div className="container chat-layout-container">
+        
+        <div className="chat-header animate-fade-in-up">
+          <h1>{greeting()}, {user?.name?.split(' ')[0] || 'Chef'} <span className="wave-emoji">👋</span></h1>
+          <p>What would you like to cook today?</p>
         </div>
 
-        <div className="dashboard-main">
-          <div className="dashboard-input-section animate-fade-in-up stagger-1">
-            <div className="input-section-card glass">
-              <div className="input-section-header">
-                <div className="input-section-icon">
-                  <ChefHat size={24} />
-                </div>
-                <div>
-                  <h2>What's in your kitchen?</h2>
-                  <p>Add the ingredients you have available</p>
-                </div>
-              </div>
+        <div className="chat-main animate-fade-in-up stagger-1">
+          
+          <div 
+            className="chat-input-bar"
+            style={{ marginBottom: ingredients.length > 0 ? '56px' : '0', transition: 'margin 0.2s ease-out' }}
+          >
+             <div className="chat-diet-compact">
+               <button 
+                 className={`chat-diet-btn ${dietMode === 'neutral' ? 'active-neutral' : ''}`}
+                 onClick={() => setDietMode('neutral')}
+                 title="Any Diet"
+               >
+                 <Globe size={18} />
+               </button>
+               <button 
+                 className={`chat-diet-btn ${dietMode === 'veg' ? 'active-veg' : ''}`}
+                 onClick={() => setDietMode('veg')}
+                 title="Vegetarian"
+               >
+                 <Leaf size={18} />
+               </button>
+               <button 
+                 className={`chat-diet-btn ${dietMode === 'non-veg' ? 'active-nonveg' : ''}`}
+                 onClick={() => setDietMode('non-veg')}
+                 title="Non-Vegetarian"
+               >
+                 <span role="img" aria-label="meat">🍗</span>
+               </button>
+             </div>
 
-              <IngredientInput ingredients={ingredients} onChange={setIngredients} />
+             <div className="chat-input-core">
+               <IngredientInput ingredients={ingredients} onChange={setIngredients} />
+             </div>
 
-              <div className="filters-section">
-                <h3 className="filters-title">
-                  <Sparkles size={16} /> Filters <span className="filters-optional">(optional)</span>
-                </h3>
-                <div className="filters-grid">
-                  <div className="input-group">
-                    <label><Clock size={14} /> Max Cook Time</label>
-                    <input
-                      type="number"
-                      className="input-field"
-                      placeholder="e.g., 30 mins"
-                      value={timeLimit}
-                      onChange={e => setTimeLimit(e.target.value)}
-                    />
-                  </div>
-                  <div className="input-group">
-                    <label><Globe size={14} /> Cuisine</label>
-                    <select className="input-field" value={cuisine} onChange={e => setCuisine(e.target.value)}>
-                      {CUISINES.map(c => (
-                        <option key={c} value={c}>{c || 'Any Cuisine'}</option>
-                      ))}
-                    </select>
-                  </div>
-                  <div className="input-group">
-                    <label><Leaf size={14} /> Diet</label>
-                    <select className="input-field" value={diet} onChange={e => setDiet(e.target.value)}>
-                      {DIETS.map(d => (
-                        <option key={d} value={d}>{d ? d.charAt(0).toUpperCase() + d.slice(1) : 'No Preference'}</option>
-                      ))}
-                    </select>
-                  </div>
-                  <div className="input-group">
-                    <label><Users size={14} /> Servings</label>
-                    <input
-                      type="number"
-                      className="input-field"
-                      placeholder="e.g., 4"
-                      value={servings}
-                      onChange={e => setServings(e.target.value)}
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <button
-                className="btn btn-primary btn-lg dashboard-cta"
-                onClick={handleGetRecommendations}
-                disabled={ingredients.length === 0}
-              >
-                <Sparkles size={20} />
-                Get AI Recommendations
-                <ArrowRight size={20} />
-              </button>
-            </div>
+             <button 
+               className="chat-submit-btn" 
+               onClick={handleGetRecommendations}
+               disabled={ingredients.length === 0}
+             >
+               <Sparkles size={20} />
+             </button>
           </div>
 
-          <div className="dashboard-sidebar animate-fade-in-up stagger-2">
-            <div className="quick-add-card glass">
-              <h3>Quick Add</h3>
-              <p>Popular ingredients to get started</p>
-              <div className="quick-tags">
-                {['chicken', 'rice', 'onion', 'tomato', 'garlic', 'potato', 'paneer', 'dal', 'ginger', 'coconut', 'egg', 'butter'].map(ing => (
-                  <button
-                    key={ing}
-                    className={`quick-tag ${ingredients.includes(ing) ? 'quick-tag-active' : ''}`}
-                    onClick={() => {
-                      if (ingredients.includes(ing)) {
-                        setIngredients(ingredients.filter(i => i !== ing));
-                      } else {
-                        setIngredients([...ingredients, ing]);
-                      }
-                    }}
-                  >
-                    {ing}
-                  </button>
-                ))}
-              </div>
-            </div>
+          <div className="chat-options animate-fade-in-up stagger-2">
+             <button 
+               className="chat-expand-btn" 
+               onClick={() => setOptionsOpen(!optionsOpen)}
+             >
+               <Settings size={16} />
+               <span>Options & Quick Add</span>
+               {optionsOpen ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
+             </button>
 
-            <div className="tip-card glass">
-              <div className="tip-icon">💡</div>
-              <h3>Pro Tip</h3>
-              <p>Add 3-5 ingredients for the best recommendations. The more you add, the better the AI can match recipes!</p>
-            </div>
+             {optionsOpen && (
+               <div className="chat-expanded-content animate-scale-in">
+                 
+                 <div className="expanded-section">
+                   <h3>Quick Add Ingredients</h3>
+                   <div className="quick-tags">
+                     {QUICK_TAGS[dietMode].map(ing => (
+                       <button
+                         key={ing}
+                         className={`quick-tag ${ingredients.includes(ing) ? 'quick-tag-active' : ''}`}
+                         onClick={() => {
+                           if (ingredients.includes(ing)) {
+                             setIngredients(ingredients.filter(i => i !== ing));
+                           } else {
+                             setIngredients([...ingredients, ing]);
+                           }
+                         }}
+                       >
+                         {ing}
+                       </button>
+                     ))}
+                   </div>
+                 </div>
+
+                 <div className="expanded-section">
+                   <h3>Advanced Filters</h3>
+                   <div className="chat-filters-grid">
+                     <div className="filter-group">
+                       <label><Clock size={14} /> Max Time (min)</label>
+                       <input 
+                         type="number" 
+                         placeholder="e.g. 30" 
+                         value={timeLimit} 
+                         onChange={e => setTimeLimit(e.target.value)}
+                         className="filter-input-text chat-input-styled"
+                       />
+                     </div>
+                     <div className="filter-group">
+                       <label><Users size={14} /> Servings</label>
+                       <input 
+                         type="number" 
+                         placeholder="e.g. 2" 
+                         value={servings} 
+                         onChange={e => setServings(e.target.value)}
+                         className="filter-input-text chat-input-styled"
+                       />
+                     </div>
+                     <div className="filter-group">
+                       <label><Globe size={14} /> Cuisine</label>
+                       <select 
+                         value={cuisine} 
+                         onChange={e => setCuisine(e.target.value)}
+                         className="filter-input-select chat-input-styled"
+                       >
+                         {CUISINES.map(c => <option key={c} value={c}>{c || 'Any Cuisine'}</option>)}
+                       </select>
+                     </div>
+                   </div>
+                 </div>
+
+               </div>
+             )}
           </div>
         </div>
       </div>

@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from typing import List, Optional
 from datetime import datetime
 
@@ -9,6 +9,11 @@ class UserBase(BaseModel):
 
 class UserCreate(UserBase):
     password: str
+
+
+class UserUpdate(BaseModel):
+    name: Optional[str] = None
+    preferences: Optional[str] = None
 
 class UserLogin(BaseModel):
     email: str
@@ -79,3 +84,68 @@ class Recommendation(BaseModel):
 
 class RecommendResponse(BaseModel):
     recommendations: List[Recommendation]
+
+
+# Saved recipe schemas
+class SavedRecipeActionResponse(BaseModel):
+    saved: bool
+    message: str
+    recipe_id: str
+
+
+# Rating schemas
+class RatingCreate(BaseModel):
+    recipe_id: str
+    score: int = Field(ge=1, le=5)
+    comment: Optional[str] = None
+
+
+class RatingOut(BaseModel):
+    id: str
+    user_id: str
+    recipe_id: str
+    score: int
+    comment: Optional[str]
+    created_at: datetime
+
+    class Config:
+        from_attributes = True
+
+
+class RatingSummary(BaseModel):
+    recipe_id: str
+    average_score: float
+    total_ratings: int
+    user_rating: Optional[RatingOut] = None
+
+
+class FeedbackCreate(BaseModel):
+    recommended_recipe_id: str
+    accepted: bool
+    context: Optional[str] = None
+    reason: Optional[str] = None
+
+
+class FeedbackOut(BaseModel):
+    id: str
+    user_id: str
+    context: Optional[str]
+    recommended_recipe_id: str
+    accepted: bool
+    reason: Optional[str]
+    created_at: datetime
+
+    class Config:
+        from_attributes = True
+
+
+class HealthDetails(BaseModel):
+    status: str
+    recipes_loaded: int
+    embeddings_ready: bool
+    model_name: str
+    users: int
+    recipes: int
+    ratings: int
+    saved_recipes: int
+    feedback_entries: int

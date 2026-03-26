@@ -39,18 +39,25 @@ export default function Login() {
   };
 
   return (
-    <div className="auth-page">
-      <div className="auth-bg">
-        <div className="auth-orb auth-orb-1" />
-        <div className="auth-orb auth-orb-2" />
+    <div className="auth-page auth-split">
+      <div className="auth-split-image">
+        <img 
+          src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=80&w=1470" 
+          alt="Cooking background" 
+          onError={(e) => { e.target.style.display = 'none'; }}
+        />
+        <div className="auth-split-overlay" />
+        <div className="auth-split-content">
+          <ChefHat size={48} className="auth-split-logo" />
+          <h2>Today's featured recipe</h2>
+          <h1>Spicy chicken curry</h1>
+          <p>31 min · 4 servings · Medium</p>
+        </div>
       </div>
       <div className="auth-container animate-fade-in-up">
-        <div className="auth-card glass">
+        <div className="auth-card">
           <div className="auth-header">
-            <div className="auth-logo">
-              <ChefHat size={28} />
-            </div>
-            <h1>Welcome Back</h1>
+            <h1>Welcome back</h1>
             <p>Sign in to continue to ChefAI</p>
           </div>
 
@@ -94,7 +101,7 @@ export default function Login() {
               {loading ? (
                 <span className="loading-spinner" style={{ width: 20, height: 20, borderWidth: 2 }} />
               ) : (
-                <>Sign In <ArrowRight size={18} /></>
+                <>Sign in <ArrowRight size={18} /></>
               )}
             </button>
           </form>

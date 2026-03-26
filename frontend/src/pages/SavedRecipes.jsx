@@ -2,13 +2,16 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import api from '../services/api';
 import RecipeCard from '../components/recipe/RecipeCard';
-import { Bookmark, ChefHat, Trash2 } from 'lucide-react';
+import { Bookmark, ChefHat, Trash2, Folder, BookOpen } from 'lucide-react';
 import './SavedRecipes.css';
 
 export default function SavedRecipes() {
   const [recipes, setRecipes] = useState([]);
   const [loading, setLoading] = useState(true);
   const [refreshKey, setRefreshKey] = useState(0);
+  const [activeCollection, setActiveCollection] = useState('All');
+
+  const collections = ['All', 'Weeknight dinners', 'Indian', 'Quick meals'];
 
   useEffect(() => {
     const fetchSaved = async () => {
@@ -44,13 +47,28 @@ export default function SavedRecipes() {
       <div className="container">
         <div className="page-header animate-fade-in-up">
           <h1>
-            <Bookmark size={28} /> Saved Recipes
+            <BookOpen size={28} style={{ marginRight: 12 }} /> 
+            Personal Cookbook
           </h1>
-          <p>Your personal cookbook of bookmarked recipes</p>
+          <p>Your curated collection of favorite recipes</p>
+        </div>
+
+        <div className="collections-bar animate-fade-in-up stagger-1">
+          <div className="collections-scroll">
+            {collections.map(c => (
+              <button 
+                key={c}
+                className={`collection-tab ${activeCollection === c ? 'collection-tab-active' : ''}`}
+                onClick={() => setActiveCollection(c)}
+              >
+                <Folder size={14} /> {c}
+              </button>
+            ))}
+          </div>
         </div>
 
         {recipes.length > 0 && (
-          <div className="saved-actions animate-fade-in-up">
+          <div className="saved-actions animate-fade-in-up stagger-2">
             <span className="saved-count">{recipes.length} saved recipe{recipes.length !== 1 ? 's' : ''}</span>
             <button className="btn btn-danger btn-sm" onClick={handleClearAll}>
               <Trash2 size={14} /> Clear All
@@ -66,11 +84,13 @@ export default function SavedRecipes() {
             </div>
           ) : recipes.length === 0 ? (
             <div className="empty-state">
-              <div className="empty-state-icon"><Bookmark size={32} /></div>
-              <h3>No saved recipes yet</h3>
-              <p>Start exploring and save your favorite recipes to access them quickly later.</p>
-              <Link to="/explore" className="btn btn-primary" style={{ marginTop: 16 }}>
-                Explore Recipes
+              <div className="empty-state-illustration">
+                🍽️
+              </div>
+              <h3>Your cookbook is empty</h3>
+              <p>Save recipes to build your personal collection of go-to meals.</p>
+              <Link to="/explore" className="btn btn-primary" style={{ marginTop: 24 }}>
+                <ChefHat size={18} /> Discover Recipes
               </Link>
             </div>
           ) : (

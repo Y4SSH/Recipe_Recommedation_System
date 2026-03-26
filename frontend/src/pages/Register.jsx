@@ -3,28 +3,27 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { useToast } from '../context/ToastContext';
 import { User, Mail, Lock, Eye, EyeOff, ChefHat, ArrowRight } from 'lucide-react';
+import api from '../services/api';
 import './Auth.css';
 
 export default function Register() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [confirmPass, setConfirmPass] = useState('');
   const [showPass, setShowPass] = useState(false);
   const [loading, setLoading] = useState(false);
   const [errors, setErrors] = useState({});
-  const { register, login } = useAuth();
+  const { login, register } = useAuth();
   const toast = useToast();
   const navigate = useNavigate();
 
   const validate = () => {
     const e = {};
-    if (!name.trim()) e.name = 'Name is required';
+    if (!name) e.name = 'Name is required';
     if (!email) e.email = 'Email is required';
-    else if (!/\S+@\S+\.\S+/.test(email)) e.email = 'Invalid email address';
+    else if (!/\S+@\S+\.\S+/.test(email)) e.email = 'Email is invalid';
     if (!password) e.password = 'Password is required';
     else if (password.length < 6) e.password = 'Password must be at least 6 characters';
-    if (password !== confirmPass) e.confirmPass = 'Passwords do not match';
     setErrors(e);
     return Object.keys(e).length === 0;
   };
@@ -36,7 +35,7 @@ export default function Register() {
     try {
       await register(name, email, password);
       await login(email, password);
-      toast.success('Account created! Welcome to ChefAI 🎉');
+      toast.success('Account created successfully! 🎉');
       navigate('/dashboard');
     } catch (err) {
       toast.error(err.message || 'Registration failed');
@@ -46,31 +45,38 @@ export default function Register() {
   };
 
   return (
-    <div className="auth-page">
-      <div className="auth-bg">
-        <div className="auth-orb auth-orb-1" />
-        <div className="auth-orb auth-orb-2" />
+    <div className="auth-page auth-split">
+      <div className="auth-split-image">
+        <img 
+          src="https://images.unsplash.com/photo-1556910103-1c02745a872f?auto=format&fit=crop&q=80&w=1470" 
+          alt="Cooking background" 
+          onError={(e) => { e.target.style.display = 'none'; }}
+        />
+        <div className="auth-split-overlay" />
+        <div className="auth-split-content">
+          <ChefHat size={48} className="auth-split-logo" />
+          <h2>Join the community</h2>
+          <h1>Pesto pasta with pine nuts</h1>
+          <p>45 min · 2 servings · Easy</p>
+        </div>
       </div>
       <div className="auth-container animate-fade-in-up">
-        <div className="auth-card glass">
+        <div className="auth-card">
           <div className="auth-header">
-            <div className="auth-logo">
-              <ChefHat size={28} />
-            </div>
-            <h1>Create Account</h1>
-            <p>Join ChefAI and start discovering recipes</p>
+            <h1>Create account</h1>
+            <p>Join ChefAI to discover your next meal</p>
           </div>
 
           <form onSubmit={handleSubmit} className="auth-form">
             <div className="input-group">
-              <label htmlFor="reg-name">Full Name</label>
+              <label htmlFor="reg-name">Full name</label>
               <div className="input-icon-wrapper">
                 <User size={18} className="input-icon" />
                 <input
                   id="reg-name"
                   type="text"
                   className={`input-field input-with-icon ${errors.name ? 'input-error' : ''}`}
-                  placeholder="Your full name"
+                  placeholder="John Doe"
                   value={name}
                   onChange={e => { setName(e.target.value); setErrors(p => ({ ...p, name: '' })); }}
                 />
@@ -102,7 +108,7 @@ export default function Register() {
                   id="reg-password"
                   type={showPass ? 'text' : 'password'}
                   className={`input-field input-with-icon ${errors.password ? 'input-error' : ''}`}
-                  placeholder="At least 6 characters"
+                  placeholder="Create a password"
                   value={password}
                   onChange={e => { setPassword(e.target.value); setErrors(p => ({ ...p, password: '' })); }}
                 />
@@ -113,27 +119,11 @@ export default function Register() {
               {errors.password && <span className="error-text">{errors.password}</span>}
             </div>
 
-            <div className="input-group">
-              <label htmlFor="reg-confirm">Confirm Password</label>
-              <div className="input-icon-wrapper">
-                <Lock size={18} className="input-icon" />
-                <input
-                  id="reg-confirm"
-                  type={showPass ? 'text' : 'password'}
-                  className={`input-field input-with-icon ${errors.confirmPass ? 'input-error' : ''}`}
-                  placeholder="Repeat your password"
-                  value={confirmPass}
-                  onChange={e => { setConfirmPass(e.target.value); setErrors(p => ({ ...p, confirmPass: '' })); }}
-                />
-              </div>
-              {errors.confirmPass && <span className="error-text">{errors.confirmPass}</span>}
-            </div>
-
             <button type="submit" className="btn btn-primary btn-lg auth-submit" disabled={loading}>
               {loading ? (
                 <span className="loading-spinner" style={{ width: 20, height: 20, borderWidth: 2 }} />
               ) : (
-                <>Create Account <ArrowRight size={18} /></>
+                <>Create account <ArrowRight size={18} /></>
               )}
             </button>
           </form>

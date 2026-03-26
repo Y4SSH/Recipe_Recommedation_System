@@ -63,14 +63,22 @@ class ApiService {
     return this.request('/auth/me');
   }
 
+  async updateProfile(updates) {
+    return this.request('/auth/me', {
+      method: 'PATCH',
+      body: JSON.stringify(updates),
+    });
+  }
+
   logout() {
     localStorage.removeItem('chefai_token');
     localStorage.removeItem('chefai_user');
   }
 
   // Recipes
-  async getRecipes(skip = 0, limit = 20) {
-    return this.request(`/recipes/?skip=${skip}&limit=${limit}`);
+  async getRecipes(skip = 0, limit = 20, search = '') {
+    const url = `/recipes/?skip=${skip}&limit=${limit}${search ? `&search=${encodeURIComponent(search)}` : ''}`;
+    return this.request(url);
   }
 
   async getRecipe(id) {

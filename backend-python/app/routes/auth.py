@@ -38,3 +38,15 @@ def me(user_id: str = Depends(get_current_user_id), db: Session = Depends(get_db
     if not user:
         raise HTTPException(status_code=404, detail="User not found")
     return user
+
+
+@router.patch("/me", response_model=schemas.User)
+def update_me(
+    user_update: schemas.UserUpdate,
+    user_id: str = Depends(get_current_user_id),
+    db: Session = Depends(get_db),
+):
+    user = crud.get_user_by_id(db, user_id)
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+    return crud.update_user_profile(db, user, user_update)

@@ -4,18 +4,33 @@ import { Clock, Users, ChefHat, Bookmark, BookmarkCheck, Star } from 'lucide-rea
 import api from '../../services/api';
 import './RecipeCard.css';
 
+const knownImages = import.meta.glob('../../assets/images/recipes/*.{jpg,jpeg,png,webp}', { eager: true, as: 'url' });
+
+const getLocalImage = (title) => {
+  if (!title) return null;
+  const t = title.replace(/\s*[Rr]ecipe\s*$/i, '').trim().toLowerCase();
+  for (const [path, url] of Object.entries(knownImages)) {
+    const fileNameBase = path.split('/').pop().split('.')[0].toLowerCase();
+    if (fileNameBase === t || t.includes(fileNameBase) || fileNameBase.includes(t)) {
+      return url;
+    }
+  }
+  return null;
+};
+
 export default function RecipeCard({ recipe, recommendation, onSaveToggle, index = 0 }) {
   const [saved, setSaved] = useState(api.isRecipeSaved(recipe?.id));
 
   const r = recipe || recommendation?.recipe;
   if (!r) return null;
 
+  const cleanTitle = r.title ? r.title.replace(/\s*[Rr]ecipe\s*$/i, '') : '';
   const score = recommendation?.score;
   const available = recommendation?.available_ingredients || [];
   const missing = recommendation?.missing_ingredients || [];
   const reason = recommendation?.reason;
 
-  const imageUrl = r.image_url || null;
+  const imageUrl = getLocalImage(cleanTitle) || r.image_url || null;
   const cookTime = r.cook_time || r.total_time;
   const difficulty = r.difficulty || 'Medium';
 
@@ -38,13 +53,16 @@ export default function RecipeCard({ recipe, recommendation, onSaveToggle, index
     onSaveToggle?.();
   };
 
-  const fallbackGradients = [
-    'linear-gradient(135deg, #FF6B35 0%, #C41E3A 100%)',
-    'linear-gradient(135deg, #7B2D8E 0%, #C41E3A 100%)',
-    'linear-gradient(135deg, #FF6B35 0%, #FFB347 100%)',
-    'linear-gradient(135deg, #C41E3A 0%, #7B2D8E 100%)',
-    'linear-gradient(135deg, #FFB347 0%, #FF6B35 100%)',
-  ];
+  const getCuisineColor = (c) => {
+    if (!c) return 'var(--primary)';
+    const cuisine = c.toLowerCase();
+    if (cuisine.includes('south indian') || cuisine.includes('kerala') || cuisine.includes('andhra')) return '#10b981';
+    if (cuisine.includes('north indian') || cuisine.includes('punjabi')) return '#f59e0b';
+    if (cuisine.includes('chinese') || cuisine.includes('thai')) return '#ef4444';
+    if (cuisine.includes('continental') || cuisine.includes('italian') || cuisine.includes('mexican')) return '#3b82f6';
+    if (cuisine.includes('bengali') || cuisine.includes('maharashtrian') || cuisine.includes('gujarati')) return '#8b5cf6';
+    return 'var(--primary)';
+  };
 
   return (
     <Link
@@ -52,14 +70,14 @@ export default function RecipeCard({ recipe, recommendation, onSaveToggle, index
       className="recipe-card animate-fade-in-up"
       style={{ animationDelay: `${index * 0.08}s` }}
     >
-      <div className="recipe-card-image">
+      <div className="recipe-card-image skeleton">
         {imageUrl ? (
-          <img src={imageUrl} alt={r.title} loading="lazy" onError={(e) => {
+          <img src={imageUrl} alt={cleanTitle} loading="lazy" onError={(e) => {
             e.target.style.display = 'none';
-            e.target.parentElement.style.background = fallbackGradients[index % 5];
+            e.target.parentElement.style.background = getCuisineColor(r.cuisine);
           }} />
         ) : (
-          <div className="recipe-card-placeholder" style={{ background: fallbackGradients[index % 5] }}>
+          <div className="recipe-card-placeholder" style={{ background: getCuisineColor(r.cuisine) }}>
             <ChefHat size={40} />
           </div>
         )}
@@ -78,7 +96,7 @@ export default function RecipeCard({ recipe, recommendation, onSaveToggle, index
       </div>
 
       <div className="recipe-card-body">
-        <h3 className="recipe-card-title">{r.title}</h3>
+        <h3 className="recipe-card-title">{cleanTitle}</h3>
 
         {reason && <p className="recipe-card-reason">{reason}</p>}
 

@@ -11,6 +11,33 @@
   </head>
   <body>
     <div id="root"></div>
+    <div id="cursor-glow"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      const glow = document.getElementById('cursor-glow');
+      window.addEventListener('mousemove', (e) => {
+        // We use requestAnimationFrame for optimal smoothness or direct manipulation
+        glow.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+      }, { passive: true });
+    </script>
+    <style>
+      #cursor-glow {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 400px;
+        height: 400px;
+        background: radial-gradient(circle, rgba(249,115,22,0.15) 0%, transparent 60%);
+        border-radius: 50%;
+        transform: translate(-50%, -50%); /* Start offscreen invisibly */
+        pointer-events: none;
+        z-index: 9999;
+        mix-blend-mode: screen;
+        margin-left: -200px;
+        margin-top: -200px;
+        transition: transform 0.15s cubic-bezier(0.1, 0.9, 0.2, 1);
+        will-change: transform;
+      }
+    </style>
   </body>
 </html>

@@ -24,10 +24,14 @@ export default function Explore() {
   const [hasMore, setHasMore] = useState(true);
   const LIMIT = 20;
 
-  const fetchRecipes = async (skip = 0, append = false) => {
+  const fetchRecipes = async (skip = 0, append = false, query = '', cuisine = '') => {
     try {
       setLoading(true);
-      const data = await api.getRecipes(skip, LIMIT);
+      let term = query;
+      if (cuisine && !term.toLowerCase().includes(cuisine.toLowerCase())) {
+        term = term ? `${term} ${cuisine}` : cuisine;
+      }
+      const data = await api.getRecipes(skip, LIMIT, term);
       if (append) {
         setRecipes(prev => [...prev, ...data]);
       } else {
@@ -42,15 +46,22 @@ export default function Explore() {
   };
 
   useEffect(() => {
-    fetchRecipes(0);
-  }, []);
+    const timeoutId = setTimeout(() => {
+      setPage(0);
+      fetchRecipes(0, false, searchQuery, selectedCuisine);
+    }, 400);
+    return () => clearTimeout(timeoutId);
+  }, [searchQuery, selectedCuisine]);
 
   const loadMore = () => {
     const nextPage = page + 1;
     setPage(nextPage);
-    fetchRecipes(nextPage * LIMIT, true);
+    fetchRecipes(nextPage * LIMIT, true, searchQuery, selectedCuisine);
   };
 
+  // The backend already filters it for us now! 
+  // We can just render "recipes" directly, but we keep this harmless local filter just in case 
+  // there's a tiny sync delay or they typed extremely fast.
   const filteredRecipes = recipes.filter(r => {
     const matchesSearch = !searchQuery ||
       r.title?.toLowerCase().includes(searchQuery.toLowerCase()) ||

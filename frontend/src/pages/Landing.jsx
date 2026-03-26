@@ -19,7 +19,7 @@ export default function Landing() {
         <div className="container hero-content">
           <div className="hero-badge animate-fade-in-up stagger-1">
             <Sparkles size={14} />
-            AI-Powered Recipe Discovery
+            AI-powered recipe discovery
           </div>
           <h1 className="hero-title animate-fade-in-up stagger-2">
             Cook Smarter with
@@ -72,9 +72,9 @@ export default function Landing() {
         <div className="container">
           <div className="section-header animate-fade-in-up">
             <span className="section-tag">
-              <Zap size={14} /> Simple Process
+              <Zap size={14} /> Simple process
             </span>
-            <h2 className="section-title">How ChefAI Works</h2>
+            <h2 className="section-title">How ChefAI works</h2>
             <p className="section-subtitle">Three simple steps to your perfect meal</p>
           </div>
 
@@ -84,7 +84,7 @@ export default function Landing() {
               <div className="step-icon">
                 <Search size={28} />
               </div>
-              <h3>Enter Your Ingredients</h3>
+              <h3>Enter your ingredients</h3>
               <p>Tell us what you have in your kitchen. Add as many ingredients as you want.</p>
             </div>
             <div className="step-connector">
@@ -95,7 +95,7 @@ export default function Landing() {
               <div className="step-icon">
                 <Sparkles size={28} />
               </div>
-              <h3>AI Matches Recipes</h3>
+              <h3>AI matches recipes</h3>
               <p>Our AI engine finds the best recipes that match your available ingredients.</p>
             </div>
             <div className="step-connector">
@@ -106,7 +106,7 @@ export default function Landing() {
               <div className="step-icon">
                 <ChefHat size={28} />
               </div>
-              <h3>Start Cooking!</h3>
+              <h3>Start cooking!</h3>
               <p>Follow step-by-step instructions to create amazing dishes.</p>
             </div>
           </div>
@@ -120,17 +120,17 @@ export default function Landing() {
             <span className="section-tag">
               <Star size={14} /> Features
             </span>
-            <h2 className="section-title">Why Choose ChefAI?</h2>
+            <h2 className="section-title">Why choose ChefAI?</h2>
           </div>
 
           <div className="features-grid">
             {[
-              { icon: <Sparkles size={24} />, title: 'AI-Powered Matching', desc: 'Advanced NLP models understand ingredients and match them to the perfect recipes.' },
-              { icon: <Clock size={24} />, title: 'Time-Based Filters', desc: 'Short on time? Filter by cook time to find quick meals that fit your schedule.' },
-              { icon: <Heart size={24} />, title: 'Save Favorites', desc: 'Bookmark your favorite recipes and build your personal cookbook.' },
-              { icon: <Shield size={24} />, title: 'Dietary Preferences', desc: 'Filter by vegetarian, vegan, gluten-free, and more dietary options.' },
-              { icon: <Search size={24} />, title: 'Explore Cuisines', desc: 'Discover recipes from Indian, Italian, Chinese, Mexican, Thai, and 100+ cuisines.' },
-              { icon: <ChefHat size={24} />, title: 'Detailed Instructions', desc: 'Step-by-step cooking instructions with complete ingredient lists.' },
+              { icon: <Sparkles size={24} />, title: 'AI-powered matching', desc: 'Advanced NLP models understand ingredients and match them to the perfect recipes.' },
+              { icon: <Clock size={24} />, title: 'Time-based filters', desc: 'Short on time? Filter by cook time to find quick meals that fit your schedule.' },
+              { icon: <Heart size={24} />, title: 'Save favorites', desc: 'Bookmark your favorite recipes and build your personal cookbook.' },
+              { icon: <Shield size={24} />, title: 'Dietary preferences', desc: 'Filter by vegetarian, vegan, gluten-free, and more dietary options.' },
+              { icon: <Search size={24} />, title: 'Explore cuisines', desc: 'Discover recipes from Indian, Italian, Chinese, Mexican, Thai, and 100+ cuisines.' },
+              { icon: <ChefHat size={24} />, title: 'Detailed instructions', desc: 'Step-by-step cooking instructions with complete ingredient lists.' },
             ].map((feature, i) => (
               <div key={i} className={`feature-card animate-fade-in-up stagger-${i + 1}`}>
                 <div className="feature-icon">{feature.icon}</div>
@@ -147,10 +147,10 @@ export default function Landing() {
         <div className="container">
           <div className="cta-card animate-fade-in-up">
             <div className="cta-glow" />
-            <h2>Ready to Transform Your Cooking?</h2>
+            <h2>Ready to transform your cooking?</h2>
             <p>Join ChefAI and discover recipes tailored to your pantry.</p>
             <Link to={isAuthenticated ? '/dashboard' : '/register'} className="btn btn-primary btn-lg">
-              {isAuthenticated ? 'Open Dashboard' : 'Get Started Free'}
+              {isAuthenticated ? 'Open dashboard' : 'Get started free'}
               <ArrowRight size={20} />
             </Link>
           </div>

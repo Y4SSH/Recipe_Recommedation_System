@@ -26,13 +26,31 @@ A FastAPI-based backend for recipe recommendations using local AI models.
 ## Features
 
 - Local AI recommendations using sentence transformers
-- Vector search with FAISS
 - No external API dependencies
 - FastAPI with automatic OpenAPI docs
+- Saved recipes API
+- Ratings API with per-recipe summary
+- Feedback API for recommendation outcomes
+- User profile update endpoint
+- Health and system details endpoint
 
 ## API Endpoints
 
-- `POST /recommend` - Get recipe recommendations
-- `GET /recipes` - List recipes
+- `POST /recommend/` - Get recipe recommendations
+- `POST /recommend/reload` - Reload recommender embeddings (auth required)
+- `GET /recipes/` - List recipes
+- `GET /recipes/{recipe_id}` - Get recipe by id
 - `POST /auth/register` - User registration
 - `POST /auth/login` - User login
+- `GET /auth/me` - Get current user profile
+- `PATCH /auth/me` - Update current user profile
+- `GET /saved/` - Get current user's saved recipes
+- `POST /saved/{recipe_id}` - Save a recipe
+- `DELETE /saved/{recipe_id}` - Remove a saved recipe
+- `POST /ratings/` - Create or update a rating for a recipe
+- `GET /ratings/me` - Get current user's ratings
+- `GET /ratings/recipe/{recipe_id}` - Get rating summary for a recipe
+- `POST /feedback/` - Submit recommendation feedback
+- `GET /feedback/me` - Get current user's feedback
+- `GET /health` - Basic health check
+- `GET /health/details` - Health check with model/database counters
