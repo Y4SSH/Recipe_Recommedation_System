@@ -19,7 +19,9 @@ def submit_feedback(
     if not recipe:
         raise HTTPException(status_code=404, detail="Recipe not found")
 
-    return crud.create_feedback(db, user_id, feedback)
+    created = crud.create_feedback(db, user_id, feedback)
+    crud.update_learning_profile_from_feedback(db, user_id, recipe, feedback.accepted)
+    return created
 
 
 @router.get("/me", response_model=List[schemas.FeedbackOut])

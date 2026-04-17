@@ -1,18 +1,11 @@
 import { useState, useEffect } from 'react';
 import api from '../services/api';
 import RecipeCard from '../components/recipe/RecipeCard';
-import { Search, Filter, ChefHat } from 'lucide-react';
+import { Search, Filter, ChefHat, Globe } from 'lucide-react';
 import './Explore.css';
 
 const CUISINE_CARDS = [
-  { name: 'Indian', emoji: '🇮🇳' },
-  { name: 'South Indian Recipes', emoji: '🥘', label: 'South Indian' },
-  { name: 'North Indian Recipes', emoji: '🍛', label: 'North Indian' },
-  { name: 'Chinese', emoji: '🥡' },
-  { name: 'Continental', emoji: '🍝' },
-  { name: 'Bengali Recipes', emoji: '🐟', label: 'Bengali' },
-  { name: 'Punjabi', emoji: '🧈' },
-  { name: 'Kerala Recipes', emoji: '🌴', label: 'Kerala' },
+  { value: 'indian', icon: <Globe size={14} />, label: 'Indian' },
 ];
 
 export default function Explore() {
@@ -20,18 +13,16 @@ export default function Explore() {
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCuisine, setSelectedCuisine] = useState('');
+  const [selectedDiet, setSelectedDiet] = useState('');
   const [page, setPage] = useState(0);
   const [hasMore, setHasMore] = useState(true);
   const LIMIT = 20;
 
-  const fetchRecipes = async (skip = 0, append = false, query = '', cuisine = '') => {
+  const fetchRecipes = async (skip = 0, append = false, query = '', cuisine = '', diet = '') => {
     try {
       setLoading(true);
-      let term = query;
-      if (cuisine && !term.toLowerCase().includes(cuisine.toLowerCase())) {
-        term = term ? `${term} ${cuisine}` : cuisine;
-      }
-      const data = await api.getRecipes(skip, LIMIT, term);
+      // Load the full recipe list; the UI will still prioritize recipes with usable images.
+      const data = await api.getRecipes(skip, LIMIT, query, cuisine, diet, false);
       if (append) {
         setRecipes(prev => [...prev, ...data]);
       } else {
@@ -48,15 +39,23 @@ export default function Explore() {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setPage(0);
-      fetchRecipes(0, false, searchQuery, selectedCuisine);
+      fetchRecipes(0, false, searchQuery, selectedCuisine, selectedDiet);
     }, 400);
     return () => clearTimeout(timeoutId);
-  }, [searchQuery, selectedCuisine]);
+  }, [searchQuery, selectedCuisine, selectedDiet]);
 
   const loadMore = () => {
     const nextPage = page + 1;
     setPage(nextPage);
-    fetchRecipes(nextPage * LIMIT, true, searchQuery, selectedCuisine);
+    fetchRecipes(nextPage * LIMIT, true, searchQuery, selectedCuisine, selectedDiet);
+  };
+
+  const hasUsableImage = (recipe) => {
+    const url = (recipe?.image_url || '').trim().toLowerCase();
+    if (!url) return false;
+    // Keep obviously broken legacy hosts behind usable/local images.
+    if (url.includes('archanaskitchen')) return false;
+    return true;
   };
 
   // The backend already filters it for us now! 
@@ -69,6 +68,12 @@ export default function Explore() {
     const matchesCuisine = !selectedCuisine ||
       r.cuisine?.toLowerCase().includes(selectedCuisine.toLowerCase());
     return matchesSearch && matchesCuisine;
+  });
+
+  const prioritizedRecipes = [...filteredRecipes].sort((a, b) => {
+    const aHasImage = hasUsableImage(a) ? 1 : 0;
+    const bHasImage = hasUsableImage(b) ? 1 : 0;
+    return bHasImage - aHasImage;
   });
 
   return (
@@ -93,21 +98,48 @@ export default function Explore() {
         </div>
 
         <div className="explore-cuisines animate-fade-in-up stagger-2">
-          <h3><Filter size={16} /> Filter by Cuisine</h3>
+          <div className="cuisine-chips">
+            <button
+              className={`cuisine-chip ${!selectedDiet ? 'cuisine-chip-active' : ''}`}
+              onClick={() => setSelectedDiet('')}
+            >
+              All Diets
+            </button>
+            <button
+              className={`cuisine-chip ${selectedDiet === 'veg' ? 'cuisine-chip-active' : ''}`}
+              onClick={() => setSelectedDiet(selectedDiet === 'veg' ? '' : 'veg')}
+              style={selectedDiet === 'veg' ? {background: '#10b981', color: '#fff', borderColor: '#10b981'} : {}}
+            >
+              <span className="veg-dot" style={{ display: 'inline-block', width: 8, height: 8, background: selectedDiet === 'veg' ? '#fff' : '#10b981', borderRadius: '50%', marginRight: 6 }}></span>
+              Veg
+            </button>
+            <button
+              className={`cuisine-chip ${selectedDiet === 'non-veg' ? 'cuisine-chip-active' : ''}`}
+              onClick={() => setSelectedDiet(selectedDiet === 'non-veg' ? '' : 'non-veg')}
+              style={selectedDiet === 'non-veg' ? {background: '#ef4444', color: '#fff', borderColor: '#ef4444'} : {}}
+            >
+              <span className="non-veg-dot" style={{ display: 'inline-block', width: 8, height: 8, background: selectedDiet === 'non-veg' ? '#fff' : '#ef4444', borderRadius: '50%', marginRight: 6 }}></span>
+              Non-Veg
+            </button>
+          </div>
+
+          <h3 style={{ marginTop: 'var(--space-md)' }}><Filter size={16} /> Filter by Cuisine</h3>
           <div className="cuisine-chips">
             <button
               className={`cuisine-chip ${!selectedCuisine ? 'cuisine-chip-active' : ''}`}
               onClick={() => setSelectedCuisine('')}
             >
-              🌍 All
+              <span className="cuisine-chip-icon"><Globe size={14} /></span>
+              Any (Indian dataset)
             </button>
             {CUISINE_CARDS.map(c => (
               <button
-                key={c.name}
-                className={`cuisine-chip ${selectedCuisine === c.name ? 'cuisine-chip-active' : ''}`}
-                onClick={() => setSelectedCuisine(selectedCuisine === c.name ? '' : c.name)}
+                key={c.value}
+                className={`cuisine-chip ${selectedCuisine === c.value ? 'cuisine-chip-active' : ''}`}
+                onClick={() => setSelectedCuisine(selectedCuisine === c.value ? '' : c.value)}
               >
-                {c.emoji} {c.label || c.name}
+                <span className="cuisine-chip-icon">{c.icon}</span>
+                {c.label}
               </button>
             ))}
           </div>
@@ -119,7 +151,7 @@ export default function Explore() {
               <div className="loading-spinner" />
               <p className="loading-text">Loading recipes...</p>
             </div>
-          ) : filteredRecipes.length === 0 ? (
+          ) : prioritizedRecipes.length === 0 ? (
             <div className="empty-state">
               <div className="empty-state-icon"><ChefHat size={32} /></div>
               <h3>No recipes found</h3>
@@ -127,9 +159,9 @@ export default function Explore() {
             </div>
           ) : (
             <>
-              <p className="explore-count">{filteredRecipes.length} recipe{filteredRecipes.length !== 1 ? 's' : ''}</p>
+              <p className="explore-count">{prioritizedRecipes.length} recipe{prioritizedRecipes.length !== 1 ? 's' : ''}</p>
               <div className="recipe-grid">
-                {filteredRecipes.map((recipe, i) => (
+                {prioritizedRecipes.map((recipe, i) => (
                   <RecipeCard key={recipe.id} recipe={recipe} index={i} />
                 ))}
               </div>

@@ -1,3 +1,4 @@
+import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ChefHat, Sparkles, Search, Clock, Heart, ArrowRight, Star, Zap, Shield } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
@@ -5,54 +6,159 @@ import './Landing.css';
 
 export default function Landing() {
   const { isAuthenticated } = useAuth();
+  const [spotlight, setSpotlight] = useState({ x: 50, y: 30 });
+  const [tilt, setTilt] = useState({ x: 0, y: 0 });
+  const [recipeIndex, setRecipeIndex] = useState(0);
+
+  const recipeOfDay = useMemo(() => [
+    {
+      name: 'Paneer Tikka Wrap',
+      time: '22 min',
+      servings: '2 wraps',
+      difficulty: 'Easy',
+      description: 'Smoky paneer, crunchy onions, and mint chutney wrapped for a quick dinner.',
+      ingredients: ['Paneer', 'Onion', 'Capsicum', 'Mint chutney'],
+    },
+    {
+      name: 'Masala Egg Fried Rice',
+      time: '18 min',
+      servings: '3 bowls',
+      difficulty: 'Fast',
+      description: 'A pantry-friendly fried rice with bold spices and fluffy scrambled egg.',
+      ingredients: ['Rice', 'Egg', 'Garlic', 'Spring onion'],
+    },
+    {
+      name: 'Chickpea Chaat Bowl',
+      time: '15 min',
+      servings: '2 bowls',
+      difficulty: 'Fresh',
+      description: 'Bright, tangy, and loaded with textures for a light anytime meal.',
+      ingredients: ['Chickpea', 'Tomato', 'Coriander', 'Yogurt'],
+    },
+  ], []);
+
+  const activeRecipe = recipeOfDay[recipeIndex % recipeOfDay.length];
+
+  const handleHeroMouseMove = (event) => {
+    const rect = event.currentTarget.getBoundingClientRect();
+    const relativeX = ((event.clientX - rect.left) / rect.width) * 100;
+    const relativeY = ((event.clientY - rect.top) / rect.height) * 100;
+
+    setSpotlight({
+      x: Math.max(8, Math.min(92, relativeX)),
+      y: Math.max(8, Math.min(92, relativeY)),
+    });
+
+    setTilt({
+      x: (relativeX - 50) / 28,
+      y: (50 - relativeY) / 28,
+    });
+  };
+
+  const resetHeroMotion = () => {
+    setSpotlight({ x: 50, y: 30 });
+    setTilt({ x: 0, y: 0 });
+  };
 
   return (
     <div className="landing-page">
       {/* Hero */}
-      <section className="hero">
+      <section
+        className="hero"
+        onMouseMove={handleHeroMouseMove}
+        onMouseLeave={resetHeroMotion}
+      >
         <div className="hero-bg">
+          <div
+            className="hero-spotlight"
+            style={{
+              '--spot-x': `${spotlight.x}%`,
+              '--spot-y': `${spotlight.y}%`,
+            }}
+          />
           <div className="hero-orb hero-orb-1" />
           <div className="hero-orb hero-orb-2" />
           <div className="hero-orb hero-orb-3" />
           <div className="hero-grid" />
         </div>
-        <div className="container hero-content">
-          <div className="hero-badge animate-fade-in-up stagger-1">
-            <Sparkles size={14} />
-            AI-powered recipe discovery
-          </div>
-          <h1 className="hero-title animate-fade-in-up stagger-2">
-            Cook Smarter with
-            <span className="hero-title-accent"> ChefAI</span>
-          </h1>
-          <p className="hero-subtitle animate-fade-in-up stagger-3">
-            Tell us what's in your kitchen, and our AI will recommend delicious recipes
-            you can make right now. No more food waste, no more recipe hunting.
-          </p>
-          <div className="hero-actions animate-fade-in-up stagger-4">
-            <Link to={isAuthenticated ? '/dashboard' : '/register'} className="btn btn-primary btn-lg">
-              {isAuthenticated ? 'Go to Dashboard' : 'Start Cooking'}
-              <ArrowRight size={20} />
-            </Link>
-            <Link to="/explore" className="btn btn-secondary btn-lg">
-              <Search size={18} />
-              Explore Recipes
-            </Link>
-          </div>
-          <div className="hero-stats animate-fade-in-up stagger-5">
-            <div className="hero-stat">
-              <span className="hero-stat-number">50K+</span>
-              <span className="hero-stat-label">Recipes</span>
+        <div
+          className="container hero-content"
+          style={{ transform: `perspective(1200px) rotateX(${tilt.y}deg) rotateY(${tilt.x}deg)` }}
+        >
+          <div className="hero-layout">
+            <div className="hero-copy-column">
+              <div className="hero-badge animate-fade-in-up stagger-1">
+                <Sparkles size={14} />
+                AI-powered recipe discovery
+              </div>
+              <h1 className="hero-title animate-fade-in-up stagger-2">
+                Cook Smarter with
+                <span className="hero-title-accent"> ChefAI</span>
+              </h1>
+              <p className="hero-subtitle animate-fade-in-up stagger-3">
+                Tell us what's in your kitchen, and our AI will recommend delicious recipes
+                you can make right now. No more food waste, no more recipe hunting.
+              </p>
+              <div className="hero-actions animate-fade-in-up stagger-4">
+                <Link to={isAuthenticated ? '/dashboard' : '/register'} className="btn btn-primary btn-lg">
+                  {isAuthenticated ? 'Go to Dashboard' : 'Start Cooking'}
+                  <ArrowRight size={20} />
+                </Link>
+                <Link to="/explore" className="btn btn-secondary btn-lg">
+                  <Search size={18} />
+                  Explore Recipes
+                </Link>
+              </div>
+              <div className="hero-stats animate-fade-in-up stagger-5">
+                <div className="hero-stat">
+                  <span className="hero-stat-number">50K+</span>
+                  <span className="hero-stat-label">Recipes</span>
+                </div>
+                <div className="hero-stat-divider" />
+                <div className="hero-stat">
+                  <span className="hero-stat-number">100+</span>
+                  <span className="hero-stat-label">Cuisines</span>
+                </div>
+                <div className="hero-stat-divider" />
+                <div className="hero-stat">
+                  <span className="hero-stat-number">AI</span>
+                  <span className="hero-stat-label">Powered</span>
+                </div>
+              </div>
             </div>
-            <div className="hero-stat-divider" />
-            <div className="hero-stat">
-              <span className="hero-stat-number">100+</span>
-              <span className="hero-stat-label">Cuisines</span>
-            </div>
-            <div className="hero-stat-divider" />
-            <div className="hero-stat">
-              <span className="hero-stat-number">AI</span>
-              <span className="hero-stat-label">Powered</span>
+
+            <div className="hero-aside-column animate-fade-in-up stagger-4">
+              <div className="hero-recipe-card">
+                <div className="hero-recipe-header">
+                  <span className="hero-recipe-badge">
+                    <ChefHat size={14} /> Recipe of the Day
+                  </span>
+                  <button
+                    type="button"
+                    className="hero-recipe-cycle"
+                    onClick={() => setRecipeIndex((value) => value + 1)}
+                  >
+                    <ArrowRight size={14} />
+                    Next
+                  </button>
+                </div>
+                <div className="hero-recipe-body">
+                  <div className="hero-recipe-copy">
+                    <h3>{activeRecipe.name}</h3>
+                    <p>{activeRecipe.description}</p>
+                  </div>
+                  <div className="hero-recipe-meta">
+                    <span>{activeRecipe.time}</span>
+                    <span>{activeRecipe.servings}</span>
+                    <span>{activeRecipe.difficulty}</span>
+                  </div>
+                </div>
+                <div className="hero-recipe-ingredients">
+                  {activeRecipe.ingredients.map((ingredient) => (
+                    <span key={ingredient}>{ingredient}</span>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -165,7 +271,10 @@ export default function Landing() {
               <ChefHat size={20} />
               <span>ChefAI</span>
             </div>
-            <p className="footer-text">AI-Powered Recipe Recommendations · Built with ❤️</p>
+            <p className="footer-text">
+              AI-Powered Recipe Recommendations · Built with
+              <Heart size={14} className="footer-love-icon" />
+            </p>
           </div>
         </div>
       </footer>

@@ -7,6 +7,8 @@ export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [savedRecipeIds, setSavedRecipeIds] = useState([]);
+  const [savedRecipesLoading, setSavedRecipesLoading] = useState(false);
 
   const checkAuth = useCallback(async () => {
     const token = localStorage.getItem('chefai_token');
@@ -27,9 +29,40 @@ export function AuthProvider({ children }) {
     }
   }, []);
 
+  const refreshSavedRecipes = useCallback(async () => {
+    if (!isAuthenticated || !user?.id) {
+      setSavedRecipeIds([]);
+      return [];
+    }
+
+    setSavedRecipesLoading(true);
+    try {
+      const savedRecipes = await api.getSavedRecipes();
+      const ids = savedRecipes.map(recipe => recipe.id);
+      setSavedRecipeIds(ids);
+      api.setSavedRecipeIds(ids);
+      return ids;
+    } catch {
+      setSavedRecipeIds([]);
+      api.setSavedRecipeIds([]);
+      return [];
+    } finally {
+      setSavedRecipesLoading(false);
+    }
+  }, [isAuthenticated, user?.id]);
+
   useEffect(() => {
     checkAuth();
   }, [checkAuth]);
+
+  useEffect(() => {
+    if (isAuthenticated && user?.id) {
+      refreshSavedRecipes();
+      return;
+    }
+    setSavedRecipeIds([]);
+    setSavedRecipesLoading(false);
+  }, [isAuthenticated, user?.id, refreshSavedRecipes]);
 
   const login = async (email, password) => {
     const data = await api.login(email, password);
@@ -50,13 +83,43 @@ export function AuthProvider({ children }) {
   };
 
   const logout = () => {
+    api.clearSavedRecipeIds();
     api.logout();
     setUser(null);
     setIsAuthenticated(false);
+    setSavedRecipeIds([]);
   };
 
+  const saveRecipe = async (recipeId) => {
+    await api.saveRecipe(recipeId);
+    setSavedRecipeIds(prev => (prev.includes(recipeId) ? prev : [...prev, recipeId]));
+  };
+
+  const unsaveRecipe = async (recipeId) => {
+    await api.unsaveRecipe(recipeId);
+    setSavedRecipeIds(prev => prev.filter(id => id !== recipeId));
+  };
+
+  const isRecipeSaved = useCallback((recipeId) => {
+    return savedRecipeIds.includes(recipeId);
+  }, [savedRecipeIds]);
+
   return (
-    <AuthContext.Provider value={{ user, loading, isAuthenticated, login, register, updateProfile, logout }}>
+    <AuthContext.Provider value={{
+      user,
+      loading,
+      isAuthenticated,
+      savedRecipeIds,
+      savedRecipesLoading,
+      refreshSavedRecipes,
+      isRecipeSaved,
+      saveRecipe,
+      unsaveRecipe,
+      login,
+      register,
+      updateProfile,
+      logout,
+    }}>
       {children}
     </AuthContext.Provider>
   );

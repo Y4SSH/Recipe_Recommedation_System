@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import {
-  ChefHat, Home, Search, Bookmark, User, LogOut,
+  ChefHat, Home, Search, Bookmark, BookOpen, User, LogOut,
   Menu, X, Sparkles
 } from 'lucide-react';
 import './Navbar.css';
@@ -52,6 +52,10 @@ export default function Navbar() {
             <Link to="/explore" className={`nav-link ${isActive('/explore') ? 'nav-link-active' : ''}`}>
               <Search size={18} />
               <span>Explore</span>
+            </Link>
+            <Link to="/my-recipes" className={`nav-link ${isActive('/my-recipes') ? 'nav-link-active' : ''}`}>
+              <BookOpen size={18} />
+              <span>My Recipes</span>
             </Link>
             <Link to="/saved" className={`nav-link ${isActive('/saved') ? 'nav-link-active' : ''}`}>
               <Bookmark size={18} />

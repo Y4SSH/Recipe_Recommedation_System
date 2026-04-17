@@ -1,0 +1,879 @@
+id,title,cuisine,difficulty,total_time,variant_type,protein_type,base_recipe,issues
+3ef18112-6908-474b-b196-c0865ef84ca9,Almond Milk Chia Seeds Pudding With Fresh Fruits Recipe,indian,easy,10,standard,vegetarian,Almond Milk Chia Seeds Pudding With Fresh Fruits Recipe,veg_tags_with_meat_words|slow_keyword_but_short_total_time
+c5d562ed-095d-4d95-a9b0-f22397eb08a5,Biryani Masala Powder Recipe - Biryani Masala Powder Recipe,indian,easy,10,standard,vegetarian,Biryani Masala Powder Recipe - Biryani Masala Powder Recipe,veg_tags_with_meat_words
+ddfad120-3f2e-4675-b864-45c183be7b15,Classic Indian Sliced Salad Recipe,indian,medium,10,standard,vegetarian,Classic Indian Sliced Salad Recipe,veg_tags_with_meat_words
+2c66fa21-47bd-4675-969c-157cbfb53fed,Homemade Dhansak Masala Powder Recipe,indian,easy,10,standard,vegetarian,Homemade Dhansak Masala Powder Recipe,veg_tags_with_meat_words
+b15a5b30-d66b-4fc8-aa9a-a4deed0b1b0c,Mango Tomato Bean Salsa Recipe,indian,easy,10,standard,vegetarian,Mango Tomato Bean Salsa Recipe,veg_tags_with_meat_words
+41df22f4-dc0b-415d-8ad0-c7fb1503c19c,Mexican Green Sauce Recipe,indian,easy,10,standard,vegetarian,Mexican Green Sauce Recipe,veg_tags_with_meat_words
+35b585ab-64ad-4418-a957-8283d44c7a1d,Nutty Chocolate Banana Smoothie Recipe,indian,easy,10,standard,vegetarian,Nutty Chocolate Banana Smoothie Recipe,veg_tags_with_meat_words
+abc21e50-ccd6-425d-b922-c95329669a7e,Onion Raita Recipe,indian,easy,10,standard,vegetarian,Onion Raita Recipe,veg_tags_with_meat_words
+43aee697-ea07-4267-a4fb-b48baf36b48b,Onion Raita Recipe - Onion Raita Recipe,indian,easy,10,standard,vegetarian,Onion Raita Recipe - Onion Raita Recipe,veg_tags_with_meat_words
+4d5dd4c2-17c8-40d5-a793-be8997110a92,Papaya Basil Smoothie With Chia Seeds Recipe,indian,easy,10,standard,vegetarian,Papaya Basil Smoothie With Chia Seeds Recipe,veg_tags_with_meat_words
+399cf13a-3884-454e-a981-1503e26aaa76,Pudina Pyaz Kachumber Salad Recipe - Mint & Onion Salad,indian,easy,10,standard,vegetarian,Pudina Pyaz Kachumber Salad Recipe - Mint & Onion Salad,veg_tags_with_meat_words
+24a1ae0b-21b9-428e-9314-5ef6f42b4f82,Tomato Mozzarella Bites Recipe,indian,easy,10,standard,vegetarian,Tomato Mozzarella Bites Recipe,veg_tags_with_meat_words
+11b1f150-c585-4860-bf7d-9abc32b4c97a,Vegan Hot Chocolate Recipe,indian,easy,10,standard,vegetarian,Vegan Hot Chocolate Recipe,veg_tags_with_meat_words
+bc08f7f9-5a5c-49f5-8b68-a7b181a7b845,Zucchini Salad with Barbecue Sauce Dressing Recipe,indian,easy,10,standard,vegetarian,Zucchini Salad with Barbecue Sauce Dressing Recipe,veg_tags_with_meat_words
+38b11baa-6653-4c11-994d-d22cd45f17e7,15 Minutes Mexican Fried Rice Recipe,indian,easy,15,standard,vegetarian,15 Minutes Mexican Fried Rice Recipe,veg_tags_with_meat_words
+7dea0af2-765f-40bf-838a-049dbf0eae1e,Apple Cucumber Salad Recipe,indian,easy,15,standard,vegetarian,Apple Cucumber Salad Recipe,veg_tags_with_meat_words
+9190496e-f702-4e01-a130-880094b6a46f,Banana Yogurt and Walnut Smoothie Recipe,indian,easy,15,standard,vegetarian,Banana Yogurt and Walnut Smoothie Recipe,veg_tags_with_meat_words
+88166339-255d-418c-a85c-b5a25cf90387,Blueberry Chia Banana Smoothie Recipe,indian,easy,15,standard,vegetarian,Blueberry Chia Banana Smoothie Recipe,veg_tags_with_meat_words
+5973fc0e-190a-4a4e-9a40-689a9464de76,Broccoli Oats Smoothie Bowl Recipe,indian,easy,15,standard,vegetarian,Broccoli Oats Smoothie Bowl Recipe,veg_tags_with_meat_words
+81703753-8014-412f-bcf2-bc5621ae75f2,"Cabbage, Spinach, Pomegranate Slaw with Lemon Dressing Recipe",indian,easy,15,standard,vegetarian,"Cabbage, Spinach, Pomegranate Slaw with Lemon Dressing Recipe",veg_tags_with_meat_words
+b6674bdf-d677-4eae-adbd-7abf08fe69f2,Chilled Sweet & Sour Cucumber Noodle Salad Recipe,indian,easy,15,standard,vegetarian,Chilled Sweet & Sour Cucumber Noodle Salad Recipe,veg_tags_with_meat_words
+c4d840ed-14b6-4265-bd31-2bbe598d2942,Cold Coffee Recipe,indian,easy,15,standard,vegetarian,Cold Coffee Recipe,veg_tags_with_meat_words
+5f0e66f0-d36d-499a-a00d-52d154c3b287,Crunchy Asian Vegetable Salad Recipe With Honey Garlic Dressing,indian,medium,15,standard,vegetarian,Crunchy Asian Vegetable Salad Recipe With Honey Garlic Dressing,veg_tags_with_meat_words
+8063529b-df9d-4075-9834-c3b6bed304d9,Delicious Avocado Salad Recipe with Vegetables,indian,medium,15,standard,vegetarian,Delicious Avocado Salad Recipe with Vegetables,veg_tags_with_meat_words
+cdc7724b-afe4-4977-bbfa-af9d900dc57e,Healthy Oats Waffles Recipe,indian,easy,15,standard,vegetarian,Healthy Oats Waffles Recipe,veg_tags_with_meat_words
+ed9dc3a5-e0b8-462b-bd83-c88e030172ee,Herbed Butter Rice Recipe With Rosemary & Thyme,indian,easy,15,standard,vegetarian,Herbed Butter Rice Recipe With Rosemary & Thyme,veg_tags_with_meat_words
+f8c9efaa-3416-4adf-aba2-9c69730116e5,Homemade Chocolate Sauce Recipe,indian,easy,15,standard,vegetarian,Homemade Chocolate Sauce Recipe,veg_tags_with_meat_words
+ec652a79-be2c-4921-8c12-f2b19b4313c7,Instant Baked Aloo Tikki Recipe,indian,easy,15,standard,vegetarian,Instant Baked Aloo Tikki Recipe,veg_tags_with_meat_words
+31fbc815-6cb6-44f8-9a15-cfc73624389d,"Kachumber Salad Recipe With Cucumber, Onion & Tomatoes",indian,easy,15,standard,vegetarian,"Kachumber Salad Recipe With Cucumber, Onion & Tomatoes",veg_tags_with_meat_words
+948e1b63-9fb9-4d54-bd71-17514a22b171,"Pineapple, Onions and Cabbage Slaw with Honey Mustard Recipe",indian,easy,15,standard,vegetarian,"Pineapple, Onions and Cabbage Slaw with Honey Mustard Recipe",veg_tags_with_meat_words
+01e1e926-bcf3-44b5-82fa-96102a958d48,Pudina Dahi Chutney Recipe- Mint Yoghurt Dip,indian,easy,15,standard,vegetarian,Pudina Dahi Chutney Recipe- Mint Yoghurt Dip,veg_tags_with_meat_words
+686582b5-c3ef-465a-a4f6-112daf213f9e,Soba Noodle Salad Recipe,indian,medium,15,standard,vegetarian,Soba Noodle Salad Recipe,veg_tags_with_meat_words
+5d68734f-8d11-4a5d-b6a4-9bc73b3ec1df,Spinach Watermelon Salad Recipe With Walnuts,indian,easy,15,standard,vegetarian,Spinach Watermelon Salad Recipe With Walnuts,veg_tags_with_meat_words
+104a44dc-d36b-49e8-89b7-db5e9402a456,Sweet Corn And Raw Mango Salad Recipe,indian,easy,15,standard,vegetarian,Sweet Corn And Raw Mango Salad Recipe,veg_tags_with_meat_words
+8b4f7c26-5d13-4ba7-ae2f-cca76396e566,Watermelon Margarita Granita Recipe,indian,easy,15,standard,vegetarian,Watermelon Margarita Granita Recipe,veg_tags_with_meat_words
+15022e6f-bf5c-4943-935d-36223961197d,Broccoli With Lemon Butter Sauce Recipe,indian,easy,17,standard,vegetarian,Broccoli With Lemon Butter Sauce Recipe,veg_tags_with_meat_words
+a6112d4c-36b8-4226-978c-120b65b4505a,Broccoli Salad Recipe with Roasted Onion & Peppers,indian,easy,20,standard,vegetarian,Broccoli Salad Recipe with Roasted Onion & Peppers,veg_tags_with_meat_words
+56d2c948-d654-4c14-9eb5-9ebf5988fa4d,Cabbage Foogath Recipe - Goan Style Cabbage Stir Fry,indian,easy,20,standard,vegetarian,Cabbage Foogath Recipe - Goan Cabbage Stir Fry,veg_tags_with_meat_words
+c8fc87c2-1b3e-477b-8365-d71d23784b49,Chettinad Mushroom And Green Peas Stir Fry Recipe,indian,medium,20,standard,vegetarian,Chettinad Mushroom And Green Peas Stir Fry Recipe,veg_tags_with_meat_words
+ca084401-0901-4560-b304-7d61222e7571,Creamy Polenta Recipe  - Savory Cornmeal Porridge,indian,easy,20,standard,vegetarian,Creamy Polenta Recipe - Savory Cornmeal Porridge,veg_tags_with_meat_words
+42540dac-dd4e-4e7b-9693-e4b1433eaef4,Crunchy Ragi And Oats Breakfast Bowl Recipe,indian,easy,20,standard,vegetarian,Crunchy Ragi And Oats Breakfast Bowl Recipe,veg_tags_with_meat_words
+76ce73b2-d208-40c5-9ffd-669affb34f4a,Fresh Fruit Bowl Recipe,indian,easy,20,standard,vegetarian,Fresh Fruit Bowl Recipe,veg_tags_with_meat_words
+c9fa534e-5782-4888-8cbf-8fd400e70f45,Green Moong Sprout Salad Recipe With Vegetables- No Onion No Garlic,indian,easy,20,standard,vegetarian,Green Moong Sprout Salad Recipe With Vegetables- No Onion No Garlic,veg_tags_with_meat_words
+8c65a4e5-722b-47e7-8117-939ad276e951,High Fiber Oat And Orange Coconut Parfait Recipe,indian,easy,20,standard,vegetarian,High Fiber Oat And Orange Coconut Parfait Recipe,veg_tags_with_meat_words
+c0f2d8e3-e113-49db-b81c-7d401caadef2,Insalata Caprese Salad Recipe,indian,easy,20,standard,vegetarian,Insalata Caprese Salad Recipe,veg_tags_with_meat_words
+0e83867c-7dae-4007-8f41-a61d9cdfcdf7,Kale White Bean Hummus Dip Recipe,indian,easy,20,standard,vegetarian,Kale White Bean Hummus Dip Recipe,veg_tags_with_meat_words
+b027bca5-eaee-4430-8b45-261dbda58374,Macaroni With Tahini Sauce Recipe,indian,easy,20,standard,vegetarian,Macaroni With Tahini Sauce Recipe,veg_tags_with_meat_words
+a1296767-96a0-4236-ad66-007e8544a76f,Pan Roasted Zucchini & Mushroom Recipe,indian,easy,20,standard,vegetarian,Pan Roasted Zucchini & Mushroom Recipe,veg_tags_with_meat_words
+462ddd1f-ed19-459f-8c75-b4ea2ad58c38,Peerkangai Thogayal Recipe (Ridge Gourd Chutney),indian,easy,20,standard,vegetarian,Peerkangai Thogayal Recipe (Ridge Gourd Chutney),veg_tags_with_meat_words
+372e18c6-dd16-4c57-ac0f-c444f61a0b44,Pretzel Salad Recipe,indian,easy,20,standard,vegetarian,Pretzel Salad Recipe,veg_tags_with_meat_words
+8a48d314-dd1a-48ae-bcbd-5e0115752fa1,Sooji Halwa Breakfast Bowl Recipe,indian,easy,20,standard,vegetarian,Sooji Halwa Breakfast Bowl Recipe,veg_tags_with_meat_words
+0ff8847b-1d8e-4bea-bae1-bf13538d2a57,Spicy Hot Chocolate Recipe - Perfect Drink For A Rainy Day or Winters,indian,medium,20,standard,vegetarian,Spicy Hot Chocolate Recipe - Perfect Drink For A Rainy Day or Winters,veg_tags_with_meat_words
+b6137032-d096-473e-85a6-df72b09c3936,Sri Lankan Chilli Potatoes Recipe,indian,easy,20,standard,vegetarian,Sri Lankan Chilli Potatoes Recipe,veg_tags_with_meat_words|slow_keyword_but_short_total_time
+abf0af73-1a60-44dd-bc5a-3f66abb1927c,Sweet Potato Mash Recipe,indian,easy,20,standard,vegetarian,Sweet Potato Mash Recipe,veg_tags_with_meat_words
+c3145aff-d2e8-470a-8d7c-5355c820c8b0,Zoodles Salad Recipe - Zucchini Noodles,indian,easy,20,standard,vegetarian,Zoodles Salad Recipe - Zucchini Noodles,veg_tags_with_meat_words
+a8fac311-f6c1-4ede-aa13-347db7982db8,Vietnamese Rice Noodle Salad Recipe,indian,hard,22,standard,vegetarian,Vietnamese Rice Noodle Salad Recipe,veg_tags_with_meat_words
+456c5157-9942-45d6-abdc-fcf54e3d6b32,Spinach Stir Fry Recipe With Garlic,indian,easy,24,standard,vegetarian,Spinach Stir Fry Recipe With Garlic,veg_tags_with_meat_words
+f01aae46-a4a2-4330-919c-dc2e9151081d,Baingan Sarson Ka Saag Recipe - Brinjal Mustard Saag Recipe,indian,medium,25,standard,vegetarian,Baingan Sarson Ka Saag Recipe - Brinjal Mustard Saag Recipe,veg_tags_with_meat_words
+03a05ae4-d3a7-45e1-8b92-47fdf3713498,Barnyard Millet Jaggery Payasam Recipe,indian,easy,25,standard,vegetarian,Barnyard Millet Jaggery Payasam Recipe,veg_tags_with_meat_words
+4b702352-1770-41ca-9beb-41723156331e,Cheese Garlic Crack Bread Recipe,indian,easy,25,standard,vegetarian,Cheese Garlic Crack Bread Recipe,veg_tags_with_meat_words
+213fc283-a9a6-46a3-bad3-f3691978c69c,Cheesy Chinese Bhel Recipe,indian,hard,25,standard,vegetarian,Cheesy Chinese Bhel Recipe,veg_tags_with_meat_words
+1a959d08-c0a5-4c6e-a1a3-aed89da9741c,Goan Tendli Bhaji Recipe,indian,medium,25,standard,vegetarian,Goan Tendli Bhaji Recipe,veg_tags_with_meat_words
+2086a856-b6c1-4d60-8c52-f17b2ae9e2e5,Grilled Tangy Lime Salmon Steak Recipe,indian,medium,25,standard,vegetarian,Grilled Tangy Lime Salmon Steak Recipe,veg_tags_with_meat_words
+6661f25e-7790-4f45-b8d1-938fe9ae1d6f,Mediterranean Tomato Basil Sandwich Recipe With Sweet Piquanté Pepper,indian,medium,25,standard,vegetarian,Mediterranean Tomato Basil Sandwich Recipe With Sweet Piquanté Pepper,veg_tags_with_meat_words
+3953e828-9c71-440b-a119-d9b90feb8767,Methi Kumro Recipe - Bengali Style Fenugreek Leaves and Pumpkin Stir Fry,indian,medium,25,standard,vegetarian,Methi Kumro Recipe - Bengali Fenugreek Leaves and Pumpkin Stir Fry,veg_tags_with_meat_words
+a07cd58e-a01c-44e8-b249-fc7f784d0b26,Mini Pita Pizza With Tahini Roasted Vegetables Recipe,indian,easy,25,standard,vegetarian,Mini Pita Pizza With Tahini Roasted Vegetables Recipe,veg_tags_with_meat_words
+8d8a7be4-1c5c-4246-9da1-fac9266d6231,Mint Coriander Spice Pulao Recipe,indian,easy,25,standard,vegetarian,Mint Coriander Spice Pulao Recipe,veg_tags_with_meat_words
+6e8aee1a-d99f-491b-9f4b-f78b17843fdb,Pavakka Pachadi Recipe - Bitter Gourd Pachadi,indian,medium,25,standard,vegetarian,Pavakka Pachadi Recipe - Bitter Gourd Pachadi,veg_tags_with_meat_words
+65fd0782-cf87-4c79-a0ef-4e33a5a88e03,Pineapple Cucumber Salad Recipe With Lemon Dressing,indian,easy,25,standard,vegetarian,Pineapple Cucumber Salad Recipe With Lemon Dressing,veg_tags_with_meat_words
+03d2b153-298c-42b7-9203-0b0b8152a9ab,Schezwan Poha Recipe (Fusion Recipe),indian,easy,25,standard,vegetarian,Schezwan Poha Recipe (Fusion Recipe),veg_tags_with_meat_words
+a2c66a29-1acd-48ad-bf8c-d29033eae008,Semiya Biryani Recipe,indian,hard,25,standard,vegetarian,Semiya Biryani Recipe,veg_tags_with_meat_words
+a8876b9d-e441-4333-b4a8-151146bc4752,Spicy Kiwi Salsa Recipe with Feta Cheese,indian,easy,25,standard,vegetarian,Spicy Kiwi Salsa Recipe with Feta Cheese,veg_tags_with_meat_words
+db0af778-c396-42bf-b23c-1b1adb7090d7,Spinach Mushroom Stir Fry Recipe,indian,easy,25,standard,vegetarian,Spinach Mushroom Stir Fry Recipe,veg_tags_with_meat_words
+4a6dc2af-96d6-40bd-8cfb-f859636ec20a,Steamed Vegetables With Chilli Lime Butter Recipe,indian,easy,25,standard,vegetarian,Steamed Vegetables With Chilli Lime Butter Recipe,veg_tags_with_meat_words
+cdf5a48a-4f48-4ca1-8e0d-7c9f0293aa1f,"Summer Lettuce Salad with Cucumber, Tomato & Feta Recipe",indian,easy,25,standard,vegetarian,"Summer Lettuce Salad with Cucumber, Tomato & Feta Recipe",veg_tags_with_meat_words
+13f9d14b-b8c2-4512-b769-8f060882b690,Thai Coconut Garlic Rice Recipe,indian,easy,25,standard,vegetarian,Thai Coconut Garlic Rice Recipe,veg_tags_with_meat_words
+69e81bb2-090a-4d66-8eb5-1118da469cc7,Thai Coconut Garlic Rice Recipe - Thai Coconut Garlic Rice Recipe,indian,medium,25,standard,vegetarian,Thai Coconut Garlic Rice Recipe - Thai Coconut Garlic Rice Recipe,veg_tags_with_meat_words
+128e3d66-a930-4a25-a622-0febc97b0d1d,Zucchini And Feta Cheese Bruschetta Recipe,indian,easy,25,standard,vegetarian,Zucchini And Feta Cheese Bruschetta Recipe,veg_tags_with_meat_words
+a13b804c-8b46-4f4c-a991-8ad7ccbaa617,Baked Vegetable Salad Recipe,indian,medium,30,standard,vegetarian,Baked Vegetable Salad Recipe,veg_tags_with_meat_words
+0b298fcc-8625-4c11-9826-78fb52bf76e3,Black Bean Noodles Recipe,indian,easy,30,standard,vegetarian,Black Bean Noodles Recipe,veg_tags_with_meat_words
+af5b2c45-bbb3-4e8b-b17c-9ac7aff5d6c3,Curried Couscous Recipe,indian,medium,30,standard,vegetarian,Curried Couscous Recipe,veg_tags_with_meat_words
+f3d4ea05-e528-49cf-8564-67d97faf0dbb,Grilled Pesto Paneer Recipe,indian,easy,30,standard,vegetarian,Grilled Pesto Paneer Recipe,veg_tags_with_meat_words
+a8f81606-0f05-4d1c-b98a-f622f8494c95,Grilled Sub Sandwich Recipe With Paneer & Roasted Vegetables,indian,hard,30,standard,vegetarian,Grilled Sub Sandwich Recipe With Paneer & Roasted Vegetables,veg_tags_with_meat_words
+5ab5c2c7-2a6f-4f36-92da-8def4b8ea3bb,Herbal Brown Rice Recipe - Herbal Brown Rice Recipe,indian,medium,30,standard,vegetarian,Herbal Brown Rice Recipe - Herbal Brown Rice Recipe,veg_tags_with_meat_words
+f0a4a632-789f-42bd-aff1-c4cd0b6e371b,Herbed Brown Rice Recipe,indian,easy,30,standard,vegetarian,Herbed Brown Rice Recipe,veg_tags_with_meat_words
+645d3846-8b5c-4dc6-a690-3758f0bce2f1,Herbed Butter Garlic Quinoa Recipe,indian,medium,30,standard,vegetarian,Herbed Butter Garlic Quinoa Recipe,veg_tags_with_meat_words
+24b1b7f7-f4f9-408f-83eb-3fc798c73c0c,Indian Style Fajitas Recipe,indian,easy,30,standard,vegetarian,Indian Fajitas Recipe,veg_tags_with_meat_words
+2bca89b0-8f0f-40d7-8f64-e5c8a51ee868,Indo Chinese Hot and Sour Spinach Soup Recipe,indian,hard,30,standard,vegetarian,Indo Chinese Hot and Sour Spinach Soup Recipe,veg_tags_with_meat_words
+c6d2f9d7-72b7-4c53-9fac-c3af81ceb19a,Lemon Parsley Quinoa Recipe,indian,medium,30,standard,vegetarian,Lemon Parsley Quinoa Recipe,veg_tags_with_meat_words
+8186958f-6296-47d3-863d-2c8c58757445,Mangalorean Manoli Bheeja Upkari Recipe - Ivy Gourd & Cashew Sabzi,indian,medium,30,standard,vegetarian,Mangalorean Manoli Bheeja Upkari Recipe - Ivy Gourd & Cashew Sabzi,veg_tags_with_meat_words
+38bedd8b-6f72-47e8-9235-af5ab944e200,Menthya Jolada Mudde Recipe - Methi & Jowar Balls Recipe,indian,easy,30,standard,vegetarian,Menthya Jolada Mudde Recipe - Methi & Jowar Balls Recipe,veg_tags_with_meat_words
+67fa45c2-a8c5-4ef8-916a-02cb6531eac5,Mint Flavoured Mixed Vegetable Pulao Recipe,indian,hard,30,standard,vegetarian,Mint Flavoured Mixed Vegetable Pulao Recipe,veg_tags_with_meat_words
+33bbc4e2-a806-4135-9470-cca964183b60,Mixed Vegetable Jalfrezi Recipe,indian,hard,30,standard,vegetarian,Mixed Vegetable Jalfrezi Recipe,veg_tags_with_meat_words
+3dafe756-4e36-4d51-a74b-d0e0cfd56503,Paneer And Grapes Platter Recipe - Healthy Party Appetizer,indian,medium,30,standard,vegetarian,Paneer And Grapes Platter Recipe - Healthy Party Appetizer,veg_tags_with_meat_words
+af973f2b-08a7-4f70-a529-01b733bdfacf,Parsi Rotli Recipe - Parsi Style Rotis,indian,medium,30,standard,vegetarian,Parsi Rotli Recipe - Parsi Rotis,veg_tags_with_meat_words
+e5ebe671-33a9-4c90-abf2-733bf17ea3a5,Penne Pasta In White Sauce Recipe,indian,hard,30,standard,vegetarian,Penne Pasta In White Sauce Recipe,veg_tags_with_meat_words
+5e059318-140a-4389-b973-8b0e2f5e789e,Pistachio & Cranberry Broken Wheat Pilaf Recipe,indian,easy,30,standard,vegetarian,Pistachio & Cranberry Broken Wheat Pilaf Recipe,veg_tags_with_meat_words
+94ac7765-7412-4d75-8b32-001a7c389dfe,Podi Potta Pachhai Kathirikai | Brinjal Stir Fry Recipe With Curry Powder,indian,easy,30,standard,vegetarian,Podi Potta Pachhai Kathirikai | Brinjal Stir Fry Recipe With Curry Powder,veg_tags_with_meat_words
+a637797e-e01d-4c84-b5cd-9130b795a429,Pudina Khara Pongal Recipe (Rice and Lentils Cooked With Mint Leaves & Mild Spices),indian,medium,30,standard,vegetarian,Pudina Khara Pongal Recipe (Rice and Lentils Cooked With Mint Leaves & Mild Spices),veg_tags_with_meat_words
+72889cee-6dec-471d-b44e-cef4fe285d09,Qahwa | Arabic Coffee Recipe,indian,easy,30,standard,vegetarian,Qahwa | Arabic Coffee Recipe,veg_tags_with_meat_words
+6493a973-a82a-4cf6-ab9f-f76414908c2c,Roasted Bell Pepper Quinoa Recipe,indian,easy,30,standard,vegetarian,Roasted Bell Pepper Quinoa Recipe,veg_tags_with_meat_words
+cf6fa3fe-a1e4-4ed4-99f6-ba92216cb3d8,Savoury Oatmeal Porridge Recipe,indian,easy,30,standard,vegetarian,Savoury Oatmeal Porridge Recipe,veg_tags_with_meat_words
+57f803fb-b560-41ec-9c22-477ae02033c9,Sesame Noodles Recipe With Napa Cabbage,indian,easy,30,standard,vegetarian,Sesame Noodles Recipe With Napa Cabbage,veg_tags_with_meat_words
+db454a5a-3a0c-47db-a45a-cf5d22ea888e,Spinach Coconut Zucchini Soup Recipe,indian,medium,30,standard,vegetarian,Spinach Coconut Zucchini Soup Recipe,veg_tags_with_meat_words
+4556c9c0-d609-480d-9e98-450a3c2c0c4d,The Homemade Hard Taco Shells Recipe,indian,medium,30,standard,vegetarian,The Homemade Hard Taco Shells Recipe,veg_tags_with_meat_words
+7a1a0c5a-4d25-4b46-8690-c3ef9794e10d,Tripura Style Kosoi Bwtwi Recipe - Sauteed Tofu & Green Beans Stir Fry With Garlic,indian,easy,30,standard,vegetarian,Tripura Kosoi Bwtwi Recipe - Sauteed Tofu & Green Beans Stir Fry With Garlic,veg_tags_with_meat_words
+fafd67cb-e34a-47d1-91eb-00e807550a36,Tuna Rasam Bhaji Recipe (Tuna Sabzi Flavored with Rasam Powder),indian,medium,30,standard,vegetarian,Tuna Rasam Bhaji Recipe (Tuna Sabzi Flavored with Rasam Powder),veg_tags_with_meat_words
+b7b1e8e4-d3a7-4598-8259-f9d44b219ade,Vietnamese Rice Pocket Recipe With Caramelised Onions & Chillies,indian,easy,30,standard,vegetarian,Vietnamese Rice Pocket Recipe With Caramelised Onions & Chillies,veg_tags_with_meat_words
+bd8ec280-ca85-4c32-8d5b-7ea0b22c4d62,Vietnamese Style Vegetarian Spring Rolls Recipe With Peanut Dipping Sauce,indian,hard,30,standard,vegetarian,Vietnamese Vegetarian Spring Rolls Recipe With Peanut Dipping Sauce,veg_tags_with_meat_words
+2eafe3d6-f826-4e50-bc90-ae7febffc600,White Vegetable Kurma Recipe With Coconut & Cashew,indian,hard,30,standard,vegetarian,White Vegetable Kurma Recipe With Coconut & Cashew,veg_tags_with_meat_words
+351ed3b2-52e8-4d7e-aea1-f8290eff6ddd,Asian Red Cabbage Salad With Roasted Peanuts Recipe,indian,easy,35,standard,vegetarian,Asian Red Cabbage Salad With Roasted Peanuts Recipe,veg_tags_with_meat_words
+99aa605f-2649-4360-b777-7a657fc35877,Bengali radish potato vegetable recipe,indian,hard,35,standard,vegetarian,Bengali radish potato vegetable recipe,veg_tags_with_meat_words
+fcdee2a0-f5bf-46a3-a71d-ea2aeed15ba1,Chilli Baby Corn (Manchurian) Recipe,indian,medium,35,standard,vegetarian,Chilli Baby Corn (Manchurian) Recipe,veg_tags_with_meat_words
+9d654871-e8e8-4cfa-8244-4e8a7597fad6,Chilli Paneer Momo Recipe,indian,hard,35,standard,vegetarian,Chilli Paneer Momo Recipe,veg_tags_with_meat_words
+f88e49d2-2a9f-44a3-883c-6062b92577bc,Dairy Free Chocolate Pudding Recipe,indian,easy,35,standard,vegetarian,Dairy Free Chocolate Pudding Recipe,veg_tags_with_meat_words
+d5350b2f-7d31-4ac0-80af-a9dda243dc29,Drumstick Leaves Fried Rice Recipe,indian,easy,35,standard,vegetarian,Drumstick Leaves Fried Rice Recipe,veg_tags_with_meat_words
+5c8b3231-e1f8-4e52-9298-9184da5ff1a6,Garlic And Pepper Mushroom Stir Fry Recipe,indian,easy,35,standard,vegetarian,Garlic And Pepper Mushroom Stir Fry Recipe,veg_tags_with_meat_words
+6a1bd612-3b92-4870-b1dd-69908da1f0fd,Goan Stuffed Masala Recipe,indian,medium,35,standard,vegetarian,Goan Stuffed Masala Recipe,veg_tags_with_meat_words
+dc87e2f7-2b37-4133-a027-01ecae30af6a,Homemade Harissa Paste Recipe,indian,medium,35,standard,vegetarian,Homemade Harissa Paste Recipe,veg_tags_with_meat_words
+43bc973a-c105-4370-937d-bfed8c2de83b,Mangalorean Chana Gassi Recipe,indian,hard,35,standard,vegetarian,Mangalorean Chana Gassi Recipe,veg_tags_with_meat_words
+2dd32a7b-275f-4169-8206-cc6b29d5e21b,Mooli Bhurji recipe,indian,easy,35,standard,vegetarian,Mooli Bhurji recipe,veg_tags_with_meat_words
+d84db7a6-06ce-458e-ba7c-50e53c893dae,Paleo Balsamic Mushrooms Recipe,indian,easy,35,standard,vegetarian,Paleo Balsamic Mushrooms Recipe,veg_tags_with_meat_words
+b84ebbaf-aaf5-4025-99c0-7fb6813d7239,Pav Bhaji Flavored Pasta Recipe-Fusion Fusilli Pasta,indian,medium,35,standard,vegetarian,Pav Bhaji Flavored Pasta Recipe-Fusion Fusilli Pasta,veg_tags_with_meat_words
+253fd763-68e7-484f-8993-ad5aa07dedc8,Peas Pulao Recipe -  North Indian Matar Pulao,indian,easy,35,standard,vegetarian,Peas Pulao Recipe - North Indian Matar Pulao,veg_tags_with_meat_words
+80e3d386-0b2e-4b05-b8b5-46dd23af6f3c,Punjabi Mixed Vegetable Kadai Recipe,indian,hard,35,standard,vegetarian,Punjabi Mixed Vegetable Kadai Recipe,veg_tags_with_meat_words
+0e6d1ff9-da14-4ab9-87ad-a83b896dc0b6,Roasted Beet Salad Recipe With Pearl Barley & Spinach,indian,easy,35,standard,vegetarian,Roasted Beet Salad Recipe With Pearl Barley & Spinach,veg_tags_with_meat_words
+d4b947ee-0df1-488e-8dd7-c05fbe42835a,Rumali Roti Recipe,indian,easy,35,standard,vegetarian,Rumali Roti Recipe,veg_tags_with_meat_words
+44757ce8-a097-425b-8de0-40d43042a4a4,Shallow Fried Oysters Recipe,indian,easy,35,standard,vegetarian,Shallow Fried Oysters Recipe,veg_tags_with_meat_words
+036aec43-1f9e-47dc-b750-4ed5f6bffa14,Spicy Mexican Salsa Recipe - Tomato Salsa Recipe,indian,easy,35,standard,vegetarian,Spicy Mexican Salsa Recipe - Tomato Salsa Recipe,veg_tags_with_meat_words
+0d2a1a9e-06c9-4b91-a369-ca1c32f3ccc3,Srilankan Style Sambol Recipe,indian,easy,35,standard,vegetarian,Srilankan Sambol Recipe,veg_tags_with_meat_words
+f9151344-c3c5-4ef3-886c-db87c0584610,Sweet Potato Kheer Recipe,indian,easy,35,standard,vegetarian,Sweet Potato Kheer Recipe,veg_tags_with_meat_words
+51b22884-f1bf-41a3-9000-03d3c95ccd3d,Whole Wheat Chocolate Cinnamon Cupcakes Recipe,indian,easy,35,standard,vegetarian,Whole Wheat Chocolate Cinnamon Cupcakes Recipe,veg_tags_with_meat_words
+b37e17ef-1376-4643-9da4-d4e6594f93ab,Baked Paneer Bread Pakora Recipe,indian,medium,40,standard,vegetarian,Baked Paneer Bread Pakora Recipe,veg_tags_with_meat_words
+28e970f1-dfc1-4a92-80b5-3fcf4ffb3899,Bell Pepper & Cheese Macaroni Recipe,indian,easy,40,standard,vegetarian,Bell Pepper & Cheese Macaroni Recipe,veg_tags_with_meat_words
+55e4cb1f-5781-4722-8980-603cd6c0ec71,Broccoli & Water Chestnut Soup Recipe,indian,easy,40,standard,vegetarian,Broccoli & Water Chestnut Soup Recipe,veg_tags_with_meat_words
+37dd2317-d53d-4f93-be54-e017407028b0,Buckwheat Apple Cinnamon Loaf Cake Recipe,indian,medium,40,standard,vegetarian,Buckwheat Apple Cinnamon Loaf Cake Recipe,veg_tags_with_meat_words
+9646d401-e8ca-40d8-875b-801f8e4baa2c,Burnt Garlic Veg Fried Rice Recipe,indian,medium,40,standard,vegetarian,Burnt Garlic Veg Fried Rice Recipe,veg_tags_with_meat_words
+2f18a601-6f02-432d-839c-4ade08787bb7,Cheddar Beer Bread Recipe - Cheesy Bread Recipe,indian,easy,40,standard,vegetarian,Cheddar Beer Bread Recipe - Cheesy Bread Recipe,veg_tags_with_meat_words
+98b118f4-c267-42a3-accd-505bc587eda6,Chilli Paneer Recipe -Indo Chinese,indian,medium,40,standard,vegetarian,Chilli Paneer Recipe -Indo Chinese,veg_tags_with_meat_words
+2acbc0d2-b157-4802-837e-3fe62c1260d2,Chinese Darsaan Recipe With Ice Cream,indian,medium,40,standard,vegetarian,Chinese Darsaan Recipe With Ice Cream,veg_tags_with_meat_words
+4ee6e39c-9f6d-4ddc-b88e-428f24a2808a,Corn Cheese Balls Recipe,indian,medium,40,standard,vegetarian,Corn Cheese Balls Recipe,veg_tags_with_meat_words
+db6cb719-196b-4bcd-b179-cae97dbbf9b5,Crunchy Ginger Capsicum Rice Recipe,indian,easy,40,standard,vegetarian,Crunchy Ginger Capsicum Rice Recipe,veg_tags_with_meat_words
+7e1e34c6-4772-419a-a009-bce48c9f322b,Foxtail Millet Pilaf Recipe,indian,medium,40,standard,vegetarian,Foxtail Millet Pilaf Recipe,veg_tags_with_meat_words
+f70c7efe-a5da-4231-9bda-504cfaff2d34,Ginger Teriyaki Rice Recipe,indian,easy,40,standard,vegetarian,Ginger Teriyaki Rice Recipe,veg_tags_with_meat_words
+a0b5e217-428c-4a68-9539-d4cf5101b7fa,Ginger Turkey Rice Recipe - Ginger Teriyaki Rice Recipe,indian,easy,40,standard,vegetarian,Ginger Turkey Rice Recipe - Ginger Teriyaki Rice Recipe,veg_tags_with_meat_words
+d42a6c07-6914-4cc9-bfe4-674e0467155e,Grilled Cherry Tomato Pickle Recipe,indian,easy,40,standard,vegetarian,Grilled Cherry Tomato Pickle Recipe,veg_tags_with_meat_words
+be4e4e29-048e-4f83-a7e2-c492c19d789d,Halloumi Bruschetta Recipe with Tomato and Roasted Red Capsicum,indian,easy,40,standard,vegetarian,Halloumi Bruschetta Recipe with Tomato and Roasted Red Capsicum,veg_tags_with_meat_words
+843e2783-0298-400a-bd22-07414a1a74a9,Indo-Chinese Paneer Manchurian Recipe,indian,medium,40,standard,vegetarian,Indo-Chinese Paneer Manchurian Recipe,veg_tags_with_meat_words
+2f07b6a1-c0e2-4283-ba2a-8a28a32e0706,Instant Tindora And Carrot Pickle Recipe,indian,hard,40,standard,vegetarian,Instant Tindora And Carrot Pickle Recipe,veg_tags_with_meat_words
+b438b6d3-0408-4376-a01d-96b9f2b55d18,Kala Chana Pilaf Recipe,indian,medium,40,standard,vegetarian,Kala Chana Pilaf Recipe,veg_tags_with_meat_words
+b04114f7-fb90-4093-953c-13ca0016ec9c,Kerala Style Varutharacha Sambar Recipe - Tangy Coconut Sambar Recipe,indian,hard,40,standard,vegetarian,Kerala Varutharacha Sambar Recipe - Tangy Coconut Sambar Recipe,veg_tags_with_meat_words
+97fe7c7e-37c7-44ef-b22c-83979c60c62e,Khara Bhath Recipe-South Indian Rava Bhath,indian,hard,40,standard,vegetarian,Khara Bhath Recipe-South Indian Rava Bhath,veg_tags_with_meat_words
+0e85d663-131c-4f52-bea1-ed6810a688f2,Mexican Style Capirotada Recipe-Bread Pudding Recipe,indian,easy,40,standard,vegetarian,Mexican Capirotada Recipe-Bread Pudding Recipe,veg_tags_with_meat_words
+7ad50ec2-db14-4137-ab02-66c543dd5858,Palak Baingan Ki Sabzi - Recipe in Hindi,indian,medium,40,standard,vegetarian,Palak Baingan Ki Sabzi - Recipe in Hindi,veg_tags_with_meat_words
+35cf1a4f-5368-4cf8-b90b-8df8d4ca31fe,Paneer Shashlik Sizzler Recipe,indian,medium,40,standard,vegetarian,Paneer Shashlik Sizzler Recipe,veg_tags_with_meat_words
+e7a4d892-434c-43f1-a18a-e41d2c77c616,Pasta Primavera With Fresh Basil Recipe,indian,hard,40,standard,vegetarian,Pasta Primavera With Fresh Basil Recipe,veg_tags_with_meat_words
+fc7c8bc4-8513-48cb-97bb-0c048b056225,Pasta Salad With Broccoli & Feta Cheese Recipe,indian,easy,40,standard,vegetarian,Pasta Salad With Broccoli & Feta Cheese Recipe,veg_tags_with_meat_words
+93ee0d6d-7dbb-4921-bd24-519382014743,Potato Vindaloo Recipe,indian,hard,40,standard,vegetarian,Potato Vindaloo Recipe,veg_tags_with_meat_words
+df260b0c-4a12-41c2-9cf4-7bc4b8f30e1d,Raw Mango And Spring Onion Chutney Recipe,indian,easy,40,standard,vegetarian,Raw Mango And Spring Onion Chutney Recipe,veg_tags_with_meat_words
+151033a2-c870-4749-94ab-ddb738af2e9f,Roasted Cauliflower Salad With Quinoa & Garlic Yogurt Recipe,indian,medium,40,standard,vegetarian,Roasted Cauliflower Salad With Quinoa & Garlic Yogurt Recipe,veg_tags_with_meat_words
+85deed68-a2b6-45c3-83bf-03f93c981a2d,Vegetable Quinoa Patty Recipe,indian,medium,40,standard,vegetarian,Vegetable Quinoa Patty Recipe,veg_tags_with_meat_words
+2082a106-71df-4a8f-a3c1-2ed9a108ed60,Bell Pepper & Parsley Rice Recipe,indian,medium,45,standard,vegetarian,Bell Pepper & Parsley Rice Recipe,veg_tags_with_meat_words
+93bbe462-9a3e-46bd-8556-8c1fab0859e9,Bell Pepper & Parsley Rice Recipe - Bell Pepper & Parsley Rice Recipe,indian,medium,45,standard,vegetarian,Bell Pepper & Parsley Rice Recipe - Bell Pepper & Parsley Rice Recipe,veg_tags_with_meat_words
+4c333eeb-671f-4700-b6ca-78c3af6df127,Calamari Roast Recipe (Kerala Style Squid),indian,hard,45,standard,vegetarian,Calamari Roast Recipe (Kerala Squid),veg_tags_with_meat_words
+5ad6afab-d849-4849-801b-e71d4339100a,Chenai Kizhangu Poricha Kootu Recipe (Tamil Nadu Style Yam Cooked in Coconut Gravy),indian,hard,45,standard,vegetarian,Chenai Kizhangu Poricha Kootu Recipe (Tamil Nadu Yam Cooked in Coconut Gravy),veg_tags_with_meat_words
+d822fa2b-aff7-47ae-9134-dcc22acecea4,Coimbatore Style Drumstick Sambar Recipe,indian,hard,45,standard,vegetarian,Coimbatore Drumstick Sambar Recipe,veg_tags_with_meat_words
+d3a34835-3b8e-4b66-b1d9-29163c633611,Kerala Style Kappa Ulathiyathu Recipe - Tapioca Stir Fry Recipe,indian,easy,45,standard,vegetarian,Kerala Kappa Ulathiyathu Recipe - Tapioca Stir Fry Recipe,veg_tags_with_meat_words
+8100f95d-2020-479a-9edc-d96a62ce4f2f,Paneer Gassi Recipe,indian,hard,45,standard,vegetarian,Paneer Gassi Recipe,veg_tags_with_meat_words
+4a006b22-da66-4a57-b3f3-afbb0bdd489c,Sour Sweet Radish Key Vegetable Recipe-Sweet And Tangy Radish Dry Recipe,indian,easy,45,standard,vegetarian,Sour Sweet Radish Key Vegetable Recipe-Sweet And Tangy Radish Dry Recipe,veg_tags_with_meat_words
+0278d0ee-afb1-4963-8ce1-5471039ed269,Veg Makhanwala Recipe - North Indian Mixed Vegetables Gravy,indian,hard,45,standard,vegetarian,Veg Makhanwala Recipe - North Indian Mixed Vegetables Gravy,veg_tags_with_meat_words
+1bbe5676-bf4c-4522-9670-ad6191d8fd34,Vegetable Paella Recipe (Spanish Style Vegetable Rice),indian,hard,45,standard,vegetarian,Vegetable Paella Recipe (Spanish Vegetable Rice),veg_tags_with_meat_words
+0b7bff56-f431-4347-954a-4aeb8fefd8f5,Whole Wheat Fruit and Nut Cup Cake Recipe,indian,easy,45,standard,vegetarian,Whole Wheat Fruit and Nut Cup Cake Recipe,veg_tags_with_meat_words
+ed6f10dd-7cd4-4575-87f2-7f07e17aed44,Achari Aloo Parwal Sabzi Recipe (Pointed Gourd And Potato Stir Fry In Pickle Spices),indian,medium,50,standard,vegetarian,Achari Aloo Parwal Sabzi Recipe (Pointed Gourd And Potato Stir Fry In Pickle Spices),veg_tags_with_meat_words
+9f015644-3a72-426e-8196-c26ee0b0431d,Aromatic Vegetable Pulao Recipe,indian,medium,50,standard,vegetarian,Aromatic Vegetable Pulao Recipe,veg_tags_with_meat_words
+a9ed94dc-0e38-4bd5-8f61-b1271cfbf89b,Bangkok Coconut Curry Noodle Bowl Recipe,indian,hard,50,standard,vegetarian,Bangkok Coconut Curry Noodle Bowl Recipe,veg_tags_with_meat_words
+e85b982d-be91-4cb4-b8d8-f24d8d0101ab,Bengali Langcha Recipe With Mawa,indian,medium,50,standard,vegetarian,Bengali Langcha Recipe With Mawa,veg_tags_with_meat_words
+71e3f6cf-74f9-40cf-80bf-99b98c9331a8,Broken Wheat and Mixed Millet Upma Recipe,indian,medium,50,standard,vegetarian,Broken Wheat and Mixed Millet Upma Recipe,veg_tags_with_meat_words
+c86a1118-c899-4ee4-b32f-cbe4b564c2eb,Burmese Samosa Soup Recipe,indian,hard,50,standard,vegetarian,Burmese Samosa Soup Recipe,veg_tags_with_meat_words
+db981c67-fe88-4900-bcc9-33d47bcf6c00,Cheesy Baked Ziti Pasta Recipe with Roasted Mushroom & Corn,indian,hard,50,standard,vegetarian,Cheesy Baked Ziti Pasta Recipe with Roasted Mushroom & Corn,veg_tags_with_meat_words
+57b1a527-b4a4-4c23-bb1a-465e5b88f3fc,Chipotle Roasted Mushroom Vegetarian Quesadilla Recipe,indian,easy,50,standard,vegetarian,Chipotle Roasted Mushroom Vegetarian Quesadilla Recipe,veg_tags_with_meat_words
+f22058d5-269b-46b7-81d9-f53c398afdb5,Creamy Mixed Vegetable Risotto Recipe,indian,medium,50,standard,vegetarian,Creamy Mixed Vegetable Risotto Recipe,veg_tags_with_meat_words
+6763f2df-10eb-41be-9125-1ac1b95aa970,Creamy Mushroom Risotto Recipe,indian,medium,50,standard,vegetarian,Creamy Mushroom Risotto Recipe,veg_tags_with_meat_words
+a3f48c55-6256-4be0-9fb1-f4d79416cfba,Fada Ni Khichdi Recipe,indian,medium,50,standard,vegetarian,Fada Ni Khichdi Recipe,veg_tags_with_meat_words
+4ab2545f-df2b-4815-b63a-bdc8606794a3,Fruit And Nut Lauki Brownies Recipe,indian,easy,50,standard,vegetarian,Fruit And Nut Lauki Brownies Recipe,veg_tags_with_meat_words
+015cf66e-c2c3-444b-a1be-a8d811503fab,Fusion Spinach Parathas With Onion Tomato Salsa Recipe,indian,medium,50,standard,vegetarian,Fusion Spinach Parathas With Onion Tomato Salsa Recipe,veg_tags_with_meat_words
+eb7c84c2-e659-413b-af9d-5f4f61ad11d0,Hearty Vegetable Tortilla Soup Recipe,indian,medium,50,standard,vegetarian,Hearty Vegetable Tortilla Soup Recipe,veg_tags_with_meat_words
+ca357e23-d4a8-43a8-8391-67cd48fbcd31,Kerala Style Cauliflower Kurma Recipe,indian,medium,50,standard,vegetarian,Kerala Cauliflower Kurma Recipe,veg_tags_with_meat_words
+2ca73191-7fe9-4ec7-8ba9-eb2fb582c32a,Konkani Style Maskasangi Magge Koddel Recipe-Drumstick and Mangalore Cucumber Curry,indian,easy,50,standard,vegetarian,Konkani Maskasangi Magge Koddel Recipe-Drumstick and Mangalore Cucumber Curry,veg_tags_with_meat_words
+a99b5368-3ee5-4e2f-ab03-e7d6f6968231,Korean Style Kimchi Udon Stir Fry with Scallions Recipe,indian,easy,50,standard,vegetarian,Korean Kimchi Udon Stir Fry with Scallions Recipe,veg_tags_with_meat_words
+a48c9770-5906-4a42-bd9d-0ee8bb183f76,Lab E Shireen Recipe,indian,medium,50,standard,vegetarian,Lab E Shireen Recipe,veg_tags_with_meat_words
+08deb4a3-1e13-4f52-8f1d-4c3a8bd164ff,Maharashtrian Style Dashmi Roti Recipe (Jaggery Flatbread),indian,easy,50,standard,vegetarian,Maharashtrian Dashmi Roti Recipe (Jaggery Flatbread),veg_tags_with_meat_words
+94c1a0fe-f2da-4eaf-a19e-669f4ed1e18f,Malabar Style Ney Pathiri Recipe (Fried Masala Rice Puri),indian,easy,50,standard,vegetarian,Malabar Ney Pathiri Recipe (Fried Masala Rice Puri),veg_tags_with_meat_words
+18860970-82d5-400b-81c2-e44fb49316bb,Mangalorean Neer Dosa Recipe-Savory Rice & Coconut Crepe,indian,medium,50,standard,vegetarian,Mangalorean Neer Dosa Recipe-Savory Rice & Coconut Crepe,veg_tags_with_meat_words
+781f576d-d2d0-4d65-806e-3ebd0eac6187,Milagu Ven Pongal Recipe Made With Figaro Olive Oil,indian,medium,50,standard,vegetarian,Milagu Ven Pongal Recipe Made With Figaro Olive Oil,veg_tags_with_meat_words
+f2209a83-5611-4ceb-9f18-238329038128,Mixed Vegetable Handvo Recipe - Savory Rice & Lentil Cake,indian,hard,50,standard,vegetarian,Mixed Vegetable Handvo Recipe - Savory Rice & Lentil Cake,veg_tags_with_meat_words
+8775a100-929f-4c7e-b93d-023d9d223da7,Mochiko Dango Recipe - Sweet Japanese Dumplings,indian,easy,50,standard,vegetarian,Mochiko Dango Recipe - Sweet Japanese Dumplings,veg_tags_with_meat_words
+a88f1f7c-da49-4fc9-9ece-02fde5e37560,Pan Roasted Herbed Baby Potato Recipe With Vegetables,indian,easy,50,standard,vegetarian,Pan Roasted Herbed Baby Potato Recipe With Vegetables,veg_tags_with_meat_words
+66db8546-feb2-428d-842f-73d32d8492a2,Paneer Darts Momo Recipe,indian,medium,50,standard,vegetarian,Paneer Darts Momo Recipe,veg_tags_with_meat_words
+7c7b23d8-5c76-4d2e-b1cd-60c0f32ae5e6,"Peas, Corn & Paneer Savory Hand Pies Recipe",indian,medium,50,standard,vegetarian,"Peas, Corn & Paneer Savory Hand Pies Recipe",veg_tags_with_meat_words
+69b9451c-9a9e-49bf-9bf7-51d2244411fd,Potato Cabbage Pea Vegetable Recipe,indian,easy,50,standard,vegetarian,Potato Cabbage Pea Vegetable Recipe,veg_tags_with_meat_words
+d7b36bd3-83fa-422f-80ef-f44aa2f08f7f,Pumpkin Hummus Recipe,indian,medium,50,standard,vegetarian,Pumpkin Hummus Recipe,veg_tags_with_meat_words
+f43b5e9e-e55d-404e-b2f3-354d9d3b1547,Satsaagi Recipe - Sindhi Seven Vegetable Sabzi No Onion No Garlic,indian,hard,50,standard,vegetarian,Satsaagi Recipe - Sindhi Seven Vegetable Sabzi No Onion No Garlic,veg_tags_with_meat_words
+ec29bc40-cc98-422e-8752-b5f4957cd758,Spinach And Tortellini Soup Recipe,indian,hard,50,standard,vegetarian,Spinach And Tortellini Soup Recipe,veg_tags_with_meat_words
+bb814ecd-fdcf-4c99-b8ce-9a8857afb77c,Sutlac Recipe - Rose Infused Turkish Rice Pudding,indian,medium,50,standard,vegetarian,Sutlac Recipe - Rose Infused Turkish Rice Pudding,veg_tags_with_meat_words
+159a9374-73ec-4500-8ba5-0237e9c67c57,Tisrayanche Suke Recipe (Goan Clams Dry),indian,easy,50,standard,vegetarian,Tisrayanche Suke Recipe (Goan Clams Dry),veg_tags_with_meat_words
+0c5d9618-d908-42f2-b0ff-f589da0cd785,Bharwa Baingan Aur Pyaaz Ki Sabzi (Recipe in Hindi),indian,medium,55,standard,vegetarian,Bharwa Baingan Aur Pyaaz Ki Sabzi (Recipe in Hindi),veg_tags_with_meat_words
+9393f3a3-7376-481b-b814-7823f6de2078,Chinese Style Stir Fried Water Chestnut with Vegetables Recipe,indian,easy,55,standard,vegetarian,Chinese Stir Fried Water Chestnut with Vegetables Recipe,veg_tags_with_meat_words
+414c92d1-48cf-4511-b140-32f7edc4b895,Honey Roasted Sweet Potato With Red Onions Recipe,indian,easy,55,standard,vegetarian,Honey Roasted Sweet Potato With Red Onions Recipe,veg_tags_with_meat_words
+711b8a0b-eea5-4b50-af6e-49b4b0f90f01,Kimami Sewai Recipe,indian,medium,55,standard,vegetarian,Kimami Sewai Recipe,veg_tags_with_meat_words
+25573be5-2e28-45ce-a9a9-8cc17ed36d15,Lau Er Kofta Curry Recipe (Bengali Style Doodhi Dumplings In Tomato Based Gravy),indian,hard,55,standard,vegetarian,Lau Er Kofta Curry Recipe (Bengali Doodhi Dumplings In Tomato Based Gravy),veg_tags_with_meat_words
+48c3093f-1112-461f-bb56-0b310072437a,Malabar Parrot Recipe - Kerala Parrot Recipe,indian,easy,55,standard,vegetarian,Malabar Parrot Recipe - Kerala Parrot Recipe,veg_tags_with_meat_words
+b904216f-dff6-4677-b3cb-f5aab367d894,Mini Naan Recipe With Pindi Chole,indian,hard,55,standard,vegetarian,Mini Naan Recipe With Pindi Chole,veg_tags_with_meat_words
+10f45e71-0fd8-4a98-9f86-b16eff35e395,Moroccan Chickpeas Curry with Quinoa and Coriander Curd Recipe,indian,medium,55,standard,vegetarian,Moroccan Chickpeas Curry with Quinoa and Coriander Curd Recipe,veg_tags_with_meat_words
+a190fa20-8ff4-438a-8c3c-7d3c39f89196,Nagli/Ragi Laddu Recipe,indian,easy,55,standard,vegetarian,Nagli/Ragi Laddu Recipe,veg_tags_with_meat_words
+bd38bb4a-d894-4eee-b2e7-32d8adb8cc4b,Rose Greek Yogurt Dessert Recipe With Pista & Coconut,indian,medium,55,standard,vegetarian,Rose Greek Yogurt Dessert Recipe With Pista & Coconut,veg_tags_with_meat_words
+827248b8-807d-4c0d-bd43-7c4d1eb9cd8d,Soft & Delicious Ragi Mudde Recipe - Karnataka Style Ragi Balls,indian,easy,55,standard,vegetarian,Soft & Delicious Ragi Mudde Recipe - Karnataka Ragi Balls,veg_tags_with_meat_words
+8fb4d456-9604-40ba-9282-5d4eff34b611,Spiced Cauliflower And Almond Soup Recipe,indian,medium,55,standard,vegetarian,Spiced Cauliflower And Almond Soup Recipe,veg_tags_with_meat_words
+3a0630a9-9358-44c5-b277-00884d178370,Sweet And Spicy Thai Style Paneer Recipe,indian,hard,55,standard,vegetarian,Sweet And Spicy Thai Paneer Recipe,veg_tags_with_meat_words
+c89629f2-48e1-4451-b5a6-9c15138cb65e,Veechu Parotta Or Ceylon Parotta Recipe,indian,easy,55,standard,vegetarian,Veechu Parotta Or Ceylon Parotta Recipe,veg_tags_with_meat_words
+3c07f823-33dd-44d4-82a2-bb40d502585a,Vegetarian Potato Hash Recipe,indian,hard,55,standard,vegetarian,Vegetarian Potato Hash Recipe,veg_tags_with_meat_words
+b9479ae3-571e-4e5c-ba57-e15db6fa6b05,Ari Pathiri Recipe | Malabar Rice Flatbread Recipe,indian,easy,60,standard,vegetarian,Ari Pathiri Recipe | Malabar Rice Flatbread Recipe,veg_tags_with_meat_words
+31681d5f-7841-4b47-816b-27348f91f75d,Bengali Style Mixed Vegetable Sweet Pilaf Recipe,indian,hard,60,standard,vegetarian,Bengali Mixed Vegetable Sweet Pilaf Recipe,veg_tags_with_meat_words
+31bf7799-14c5-4179-a0a5-e822e897f176,Blueberry Fool Recipe - Quick Dessert with Whipped Cream & Fresh Berries,indian,medium,60,quick,vegetarian,Blueberry Fool Recipe - Dessert with Whipped Cream & Fresh Berries,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+fad1be33-94c3-4446-aaa1-864fef439429,Coorg Style Kadumbuttu/Kadambuttu Recipe (Steamed Rice Balls Recipe),indian,easy,60,standard,vegetarian,Coorg Kadumbuttu/Kadambuttu Recipe (Steamed Rice Balls Recipe),veg_tags_with_meat_words
+cc89ac8b-f918-48a2-a8f5-e7f712fb6419,Fluffy & Crispy Cheese Herbed Biscuits Recipe,indian,easy,60,standard,vegetarian,Fluffy & Crispy Cheese Herbed Biscuits Recipe,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+8f5a99c4-bd3e-4d28-a3c4-af945fcd2131,Four Cheese and Spinach Stuffed Mushrooms Recipe,indian,hard,60,standard,vegetarian,Four Cheese and Spinach Stuffed Mushrooms Recipe,veg_tags_with_meat_words
+1c610faa-364c-40e0-9b2b-ec0e7c57aca4,Kesar-Pista White Chocolate Truffles Recipe,indian,easy,60,standard,vegetarian,Kesar-Pista White Chocolate Truffles Recipe,veg_tags_with_meat_words
+4faf1db0-b61a-41d8-972e-e19773fab6f2,Mexican Sizzler Recipe,indian,hard,60,standard,vegetarian,Mexican Sizzler Recipe,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+a4aa7043-6e0e-41f2-9021-ae6e65e69111,Penne With Creamy Pumpkin Sauce Recipe With Broccoli,indian,easy,60,standard,vegetarian,Penne With Creamy Pumpkin Sauce Recipe With Broccoli,veg_tags_with_meat_words
+76bc2694-f620-43bb-b04e-589caa5a5dc9,Quinoa Veg Soup (Bolivian Style Stew) Recipe,indian,medium,60,standard,vegetarian,Quinoa Veg Soup (Bolivian Stew) Recipe,veg_tags_with_meat_words
+e1afe6ed-0125-4b6d-a7ed-54d9cb45c687,Roasted Vegetable Pasta Primavera Recipe,indian,hard,60,standard,vegetarian,Roasted Vegetable Pasta Primavera Recipe,veg_tags_with_meat_words
+fe6a58f9-e0ab-4565-bcf4-65a8d9ac6d15,Spaghetti Pasta Recipe in Basil Pesto Sauce,indian,easy,60,standard,vegetarian,Spaghetti Pasta Recipe in Basil Pesto Sauce,veg_tags_with_meat_words
+6a227cc5-f04c-4113-a0bb-1903b2739d6d,Sweet Potato & Lentil Tacos Recipe With Cranberries,indian,hard,60,standard,vegetarian,Sweet Potato & Lentil Tacos Recipe With Cranberries,veg_tags_with_meat_words
+29cc71e4-ec80-4c86-9897-e6957b3536da,Sweet Potato Pineapple Skewers In Spicy Sweetish Peanut Dip Recipe,indian,medium,60,standard,vegetarian,Sweet Potato Pineapple Skewers In Spicy Sweetish Peanut Dip Recipe,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+a485acad-ff70-49ab-9ab4-777ef6557646,Vegan Cucumber Semolina Cake Recipe,indian,easy,60,standard,vegetarian,Vegan Cucumber Semolina Cake Recipe,veg_tags_with_meat_words
+63697df5-eeb6-4264-a4d3-a840c4337280,Vegan Guilt Free Chocolate Espresso Mousse Recipe,indian,medium,60,standard,vegetarian,Vegan Guilt Free Chocolate Espresso Mousse Recipe,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+7626dc9b-bb6d-4497-be28-066290b733b7,Vegetable Rice Upma Recipe,indian,hard,60,standard,vegetarian,Vegetable Rice Upma Recipe,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+1afd4b50-ab67-4e94-a9ef-c7c6733bfde1,Capsicum Masala Poriyal Recipe (South Indian Style Bell Pepper Stir Fry),indian,medium,63,standard,vegetarian,Capsicum Masala Poriyal Recipe (South Indian Bell Pepper Stir Fry),veg_tags_with_meat_words
+771f3df3-521f-4cb2-9426-dc1cf5524560,Cheesy Kulcha Sandwich Recipe With Ghee Roast Mushrooms,indian,hard,65,standard,vegetarian,Cheesy Kulcha Sandwich Recipe With Ghee Roast Mushrooms,veg_tags_with_meat_words
+425dd19a-6223-4075-af8b-ba52eea121f4,Refried Beans and Mushroom Tostada Recipe,indian,hard,65,standard,vegetarian,Refried Beans and Mushroom Tostada Recipe,veg_tags_with_meat_words
+cd497bb8-38ef-4ccf-9686-3935a638837a,Spring Onion & Roasted Garlic Brown Rice Recipe,indian,hard,65,standard,vegetarian,Spring Onion & Roasted Garlic Brown Rice Recipe,veg_tags_with_meat_words
+23104446-11ef-4a4c-8aff-add6750ffd75,Spring Onion & Roasted Garlic Brown Rice Recipe,indian,hard,65,standard,vegetarian,Spring Onion & Roasted Garlic Brown Rice Recipe,veg_tags_with_meat_words
+e1e4c39e-f6f9-4fde-b30e-0407d1c2e310,Traditional Whole Gobi Musallam Recipe,indian,hard,65,traditional,vegetarian,Whole Gobi Musallam Recipe,veg_tags_with_meat_words
+c4c8a19c-04c5-4185-9f79-485966df0e1a,Twin In One Bread Loaf Recipe,indian,medium,65,standard,vegetarian,Twin In One Bread Loaf Recipe,veg_tags_with_meat_words
+41e7cc3c-a2f3-4f6d-b1a9-3c5aa37b2b97,Assamese Bilahi Boror Tenga Recipe (Sour Curry With Red Lentil Fritters),indian,hard,70,standard,vegetarian,Assamese Bilahi Boror Tenga Recipe (Sour Curry With Red Lentil Fritters),veg_tags_with_meat_words|quick_keyword_but_long_total_time
+f8c3dced-cbb1-45cd-a8d7-ca403f972185,Kerala Style Chakka Chased Ari Payasam Recipe - Jagapriyat Brown Rice Kahir,indian,medium,70,standard,vegetarian,Kerala Chakka Chased Ari Payasam Recipe - Jagapriyat Brown Rice Kahir,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+0fa37d19-6e62-4586-8736-db9f8d3c5a40,Mixed Vegetable Dry Manchurian Recipe,indian,hard,70,standard,vegetarian,Mixed Vegetable Dry Manchurian Recipe,veg_tags_with_meat_words
+3ffe360c-2b31-46e0-8457-b6a649410e09,Polenta Pizza With Vegetables Recipe,indian,medium,70,standard,vegetarian,Polenta Pizza With Vegetables Recipe,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+eb332a20-798f-470f-8528-a9467dd97410,Whole Wheat Pita Bread Recipe,indian,hard,70,standard,vegetarian,Whole Wheat Pita Bread Recipe,veg_tags_with_meat_words
+133563fa-c826-4c93-897c-2427562da039,Zucchini Boats With Chickpeas In Tomato Hummus Recipe,indian,hard,70,standard,vegetarian,Zucchini Boats With Chickpeas In Tomato Hummus Recipe,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+aaa97a6b-f6e2-4be7-87d4-cb2ffb558fe3,Fennel Pesto Pull-Apart Bread Recipe,indian,hard,75,standard,vegetarian,Fennel Pesto Pull-Apart Bread Recipe,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+c0419cfe-e67f-44bd-bc4e-92c25155e323,Mushroom Cutlet Vegetarian Sizzler Recipe,indian,hard,75,standard,vegetarian,Mushroom Cutlet Vegetarian Sizzler Recipe,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+18ec0f30-8396-4c4f-940b-9580f0178896,Veg Shawarma Recipe,indian,hard,75,standard,vegetarian,Veg Shawarma Recipe,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+7e24440c-68e7-4667-b796-7e8243b08ee0,Beetroot Soft Tart Recipe,indian,hard,90,standard,vegetarian,Beetroot Soft Tart Recipe,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+b87b9ecb-8de4-4b17-b445-3f828a784727,Basbousa Recipe - Middle Eastern Semolina Cake,indian,medium,100,standard,vegetarian,Basbousa Recipe - Middle Eastern Semolina Cake,veg_tags_with_meat_words
+1ac5ba63-c4dd-46f9-b3af-f8ec5c72a272,Herbed Cheesy Bun Recipe,indian,hard,100,standard,vegetarian,Herbed Cheesy Bun Recipe,veg_tags_with_meat_words
+bcf2699a-a483-4433-a77a-fb9a16386189,Open Burger with Vegetable Patty Recipe,indian,hard,100,standard,vegetarian,Open Burger with Vegetable Patty Recipe,veg_tags_with_meat_words
+d157cba4-326d-43a6-9630-b0a6d0a651ad,Vegan Gluten Free Banana Bread Recipe,indian,hard,100,standard,vegetarian,Vegan Gluten Free Banana Bread Recipe,veg_tags_with_meat_words
+cc536e89-e247-4e94-ae81-b421ae26a940,Goan Style Tonak Alsanyache Recipe (Black eyed beans cooked in Tonak Masala Recipe),indian,hard,105,standard,vegetarian,Goan Tonak Alsanyache Recipe (Black eyed beans cooked in Tonak Masala Recipe),veg_tags_with_meat_words
+d10a8f2c-3f7f-46d0-8426-a53f998d75f6,Pull Apart Bread With Basil Pesto Recipe,indian,hard,105,standard,vegetarian,Pull Apart Bread With Basil Pesto Recipe,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+ae1180d0-1cfc-405e-a5d8-b092eda38095,Turkish Baklava Recipe From Scratch,indian,hard,110,standard,vegetarian,Turkish Baklava Recipe From Scratch,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+b24d3e91-6f6a-4928-8252-00c2b637e05d,Veg Tunday Kabab Recipe,indian,hard,120,standard,vegetarian,Veg Tunday Kabab Recipe,veg_tags_with_meat_words
+268c255c-f1d8-46a7-add5-9535e4d834b5,Calzone/ Pocket Pizza/ Mc Puffs Recipe (With Baked Option),indian,hard,130,standard,vegetarian,Calzone/ Pocket Pizza/ Mc Puffs Recipe (With Baked Option),veg_tags_with_meat_words|quick_keyword_but_long_total_time
+903bbaff-3ee4-4748-8166-4866baba7fcb,Sweet and Spicy Pineapple Paneer Tikka Tawa Pizza Recipe,indian,hard,135,standard,vegetarian,Sweet and Spicy Pineapple Paneer Tikka Tawa Pizza Recipe,veg_tags_with_meat_words
+8faf92ac-479f-4221-a2fd-4ccbc796d350,Easy Tomato And Cheese Mini Pizza Recipe,indian,hard,140,easy,vegetarian,Tomato And Cheese Mini Pizza Recipe,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+d6aebfbf-3091-4af7-90f9-0925c72a48ad,Vanilla Choco Mousse Recipe With Chocolate Chips,indian,medium,145,standard,vegetarian,Vanilla Choco Mousse Recipe With Chocolate Chips,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+3e24e42f-15ee-495a-981a-e5599f345c51,Cheesy Pull Apart Bread Recipe,indian,medium,150,standard,vegetarian,Cheesy Pull Apart Bread Recipe,veg_tags_with_meat_words
+2925ec95-59d2-442e-9e4f-3c6804e00c51,Whole Wheat Homemade English Muffins Recipe,indian,medium,150,standard,vegetarian,Whole Wheat Homemade English Muffins Recipe,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+0927c49b-2be4-4236-bf6e-87f8d08ef155,Jowar Garlic Naan Recipe- Healthy Sorghum Naan,indian,medium,155,standard,vegetarian,Jowar Garlic Naan Recipe- Healthy Sorghum Naan,veg_tags_with_meat_words
+c1c41b81-680d-40a2-b0a1-0f198ebc1f72,Masala Cheese Bread Loaf Recipe With Garam Masala & Herbs,indian,medium,160,standard,vegetarian,Masala Cheese Bread Loaf Recipe With Garam Masala & Herbs,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+e8e2d21c-5d60-46bd-96eb-250f241b9bb7,Roasted Garlic No Knead Skillet Bread Recipe With Olives,indian,hard,160,standard,vegetarian,Roasted Garlic No Knead Skillet Bread Recipe With Olives,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+f18a55c6-dbf0-405a-b2f0-192d5ceed35f,Whole Wheat Mushroom Spinach Calzone Recipe,indian,hard,190,standard,vegetarian,Whole Wheat Mushroom Spinach Calzone Recipe,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+039b0337-e7b0-4e3b-862d-adccb90a745c,Whole Wheat Oats And Pesto Bread Recipe,indian,medium,210,standard,vegetarian,Whole Wheat Oats And Pesto Bread Recipe,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+37310455-f156-4491-b19a-bb47bae049ea,Lemon Grass Oats & Almonds Pudding Recipe with Macerated Berries,indian,hard,260,standard,vegetarian,Lemon Grass Oats & Almonds Pudding Recipe with Macerated Berries,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+e9282810-5bd4-4828-b046-357206510f40,Whole Wheat Roasted Vegetable Pizza Pockets Recipe,indian,hard,320,standard,vegetarian,Whole Wheat Roasted Vegetable Pizza Pockets Recipe,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+a175c585-df94-4a5e-9e1b-a3e79e4b214a,Goan Style Sana Recipe (Soft Steamed Rice Cakes),indian,hard,495,standard,vegetarian,Goan Sana Recipe (Soft Steamed Rice Cakes),veg_tags_with_meat_words|quick_keyword_but_long_total_time
+44a800e8-3b8e-42fb-a354-10ece6eb9376,Bottle Gourd Ice Cream Recipe - Lauki Ice Cream,indian,medium,610,standard,vegetarian,Bottle Gourd Ice Cream Recipe - Lauki Ice Cream,veg_tags_with_meat_words
+78a33e90-9309-413d-b719-453a58024ea8,Spicy Mexican Layered Chilli Rice Recipe,indian,hard,765,standard,vegetarian,Spicy Mexican Layered Chilli Rice Recipe,veg_tags_with_meat_words|quick_keyword_but_long_total_time
+60f9df78-1863-4e18-98ff-9b5fb0984aaa,Guava And Papaya Mimosa Drink Recipe,indian,easy,10,standard,vegetarian,Guava And Papaya Mimosa Drink Recipe,nonveg_tags_without_meat_words
+5599c0be-58d3-4a45-ae07-ab13c95b12e2,Apple Tea Latte Recipe,indian,easy,12,standard,vegetarian,Apple Tea Latte Recipe,nonveg_tags_without_meat_words
+9c04374f-02e1-4f57-9df0-a549e2c87dc8,Khamang Kakdi Recipe - Khamang Kakdi Recipe,indian,medium,12,standard,vegetarian,Khamang Kakdi Recipe - Khamang Kakdi Recipe,nonveg_tags_without_meat_words
+206ef089-9d76-4b67-8e5a-e7bb49e6f1d1,Khamang Kakdi Recipe - Maharashtrian Cucumber Salad,indian,easy,12,standard,vegetarian,Khamang Kakdi Recipe - Maharashtrian Cucumber Salad,nonveg_tags_without_meat_words
+31f67714-1b93-408c-b28e-f6ad823d61ed,Kothamalli Thogayal Recipe | Coriander Leaves Chutney,indian,easy,15,standard,vegetarian,Kothamalli Thogayal Recipe | Coriander Leaves Chutney,nonveg_tags_without_meat_words
+58bd5f73-239e-4899-b2bd-7845c0efe3a1,Kothamalli Thovayal Recipe (Dry Coriander Leaves Chutney),indian,easy,15,standard,vegetarian,Kothamalli Thovayal Recipe (Dry Coriander Leaves Chutney),nonveg_tags_without_meat_words
+72e75b89-45ff-4ae9-9090-8e33d6e5842e,Pachai Mor Kuzhambu Recipe,indian,medium,17,standard,vegetarian,Pachai Mor Kuzhambu Recipe,nonveg_tags_without_meat_words
+ea3b8df8-7b09-4414-a4d6-9997ee9417e1,Kerala Pazham Pori Recipe - Banana Fritters Recipe | Nedra Pazham Fry,indian,easy,20,standard,vegetarian,Kerala Pazham Pori Recipe - Banana Fritters Recipe | Nedra Pazham Fry,nonveg_tags_without_meat_words
+de79b279-d138-4022-8e01-f477c672d2cc,Muesli Banana Fritters Recipe,indian,easy,20,standard,vegetarian,Muesli Banana Fritters Recipe,nonveg_tags_without_meat_words
+2c5fb4be-f28f-4574-b6f2-70ed10945934,Sorakkai Paruppu Kuzhambu Recipe - Tamil Nadu Style Lauki Curry,indian,medium,20,standard,vegetarian,Sorakkai Paruppu Kuzhambu Recipe - Tamil Nadu Lauki Curry,nonveg_tags_without_meat_words
+2f205454-7849-46ab-8d87-d88aa7bcbfea,Biryani Chammanthi Recipe (Green Chutney Recipe),indian,easy,25,standard,vegetarian,Biryani Chammanthi Recipe (Green Chutney Recipe),nonveg_tags_without_meat_words
+e4dcde7c-10f2-4c08-a934-0c87ebb02a60,Nendra Pazham Pulissery Recipe - Ayurvedic Recipe,indian,easy,25,standard,vegetarian,Nendra Pazham Pulissery Recipe - Ayurvedic Recipe,nonveg_tags_without_meat_words
+62726de4-2974-4549-89f3-a705a57b267c,South Indian Papad Curry Recipe - Appalam Vathal Kuzhambu (Recipe),indian,easy,25,standard,vegetarian,South Indian Papad Curry Recipe - Appalam Vathal Kuzhambu (Recipe),nonveg_tags_without_meat_words
+e5e532c9-bc97-4112-9bb4-150b699b195d,Tamil Nadu Style Kothamali Aval Upma Recipe - Coriander Poha Recipe,indian,medium,25,standard,vegetarian,Tamil Nadu Kothamali Aval Upma Recipe - Coriander Poha Recipe,nonveg_tags_without_meat_words
+a333d78b-6628-4cb1-acb3-6a2219c7f0fb,Warm Red Lentil Salad With Goat Cheese Recipe,indian,medium,25,standard,vegetarian,Warm Red Lentil Salad With Goat Cheese Recipe,nonveg_tags_without_meat_words
+a2ef4503-f007-468f-b114-f7aa764825d2,Instant Khaman Dhokla Recipe,indian,hard,30,standard,vegetarian,Instant Khaman Dhokla Recipe,nonveg_tags_without_meat_words
+ac18290d-75d6-49f1-bd71-a271d0e6b777,Kashmiri Style Tamatar Chaman Recipe -Paneer Cooked With Tomatoes,indian,easy,30,standard,vegetarian,Kashmiri Tamatar Chaman Recipe -Paneer Cooked With Tomatoes,nonveg_tags_without_meat_words
+81af149a-b4ab-40fe-9997-fd4df0dccbf0,Keerai Karamani Kuzhambu- Palak Lobia Curry Recipe,indian,hard,30,standard,vegetarian,Keerai Karamani Kuzhambu- Palak Lobia Curry Recipe,nonveg_tags_without_meat_words
+1e3d4713-f6ea-48db-a0a3-1e2af83ed6bf,Mambazha Mor Kuzhambu Recipe - Ripe Mango Mor Kuzhambu,indian,easy,30,standard,vegetarian,Mambazha Mor Kuzhambu Recipe - Ripe Mango Mor Kuzhambu,nonveg_tags_without_meat_words
+ad084a8f-1e31-4eb4-88a1-2b1aff13978b,Murungakkai Mor Kuzhambu Recipe-Drumstick Buttermilk Curry,indian,easy,30,standard,vegetarian,Murungakkai Mor Kuzhambu Recipe-Drumstick Buttermilk Curry,nonveg_tags_without_meat_words
+ce695c7d-f9b4-4cee-98c7-ab273018cf6a,Orange Peel Kuzhambu Recipe - Orange Peel Tamarind Based Curry,indian,hard,30,standard,vegetarian,Orange Peel Kuzhambu Recipe - Orange Peel Tamarind Based Curry,nonveg_tags_without_meat_words
+337b2417-4471-4eb2-9a21-931d6f3a0ebc,Poondu Milagu Kuzhambu Recipe - Tamilnadu Style Garlic and Black Pepper Curry,indian,medium,30,standard,vegetarian,Poondu Milagu Kuzhambu Recipe - Tamilnadu Garlic and Black Pepper Curry,nonveg_tags_without_meat_words
+cb57be5b-451a-46a2-ae31-d52c53ce539f,Poricha Kuzhambu Recipe (Tamil Nadu Style Mixed Vegetables and Lentil Stew),indian,medium,30,standard,vegetarian,Poricha Kuzhambu Recipe (Tamil Nadu Mixed Vegetables and Lentil Stew),nonveg_tags_without_meat_words
+b79796de-7e73-4773-bcb2-86591010a0f0,Vendakkai-Vazhakkai Mor Kuzhambu Recipe (Tamil Nadu Style Lady's Finger & Raw Banana Curry),indian,hard,30,standard,vegetarian,Vendakkai-Vazhakkai Mor Kuzhambu Recipe (Tamil Nadu Lady's Finger & Raw Banana Curry),nonveg_tags_without_meat_words
+87b0034e-8fea-4491-84dc-53c25349824a,Aava Pettina Majjiga Pulusu Recipe - Andhra Style Mor Kuzhambu,indian,hard,35,standard,vegetarian,Aava Pettina Majjiga Pulusu Recipe - Andhra Mor Kuzhambu,nonveg_tags_without_meat_words
+af36af36-1fbb-4cd0-bdc0-0adb0c40e2bf,Chamadumpa Vepudu Recipe - Andhra Style Colocasia Stir Fry,indian,easy,35,standard,vegetarian,Chamadumpa Vepudu Recipe - Andhra Colocasia Stir Fry,nonveg_tags_without_meat_words
+140adc1f-e32d-4a51-8cac-5843e3f14658,Cucumber Mor Kuzhambu Recipe (Cucumber Curry),indian,easy,35,standard,vegetarian,Cucumber Mor Kuzhambu Recipe (Cucumber Curry),nonveg_tags_without_meat_words
+a187b228-98fb-4d0e-8a07-c82ce16ab20b,Ellu Kuzhambu Recipe- Sesame Seeds Kuzhambu,indian,medium,35,standard,vegetarian,Ellu Kuzhambu Recipe- Sesame Seeds Kuzhambu,nonveg_tags_without_meat_words
+f6e9cd23-60d4-4ffc-a1d3-bc429ebe0a0a,Sweet Dashami Recipe (Maharashtrian Flatbread Made With Wheat Flour & Sugarcane Juice),indian,easy,35,standard,vegetarian,Sweet Dashami Recipe (Maharashtrian Flatbread Made With Wheat Flour & Sugarcane Juice),nonveg_tags_without_meat_words
+78152524-359e-4ace-847a-f8b2672422b1,Thai Style Sweet Khao Tom Recipe (Coconut Sticky Rice Stuffed with Banana and Steamed),indian,easy,35,standard,vegetarian,Thai Sweet Khao Tom Recipe (Coconut Sticky Rice Stuffed with Banana and Steamed),nonveg_tags_without_meat_words
+1f84fc4b-ea17-4294-ac08-631e24f98cdb,White Pumpkin Mor Kuzhambu Recipe - Kerala Style White Pumpkin Curry,indian,hard,35,standard,vegetarian,White Pumpkin Mor Kuzhambu Recipe - Kerala White Pumpkin Curry,nonveg_tags_without_meat_words
+b414e582-2705-4503-87c9-b3db148a3b19,Andhra Style Chama Dumpa Pulusu Recipe - Arbi With Sesame Tamarind Sauce Recipe,indian,easy,40,standard,vegetarian,Andhra Chama Dumpa Pulusu Recipe - Arbi With Sesame Tamarind Sauce Recipe,nonveg_tags_without_meat_words
+0e796023-ca41-42c1-8ed5-882fd7eb1dc0,Bannada Saute Majjige Huli Recipe (Malabar Cucumber Mor Kuzhambu),indian,easy,40,standard,vegetarian,Bannada Saute Majjige Huli Recipe (Malabar Cucumber Mor Kuzhambu),nonveg_tags_without_meat_words
+bc73d4a4-18f1-4eb5-9788-d68247e80d24,Chammanthi Chutney Recipe,indian,medium,40,standard,vegetarian,Chammanthi Chutney Recipe,nonveg_tags_without_meat_words
+5abdbdc3-aad5-4581-990c-416477898980,Chammanthi Chutney Recipe (Coconut And Onion Chutney),indian,medium,40,standard,vegetarian,Chammanthi Chutney Recipe (Coconut And Onion Chutney),nonveg_tags_without_meat_words
+a9978241-092e-447d-afd1-b249094a1078,Chettinad Paruppu Urundai Kuzhambu (Steamed Lentil Balls Cooked in a Tangy Curry) Recipe,indian,hard,40,standard,vegetarian,Chettinad Paruppu Urundai Kuzhambu (Steamed Lentil Balls Cooked in a Tangy Curry) Recipe,nonveg_tags_without_meat_words
+f2376cd9-a09d-414a-8886-7a021471a280,Chettinad Thakkali Vengaya Kuzhambu Recipe,indian,medium,40,standard,vegetarian,Chettinad Thakkali Vengaya Kuzhambu Recipe,nonveg_tags_without_meat_words
+3766bab9-7a61-41c2-bd1f-968952485554,Chow-Chow Kothamalli Chutney Recipe - Chayote Coriander Chutney,indian,easy,40,standard,vegetarian,Chow-Chow Kothamalli Chutney Recipe - Chayote Coriander Chutney,nonveg_tags_without_meat_words
+c016a365-ef31-4f07-9544-ef2518d2eb03,Kerala Style Pazham Pori Recipe (Banana Fry),indian,easy,40,standard,vegetarian,Kerala Pazham Pori Recipe (Banana Fry),nonveg_tags_without_meat_words
+b60762f6-3055-40e9-8383-fd19c8053910,Kondakadalai Puli Vengaya Kuzhambu Recipe (South Indian Style Spicy And Tangy Kala Chana),indian,easy,40,standard,vegetarian,Kondakadalai Puli Vengaya Kuzhambu Recipe (South Indian Spicy And Tangy Kala Chana),nonveg_tags_without_meat_words
+208ca9e6-d119-4f62-a768-b4637d2abee5,Kothamalli Rava Upma Recipe - Coriander Semolina Pudding,indian,medium,40,standard,vegetarian,Kothamalli Rava Upma Recipe - Coriander Semolina Pudding,nonveg_tags_without_meat_words
+46cd0347-c60b-461c-a26d-4119dee9be3d,Methi Chaman Recipe -Paneer In Dark Leafy Greens Based Gravy,indian,easy,40,standard,vegetarian,Methi Chaman Recipe -Paneer In Dark Leafy Greens Based Gravy,nonveg_tags_without_meat_words
+621012d4-9cc2-450a-92ee-f124970291fa,Milagu Kozhambu Recipe,indian,hard,40,standard,vegetarian,Milagu Kozhambu Recipe,nonveg_tags_without_meat_words
+06d490f8-e57e-4457-8d01-db63a843be8d,Shimla Mirchi Panchamrut Recipe | Konkani Capsicum Cashew Peanut Sabzi,indian,hard,40,standard,vegetarian,Shimla Mirchi Panchamrut Recipe | Konkani Capsicum Cashew Peanut Sabzi,nonveg_tags_without_meat_words
+9ba12b13-7c5c-4b2a-ad8f-9bdf8df3d8cc,Ada Pradhaman Recipe With Homemade Ada- Kerala Special Payasam Recipe,indian,medium,45,standard,vegetarian,Ada Pradhaman Recipe With Homemade Ada- Kerala Special Payasam Recipe,nonveg_tags_without_meat_words
+2870e53c-e04b-4907-a544-e490f815de05,Kashmiri Style Chaman Recipe-Qaliya Cottage Cheese Curry,indian,medium,45,standard,vegetarian,Kashmiri Chaman Recipe-Qaliya Cottage Cheese Curry,nonveg_tags_without_meat_words
+4dd5e2e9-836a-4feb-9dac-8286e0d3bc3e,Khaman Dhokla Poha Recipe,indian,easy,45,standard,vegetarian,Khaman Dhokla Poha Recipe,nonveg_tags_without_meat_words
+b047b04c-20be-4540-8ddb-3ffcb62f2713,Kothamalli Karuveppilai Sadam Recipe - Coriander And Curry Leaves Rice,indian,hard,45,standard,vegetarian,Kothamalli Karuveppilai Sadam Recipe - Coriander And Curry Leaves Rice,nonveg_tags_without_meat_words
+77ebdab7-b4bc-4cb9-9366-e6c8bd97bd57,Kothamalli Kozhukattai (Coriander Rice) Recipe,indian,medium,45,standard,vegetarian,Kothamalli Kozhukattai (Coriander Rice) Recipe,nonveg_tags_without_meat_words
+f081a063-215e-42ba-b451-730e411344e3,Spaghetti Aglio Olio Pasta Recipe with Bacon,indian,medium,45,standard,vegetarian,Spaghetti Aglio Olio Pasta Recipe with Bacon,nonveg_tags_without_meat_words
+f6032709-7995-47f5-a5b3-eb684975031b,Tirunelveli Sodhi Kuzhambu Recipe - Mixed Vegetable Stew,indian,hard,45,standard,vegetarian,Tirunelveli Sodhi Kuzhambu Recipe - Mixed Vegetable Stew,nonveg_tags_without_meat_words
+93cb4ba9-c30a-4799-a17f-479bbd8ae927,Avocado Ada Pradhaman Recipe (With Vegan Option),indian,easy,50,standard,vegetarian,Avocado Ada Pradhaman Recipe (With Vegan Option),nonveg_tags_without_meat_words
+7e356375-d474-481e-9c77-94d574bb6ef4,Bonda Mor Kuzhambu Recipe,indian,medium,50,standard,vegetarian,Bonda Mor Kuzhambu Recipe,nonveg_tags_without_meat_words
+d1401516-9606-4026-9d7b-92c521093550,Chettinad Nandu Varuval Recipe (Crab Fry Dry With Baby Onions),indian,hard,50,standard,vegetarian,Chettinad Nandu Varuval Recipe (Crab Fry Dry With Baby Onions),nonveg_tags_without_meat_words
+85b2fea9-23a5-4f1c-9884-f9c9c6e434fa,Chinna Vengaya Puli Kuzhambu Recipe (Spicy Tangy Baby Onion Curry),indian,medium,50,standard,vegetarian,Chinna Vengaya Puli Kuzhambu Recipe (Spicy Tangy Baby Onion Curry),nonveg_tags_without_meat_words
+31bf8cda-c03a-46ec-91c1-bf085457172c,Karuveppilai Kuzhambu Recipe (Tangy & Spicy Curry Leaves Curry),indian,hard,50,standard,vegetarian,Karuveppilai Kuzhambu Recipe (Tangy & Spicy Curry Leaves Curry),nonveg_tags_without_meat_words
+f277e1f6-3c6e-428b-a88c-7d9de1c38d08,Murungakkai Puli Kuzhambu Recipe -Spicy Drumstick Curry,indian,easy,50,standard,vegetarian,Murungakkai Puli Kuzhambu Recipe -Spicy Drumstick Curry,nonveg_tags_without_meat_words
+13ce3ed9-0980-4ed2-adf4-5923fc2d6d00,No Bake Lemon Bars Recipe,indian,hard,50,standard,vegetarian,No Bake Lemon Bars Recipe,nonveg_tags_without_meat_words
+5760b6b7-1019-4079-88ad-b5ea27d9fcf6,Paneer Pav Bhaji Recipe - Wholesome Weeknight Dinner,indian,hard,50,standard,vegetarian,Paneer Pav Bhaji Recipe - Wholesome Weeknight Dinner,nonveg_tags_without_meat_words
+1c6e49fa-a524-4cf2-ae22-ff00910560de,Sorakkai Kozhukattai Paal Kuzhambu Recipe - Bottle Gourd Curry,indian,medium,50,standard,vegetarian,Sorakkai Kozhukattai Paal Kuzhambu Recipe - Bottle Gourd Curry,nonveg_tags_without_meat_words
+91823ef9-4b29-4635-9e32-2e5538504aa9,Sorakkai Puli Kuzhambu Recipe - Tangy Bottle Gourd Curry,indian,easy,50,standard,vegetarian,Sorakkai Puli Kuzhambu Recipe - Tangy Bottle Gourd Curry,nonveg_tags_without_meat_words
+1e573c22-981f-42b3-a2a1-cb51544ede35,Kakrar Jhal (Bengali Crab Korma Recipe),indian,medium,55,standard,vegetarian,Kakrar Jhal (Bengali Crab Korma Recipe),nonveg_tags_without_meat_words
+982f7234-5f3b-46b1-babd-5095d044057f,Vepampoo Kara Kuzhambu Recipe (Dried Neem Flower Gravy),indian,medium,55,standard,vegetarian,Vepampoo Kara Kuzhambu Recipe (Dried Neem Flower Gravy),nonveg_tags_without_meat_words
+14a6c859-0485-46fc-8f93-f9737dd341c8,Kakrar Jhal Recipe - Bengali Style Crab Curry,indian,hard,60,standard,vegetarian,Kakrar Jhal Recipe - Bengali Crab Curry,nonveg_tags_without_meat_words|quick_keyword_but_long_total_time
+3c7dfd18-9b4b-4526-a366-d06177a41f3f,Khamiri Roti Recipe,indian,easy,60,standard,vegetarian,Khamiri Roti Recipe,nonveg_tags_without_meat_words
+3223759f-1800-4c7a-9de5-dbfe2329ed64,Mambazha Pulissery Recipe - Mango Mor Kuzhambu Recipe,indian,easy,60,standard,vegetarian,Mambazha Pulissery Recipe - Mango Mor Kuzhambu Recipe,nonveg_tags_without_meat_words
+7eb77d77-6fcc-4f3d-ac13-a0290e007c2b,Mangalore Buns Recipe - Puffed Banana Puris,indian,easy,60,standard,vegetarian,Mangalore Buns Recipe - Puffed Banana Puris,nonveg_tags_without_meat_words
+6d0d0a06-575b-4713-b793-71847639b041,Spicy Cabbage Rice Recipe (South Indian Style Mutta Kose Sadham Recipe),indian,medium,65,standard,vegetarian,Spicy Cabbage Rice Recipe (South Indian Mutta Kose Sadham Recipe),nonveg_tags_without_meat_words
+d9d290ea-97db-46d8-b08f-aca5fdabc006,Tomato Tarts Recipe,indian,medium,65,standard,vegetarian,Tomato Tarts Recipe,nonveg_tags_without_meat_words|quick_keyword_but_long_total_time
+dcb2a1d1-35db-4c93-b521-7b56d53f8be7,Ada Pradhaman Recipe - Kerala Style Rice Ada Pudding With Jaggery & Coconut Milk,indian,medium,70,standard,vegetarian,Ada Pradhaman Recipe - Kerala Rice Ada Pudding With Jaggery & Coconut Milk,nonveg_tags_without_meat_words
+f4be23aa-e07c-451d-a966-2f793c78f06e,Crispy Crab Rangoons Recipe,indian,medium,80,standard,vegetarian,Crispy Crab Rangoons Recipe,nonveg_tags_without_meat_words
+8812bd33-3053-42a0-ad3a-2215f82d092f,Kollu Puli Kuzhambu Recipe - Horsegram In A Tangy Gravy,indian,hard,80,standard,vegetarian,Kollu Puli Kuzhambu Recipe - Horsegram In A Tangy Gravy,nonveg_tags_without_meat_words|quick_keyword_but_long_total_time
+dd27f876-6065-4ee1-911c-9f9aae3ce7ad,Spicy Crab Masala Recipe,indian,hard,80,standard,vegetarian,Spicy Crab Masala Recipe,nonveg_tags_without_meat_words|quick_keyword_but_long_total_time
+a3164a42-441b-48b9-9903-f2155c9667e5,Kerala pala pradham recipe,indian,hard,90,standard,vegetarian,Kerala pala pradham recipe,nonveg_tags_without_meat_words
+e4bee7c3-9818-4ff0-9548-7c755627a943,Malabar Kaai Curry Recipe With Nenthra Pazham,indian,medium,90,standard,vegetarian,Malabar Kaai Curry Recipe With Nenthra Pazham,nonveg_tags_without_meat_words
+42865aa6-c95e-4741-ac3f-51a3ef328fd8,Masala Vadai Kuzhambu Recipe (Mudaliar Style Curried Fritters In Spicy Tamarind Gravy),indian,hard,95,standard,vegetarian,Masala Vadai Kuzhambu Recipe (Mudaliar Curried Fritters In Spicy Tamarind Gravy),nonveg_tags_without_meat_words|quick_keyword_but_long_total_time
+1bc52104-65f5-40f4-a86b-295c023cb95d,Vegetarian Shami Kebab Recipe (Chane Ke Kebab),indian,hard,105,standard,vegetarian,Vegetarian Shami Kebab Recipe (Chane Ke Kebab),nonveg_tags_without_meat_words|quick_keyword_but_long_total_time
+228821b8-36d7-43ff-83ea-3071a7f06909,No-Bake Strawberry Cream Cheese Dessert Recipe,indian,medium,110,standard,vegetarian,No-Bake Strawberry Cream Cheese Dessert Recipe,nonveg_tags_without_meat_words|quick_keyword_but_long_total_time
+334d78e0-2228-4f6d-bf54-58b1e4e338d2,Cheese and Bacon Pinwheels Recipe,indian,hard,130,standard,vegetarian,Cheese and Bacon Pinwheels Recipe,nonveg_tags_without_meat_words|quick_keyword_but_long_total_time
+d276e294-0c18-475a-b146-131b0674e15b,Croissant Recipe,indian,hard,165,standard,vegetarian,Croissant Recipe,nonveg_tags_without_meat_words|quick_keyword_but_long_total_time
+1a846614-1164-4159-b505-ffb2d044eafe,Aloo Kulcha Recipe (Spiced Potato Stuffed Indian Flat Bread),indian,hard,60,standard,vegetarian,Aloo Kulcha Recipe (Spiced Potato Stuffed Indian Flat Bread),quick_keyword_but_long_total_time
+f7f23dd0-9e32-4848-b261-23e8c23cb733,Aloo Paneer Kebab Recipe,indian,easy,60,standard,vegetarian,Aloo Paneer Kebab Recipe,quick_keyword_but_long_total_time
+55eb4233-b8b1-41f8-b9b8-27e55fdd98de,Andhra Style Mutton Curry Recipe,indian,medium,60,standard,non_veg,Andhra Mutton Curry Recipe,quick_keyword_but_long_total_time
+8780890b-c39d-4df4-a93b-b040846eee99,Arbi Ke Patte Ke Pakode - Colocasia Leaf Rolls Recipe,indian,medium,60,standard,vegetarian,Arbi Ke Patte Ke Pakode - Colocasia Leaf Rolls Recipe,quick_keyword_but_long_total_time
+f24201ee-2a9d-4688-87db-76faaa66d82a,Assamese Boror Tenga Recipe (Vegetarian Sour Curry With Masoor Dal Fritters),indian,hard,60,standard,vegetarian,Assamese Boror Tenga Recipe (Vegetarian Sour Curry With Masoor Dal Fritters),quick_keyword_but_long_total_time
+3f011619-de7f-47e2-86ed-f692396e11f9,Baked Mathri Recipe (Non Fried Tea Time Snack),indian,easy,60,standard,vegetarian,Baked Mathri Recipe (Non Fried Tea Time Snack),quick_keyword_but_long_total_time
+8a67833d-f1fc-4e20-a99e-9ce649c133f8,Baked Potato & Peas Samosa With Phyllo Pastry Recipe,indian,medium,60,standard,vegetarian,Baked Potato & Peas Samosa With Phyllo Pastry Recipe,quick_keyword_but_long_total_time
+7c487a91-b94c-42c8-ba3d-f7d9adcdf982,Baked Stuffed Baati With Churma And Panchratna Dal Recipe,indian,hard,60,standard,vegetarian,Baked Stuffed Baati With Churma And Panchratna Dal Recipe,quick_keyword_but_long_total_time
+cdf62192-801e-47f3-925d-92abeabca362,Baked Yogurt With Honey Cinnamon Grilled Fruits Recipe,indian,easy,60,standard,vegetarian,Baked Yogurt With Honey Cinnamon Grilled Fruits Recipe,quick_keyword_but_long_total_time
+a6dd9df6-2b5f-4577-b291-ad2ef3f86f2b,Bakery Style Baked Nippattu Recipe,indian,hard,60,standard,vegetarian,Bakery Baked Nippattu Recipe,quick_keyword_but_long_total_time
+0f574717-c6fa-4235-a40a-1bb377ad554e,Beetroot Halwa Recipe (With Vegan Option),indian,easy,60,standard,vegetarian,Beetroot Halwa Recipe (With Vegan Option),quick_keyword_but_long_total_time
+dbf323a8-21f1-4d8d-92c3-19802ff6d996,Bhakri Chaat Recipe With Green Moong Sprouts And Aloo,indian,hard,60,standard,vegetarian,Bhakri Chaat Recipe With Green Moong Sprouts And Aloo,quick_keyword_but_long_total_time
+478233c4-cf6c-46ae-b5bb-2844c00ce071,Blueberry Muffin Cake Recipe,indian,easy,60,standard,vegetarian,Blueberry Muffin Cake Recipe,quick_keyword_but_long_total_time
+84c1a81f-3bf7-45c8-91be-12baede2b618,Broccoli & Vegetable Coconut Curry Recipe,indian,hard,60,standard,vegetarian,Broccoli & Vegetable Coconut Curry Recipe,quick_keyword_but_long_total_time
+ec8ec7e2-0502-4edc-9b91-e526f55c3157,Brown Rice Flakes Pudding / Desi Poha Kheer Recipe,indian,easy,60,standard,vegetarian,Brown Rice Flakes Pudding / Desi Poha Kheer Recipe,quick_keyword_but_long_total_time
+d7ed770f-aff8-4fde-8914-230c7d08ddc3,Buckwheat & Oat Waffle Recipe With Bananas & Vanilla Ice Cream,indian,medium,60,standard,vegetarian,Buckwheat & Oat Waffle Recipe With Bananas & Vanilla Ice Cream,quick_keyword_but_long_total_time
+b64f1626-48f3-4adf-8d90-410d4d2bc44e,Buckwheat Crepe Recipe with Fruit Compote,indian,medium,60,standard,vegetarian,Buckwheat Crepe Recipe with Fruit Compote,quick_keyword_but_long_total_time
+46bb52ed-2f3e-4feb-92fd-9633f22d355e,Bulgur Wheat Potato Patty Recipe,indian,medium,60,standard,vegetarian,Bulgur Wheat Potato Patty Recipe,quick_keyword_but_long_total_time
+968ab086-094d-44d0-9fce-a775b1876946,Cabbage & Dal Stuffed Paratha Recipe,indian,hard,60,standard,vegetarian,Cabbage & Dal Stuffed Paratha Recipe,quick_keyword_but_long_total_time
+7413b389-f6ae-4956-ac20-dd13c78580a8,Capsicum Curry Recipe,indian,hard,60,standard,vegetarian,Capsicum Curry Recipe,quick_keyword_but_long_total_time
+e2c5cd53-c758-4da4-8ee8-a08ce98e3818,Carrot And Orange Loaf Cake Recipe,indian,easy,60,standard,vegetarian,Carrot And Orange Loaf Cake Recipe,quick_keyword_but_long_total_time
+2b4f8a88-1c92-4bd6-96aa-9f6aa7b480d5,Carrot Bran Breakfast Muffin Recipe,indian,medium,60,standard,vegetarian,Carrot Bran Breakfast Muffin Recipe,quick_keyword_but_long_total_time
+2554c3be-6497-4be2-a1c2-7bc3e34e1154,Cauliflower Croquettes Recipe,indian,easy,60,standard,vegetarian,Cauliflower Croquettes Recipe,quick_keyword_but_long_total_time
+36788713-700e-4df0-8ad3-fd103dbede91,"Cauliflower Crust Pizza With Pesto, Sundried Tomatoes & Goat Cheese",indian,medium,60,standard,vegetarian,"Cauliflower Crust Pizza With Pesto, Sundried Tomatoes & Goat Cheese",quick_keyword_but_long_total_time
+4e3f6e8a-e828-4c05-b77a-be7368acc460,Chicken Momos Recipe -Delicious Steamed Chicken Dumplings,indian,easy,60,standard,non_veg,Chicken Momos Recipe -Delicious Steamed Chicken Dumplings,quick_keyword_but_long_total_time
+16179014-5cf1-412c-b941-93034a7c1f0a,Chocolate And Oats Christmas Cookie Cake Recipe,indian,medium,60,standard,vegetarian,Chocolate And Oats Christmas Cookie Cake Recipe,quick_keyword_but_long_total_time
+c3211e50-4c17-48ac-9cc3-2a94db053059,Chocolate Crinkle Cookies Recipe,indian,medium,60,standard,vegetarian,Chocolate Crinkle Cookies Recipe,quick_keyword_but_long_total_time
+22c76763-49c0-4fd6-b173-1e005ededf93,Coffee Raisin Cake With Sugar Glaze Recipe,indian,hard,60,standard,vegetarian,Coffee Raisin Cake With Sugar Glaze Recipe,quick_keyword_but_long_total_time
+5a821502-496d-46b6-b525-c828390d9573,Coorg Koli Curry Recipe - Coorgi Chicken Curry,indian,medium,60,standard,non_veg,Coorg Koli Curry Recipe - Coorgi Chicken Curry,quick_keyword_but_long_total_time
+a8748230-96c5-45a4-b263-408555bcee96,Corn only quiche recipe,indian,hard,60,standard,vegetarian,Corn only quiche recipe,quick_keyword_but_long_total_time
+d7cc8d68-f715-45b0-b241-7a92c0402a87,Creamy Kulfi Kebab Recipe With Tandoori Mayo Recipe,indian,easy,60,standard,vegetarian,Creamy Kulfi Kebab Recipe With Tandoori Mayo Recipe,quick_keyword_but_long_total_time
+5d391a1c-380d-4923-9f9b-0a64706a2780,Croquettes Recipe With Bhetki Fish,indian,medium,60,standard,non_veg,Croquettes Recipe With Bhetki Fish,quick_keyword_but_long_total_time
+320946b3-c52f-4448-861a-370f41e906b2,Delicious Spicy Chyawanprash Cookies Recipe,indian,easy,60,standard,vegetarian,Delicious Spicy Chyawanprash Cookies Recipe,quick_keyword_but_long_total_time
+0146b5dc-c10d-4367-b59c-06c1a0489f02,Delmonte Beetballs Pasta Recipe,indian,hard,60,standard,vegetarian,Delmonte Beetballs Pasta Recipe,quick_keyword_but_long_total_time
+15f7ef07-be6a-494f-9e93-466359a8d1f7,Eggless & Gluten free Oats Banana Brownie Recipe,indian,medium,60,standard,non_veg,Eggless & Gluten free Oats Banana Brownie Recipe,quick_keyword_but_long_total_time
+64cfa4f7-538f-448c-b485-da0394ffc045,Eggless Cake Pops Recipe,indian,easy,60,standard,non_veg,Eggless Cake Pops Recipe,quick_keyword_but_long_total_time
+b157b07a-6940-4454-9f60-bc32347703f1,Eggless Cinnamon Flavoured Apple & Plum Cake Recipe,indian,medium,60,standard,non_veg,Eggless Cinnamon Flavoured Apple & Plum Cake Recipe,quick_keyword_but_long_total_time
+19036e20-3152-45f9-aee6-3bfc76206816,Eggless Fudgy Chocolate Chunk Brownie Recipe,indian,medium,60,standard,non_veg,Eggless Fudgy Chocolate Chunk Brownie Recipe,quick_keyword_but_long_total_time
+761da22b-c468-4e05-b5ee-85431abf32d1,"Eggless Strawberry, Rose And Pistachio Cake Recipe",indian,medium,60,standard,non_veg,"Eggless Strawberry, Rose And Pistachio Cake Recipe",quick_keyword_but_long_total_time
+65e95e89-4b72-4994-a26d-7ef81e716bd1,Eggless Whole Wheat Banana Muffins Recipe,indian,medium,60,standard,non_veg,Eggless Whole Wheat Banana Muffins Recipe,quick_keyword_but_long_total_time
+1ccdcec3-9f14-4497-9bf2-6d7fd96d26f5,Eggless Whole Wheat Pineapple Muffins Recipe,indian,easy,60,standard,non_veg,Eggless Whole Wheat Pineapple Muffins Recipe,quick_keyword_but_long_total_time
+c2a352bd-3e08-4d39-a34f-1c793787a62d,Fennel Potato Croquettes With Paneer Recipe,indian,medium,60,standard,vegetarian,Fennel Potato Croquettes With Paneer Recipe,quick_keyword_but_long_total_time
+5282952e-7b22-489e-a4f3-871a27cd0e65,Filter Coffee Fudge Brownies Recipe,indian,medium,60,standard,vegetarian,Filter Coffee Fudge Brownies Recipe,quick_keyword_but_long_total_time
+1d7431c8-b854-4416-a4f2-506ab018bd41,Garlic Chickpeas And Spinach Curry Recipe,indian,medium,60,standard,vegetarian,Garlic Chickpeas And Spinach Curry Recipe,quick_keyword_but_long_total_time
+41370b5c-c71f-4237-9530-19ea05586fe6,Goan Mushroom Xacuti Recipe,indian,medium,60,standard,vegetarian,Goan Mushroom Xacuti Recipe,quick_keyword_but_long_total_time
+c0ad2ff0-0c36-4d9c-8bd6-3416c4248712,Godhumai Idli Recipe (Instant Whole Wheat Flour Idli),indian,medium,60,standard,vegetarian,Godhumai Idli Recipe (Instant Whole Wheat Flour Idli),quick_keyword_but_long_total_time
+95760410-de94-4dce-b190-c1aa11695483,Greek Style Briami Recipe (Simple Vegetable Stew Recipe),indian,medium,60,standard,vegetarian,Greek Briami Recipe (Simple Vegetable Stew Recipe),quick_keyword_but_long_total_time
+38adf217-f317-4fc7-9a81-287432fef477,Grilled Eggplant Roll Recipe With Spicy Herbed Carrots,indian,easy,60,standard,non_veg,Grilled Eggplant Roll Recipe With Spicy Herbed Carrots,quick_keyword_but_long_total_time
+749e0fa3-8ea3-4791-9734-d2c8d1a39dee,Hariyali Mutton Curry Recipe,indian,medium,60,standard,non_veg,Hariyali Mutton Curry Recipe,quick_keyword_but_long_total_time
+7e6ae0a0-dd7a-4ec9-9165-4ad1b1b2f63d,Healthy Aloo Roll Recipe (Baked Bread Potato Roll),indian,medium,60,standard,vegetarian,Healthy Aloo Roll Recipe (Baked Bread Potato Roll),quick_keyword_but_long_total_time
+9e9b4ef1-6538-40d6-a2a7-05371e6ab5fd,Healthy Oats And Nuts Energy Bar Recipe,indian,easy,60,standard,vegetarian,Healthy Oats And Nuts Energy Bar Recipe,quick_keyword_but_long_total_time
+db88c13e-965d-40c1-94c8-1388ec09a9f5,Healthy Rose Cookies Recipe With Persian Twist,indian,easy,60,standard,vegetarian,Healthy Rose Cookies Recipe With Persian Twist,quick_keyword_but_long_total_time
+37456549-fb92-4202-862a-06dd95ec6864,Heart Shaped Cake Pops Recipe,indian,medium,60,standard,vegetarian,Heart Shaped Cake Pops Recipe,quick_keyword_but_long_total_time
+eedc601b-9cda-4a00-8f80-6e115e6bc831,Herbed Lentil Loaf Recipe Using Horsegram,indian,medium,60,standard,vegetarian,Herbed Lentil Loaf Recipe Using Horsegram,quick_keyword_but_long_total_time
+6ded1df9-1813-4a2e-9782-7a663277d62b,High Protein Spinach & Soy Bites Recipe,indian,medium,60,standard,vegetarian,High Protein Spinach & Soy Bites Recipe,quick_keyword_but_long_total_time
+eb40d4a7-b2cd-4ab2-b3c6-29337379eefb,Homemade Sev Recipe - Gram Flour Vermicelli Snack,indian,easy,60,standard,vegetarian,Homemade Sev Recipe - Gram Flour Vermicelli Snack,quick_keyword_but_long_total_time
+2f94b137-5497-49f1-94ba-8a82f5618cbd,Indian Chicken Keema Sliders Recipe,indian,hard,60,standard,non_veg,Indian Chicken Keema Sliders Recipe,quick_keyword_but_long_total_time
+4a7e91db-292c-48b8-855b-bb62e3e5b67a,Indian Style Beetroot Soup Recipe,indian,medium,60,standard,vegetarian,Indian Beetroot Soup Recipe,quick_keyword_but_long_total_time
+eb865762-5fc3-4158-9d93-5a7dad183678,Iyengar Bakery Khara Biscuit Recipe,indian,medium,60,standard,vegetarian,Iyengar Bakery Khara Biscuit Recipe,quick_keyword_but_long_total_time
+e63cdb59-2b53-40d4-a3dd-92a3c19e92d5,Kalyana Veetu Senai Curry Recipe,indian,medium,60,standard,vegetarian,Kalyana Veetu Senai Curry Recipe,quick_keyword_but_long_total_time
+a5589aa0-edf5-41ac-8a29-4c9d971b3281,Kolkata Club Style Baked Kachori Aloo Recipe,indian,hard,60,standard,vegetarian,Kolkata Club Baked Kachori Aloo Recipe,quick_keyword_but_long_total_time
+fc3457b1-8e37-4176-8f93-1dda96604d58,Kori Gassi Recipe - Mangalorean Traditional Chicken Curry With Coconut Milk,indian,hard,60,traditional,non_veg,Kori Gassi Recipe - Mangalorean Chicken Curry With Coconut Milk,quick_keyword_but_long_total_time
+f52ddaef-4430-48d7-be6c-aef2f852406b,Leftover Carrot Cake Mini Trifle Recipe,indian,medium,60,standard,vegetarian,Leftover Carrot Cake Mini Trifle Recipe,quick_keyword_but_long_total_time
+31f66769-5e88-49b7-ae0a-18d1ea7f5dde,Malabar Mutton Biryani Recipe,indian,hard,60,standard,non_veg,Malabar Mutton Biryani Recipe,quick_keyword_but_long_total_time
+b1b45c99-bb51-4865-beba-fc5e6db5a3e0,Mangalorean Style Masala Pundi Recipe - Steamed rice dumpling in Onion Gravy,indian,hard,60,standard,vegetarian,Mangalorean Masala Pundi Recipe - Steamed rice dumpling in Onion Gravy,quick_keyword_but_long_total_time
+b612d9c4-d94f-449f-8325-541d69d89639,Mawa Gujiya With Badam and Pista Recipe,indian,hard,60,standard,vegetarian,Mawa Gujiya With Badam and Pista Recipe,quick_keyword_but_long_total_time
+ae88ed6d-4006-4b25-82aa-161f53581b95,Mexican Brown Rice and Quinoa Casserole Recipe,indian,hard,60,standard,vegetarian,Mexican Brown Rice and Quinoa Casserole Recipe,quick_keyword_but_long_total_time
+d91c170e-9c54-41c7-a19a-397deb6772ed,Mexican Chicken Meatball Chilli Stew Recipe,indian,hard,60,standard,non_veg,Mexican Chicken Meatball Chilli Stew Recipe,quick_keyword_but_long_total_time
+368a0048-2c57-4067-a167-a9c7a8e1f8b8,Motichoor Modak Recipe,indian,hard,60,standard,vegetarian,Motichoor Modak Recipe,quick_keyword_but_long_total_time
+b7fbb26a-b58d-4457-ae38-8105c33f0a3c,Mudaliar Style Omelette Curry Recipe,indian,medium,60,standard,vegetarian,Mudaliar Omelette Curry Recipe,quick_keyword_but_long_total_time
+3089a843-ddd8-4af2-8704-da4839a335bd,"Mushroom, cheese and soy chunk samosa recipe",indian,hard,60,standard,vegetarian,"Mushroom, cheese and soy chunk samosa recipe",quick_keyword_but_long_total_time
+faaf22c9-6f30-462b-8abc-841392adba28,Mysore Masala Dosa Made With Yeast Dosa Batter,indian,hard,60,standard,vegetarian,Mysore Masala Dosa Made With Yeast Dosa Batter,quick_keyword_but_long_total_time
+5f23f2eb-37f5-4f49-a0ae-451b41a320e7,Oats Cheela Recipe Stuffed With Creamy Palak Paneer,indian,easy,60,standard,vegetarian,Oats Cheela Recipe Stuffed With Creamy Palak Paneer,quick_keyword_but_long_total_time
+683d6d52-3f13-443a-b2cd-6bd0beba8385,Oats Uttapam topped with Paneer Recipe,indian,medium,60,standard,vegetarian,Oats Uttapam topped with Paneer Recipe,quick_keyword_but_long_total_time
+d6d88e5e-03f6-4db6-8cd2-1e71655b9cef,Oil Free Gujarati Undhiyu Recipe - No Onion No Garlic,indian,hard,60,standard,vegetarian,Oil Free Gujarati Undhiyu Recipe - No Onion No Garlic,quick_keyword_but_long_total_time
+d39c356a-9a0b-41e3-9fee-c01583f3f7eb,Palak And Kala Chana Sukhi Sabzi Recipe,indian,hard,60,standard,vegetarian,Palak And Kala Chana Sukhi Sabzi Recipe,quick_keyword_but_long_total_time
+1b10ff88-c934-408e-a86e-0b911ab85a37,Palak Chole Recipe (Spinach & Chickpea Curry),indian,hard,60,standard,vegetarian,Palak Chole Recipe (Spinach & Chickpea Curry),quick_keyword_but_long_total_time
+0f541e69-0065-4087-8b40-37f0c6798815,Paneer Butter Masala Recipe,indian,medium,60,standard,vegetarian,Paneer Butter Masala Recipe,quick_keyword_but_long_total_time
+15e68f14-019b-4223-b1e9-ac2dec6b9d99,Prawns Biryani Recipe,indian,medium,60,standard,non_veg,Prawns Biryani Recipe,quick_keyword_but_long_total_time
+fd975c09-0e13-4d0a-99ac-393b8c00cf48,Pudina Mushroom And Soya Biryani Recipe,indian,hard,60,standard,vegetarian,Pudina Mushroom And Soya Biryani Recipe,quick_keyword_but_long_total_time
+f224bbca-ff52-469e-959d-1cb9d089786b,Pumpkin Wade (Sweet Pumpkin Pooris) Recipe,indian,medium,60,standard,vegetarian,Pumpkin Wade (Sweet Pumpkin Pooris) Recipe,quick_keyword_but_long_total_time
+9f42b26f-5594-49df-b88f-06030743d235,Pyaaz Ki Kachori Recipe,indian,hard,60,standard,vegetarian,Pyaaz Ki Kachori Recipe,quick_keyword_but_long_total_time
+62eac753-7f57-485b-b46c-37178b271d46,Quatre Quart Pound Cake Recipe With Fresh Figs,indian,medium,60,standard,vegetarian,Quatre Quart Pound Cake Recipe With Fresh Figs,quick_keyword_but_long_total_time
+c22114b0-1363-4f3b-8855-7d62ac8529c2,Quick & Spicy Mutton Curry Recipe,indian,medium,60,quick,non_veg,& Spicy Mutton Curry Recipe,quick_keyword_but_long_total_time
+bf544070-5ce6-4478-b21d-0b0aa51aea9e,Quinoa With Grilled Zucchini & Chickpea Recipe,indian,medium,60,standard,vegetarian,Quinoa With Grilled Zucchini & Chickpea Recipe,quick_keyword_but_long_total_time
+d5cba419-6b2e-40dd-89d7-1bc91516a989,Quinoa-Flaxseed Banana Muffins Recipe,indian,medium,60,standard,vegetarian,Quinoa-Flaxseed Banana Muffins Recipe,quick_keyword_but_long_total_time
+ad0dbfec-ad74-4512-94f9-fd1fe1a9b824,Rajasthani Dal Baaple Churma Recipe,indian,hard,60,standard,vegetarian,Rajasthani Dal Baaple Churma Recipe,quick_keyword_but_long_total_time
+233252ce-bd0a-4914-a71d-bd6dd0aa3223,Rava Rotti Recipe (Karnataka Style Semolina Flat Bread),indian,hard,60,standard,vegetarian,Rava Rotti Recipe (Karnataka Semolina Flat Bread),quick_keyword_but_long_total_time
+2a71afae-8e4e-49c6-af69-499dbd542519,Ribbon Pakoda Recipe - South Indian Tea Time Snack,indian,easy,60,standard,vegetarian,Ribbon Pakoda Recipe - South Indian Tea Time Snack,quick_keyword_but_long_total_time
+54e17e20-5309-4031-8cfc-288b85a775f5,Roasted Fennel and Tomato Soup Recipe,indian,easy,60,standard,vegetarian,Roasted Fennel and Tomato Soup Recipe,quick_keyword_but_long_total_time
+5768816b-1d88-4cdd-9df5-04ac99636a4a,Safed Achari Baingan Recipe - White Aubergine in pickled spices,indian,hard,60,standard,vegetarian,Safed Achari Baingan Recipe - White Aubergine in pickled spices,quick_keyword_but_long_total_time
+27dab7cc-e7fb-49b2-a99b-72f0d1a05664,Shahi Paratha Recipe,indian,hard,60,standard,vegetarian,Shahi Paratha Recipe,quick_keyword_but_long_total_time
+c1b6b629-12df-4164-8063-f4ac4887a431,Shortbread Cookies With Citrus Zest Recipe,indian,easy,60,standard,vegetarian,Shortbread Cookies With Citrus Zest Recipe,quick_keyword_but_long_total_time
+69aa26cf-de4a-4559-9340-e2c2a9e52ff8,Shredded Mutton With Caramelized Onions Recipe,indian,easy,60,standard,non_veg,Shredded Mutton With Caramelized Onions Recipe,quick_keyword_but_long_total_time
+9168cba6-a25f-4023-9cde-390a7f2176c8,Shrimp Stir Fry With Cheesy Dip Mayo Recipe,indian,medium,60,standard,vegetarian,Shrimp Stir Fry With Cheesy Dip Mayo Recipe,quick_keyword_but_long_total_time
+e4c18c87-599e-4f41-8857-1b01624d24ce,Spicy Chettinad Fish Fry Recipe,indian,medium,60,standard,non_veg,Spicy Chettinad Fish Fry Recipe,quick_keyword_but_long_total_time
+66f426fa-a5ee-4b98-bb8d-c9611adf3087,Spicy Coconut Peanut Stuffed Baby Brinjal Recipe,indian,hard,60,standard,vegetarian,Spicy Coconut Peanut Stuffed Baby Brinjal Recipe,quick_keyword_but_long_total_time
+07fa123a-2542-4e1a-ba2b-e538534d34aa,Spinach And Paneer Samosa Recipe With Figaro Pure Olive Oil,indian,easy,60,standard,vegetarian,Spinach And Paneer Samosa Recipe With Figaro Pure Olive Oil,quick_keyword_but_long_total_time
+f2e17611-792d-4c27-9135-957bfd84d028,Spinach Soft Shell Taco Stuffed with Cabbage Slaw Salad Recipe,indian,hard,60,standard,vegetarian,Spinach Soft Shell Taco Stuffed with Cabbage Slaw Salad Recipe,quick_keyword_but_long_total_time
+43c8c319-3a24-4204-be9e-9a81554c6d86,Sri Lankan Egg Curry Recipe,indian,medium,60,standard,non_veg,Sri Lankan Egg Curry Recipe,quick_keyword_but_long_total_time
+85feb1a2-80d3-4feb-a8aa-9e6dd1ea82ea,Stuffed Chicken Recipe With Mixed Vegetables,indian,medium,60,standard,non_veg,Stuffed Chicken Recipe With Mixed Vegetables,quick_keyword_but_long_total_time
+05bac4d5-6839-47e5-9236-dbed1be2fa2e,Stuffed Jackfruit Curry Recipe (Stuffed Jackfruit Curry),indian,hard,60,standard,vegetarian,Stuffed Jackfruit Curry Recipe (Stuffed Jackfruit Curry),quick_keyword_but_long_total_time
+3118e2a6-e11e-4cf9-8ced-bcfb01366225,Stuffed Kathal Recipe,indian,hard,60,standard,vegetarian,Stuffed Kathal Recipe,quick_keyword_but_long_total_time
+184a0b65-0152-4ff1-824c-232a0ba96ed7,Stuffed Makai Paratha Recipe (Corn & Coriander Stuffed Flat Bread),indian,medium,60,standard,vegetarian,Stuffed Makai Paratha Recipe (Corn & Coriander Stuffed Flat Bread),quick_keyword_but_long_total_time
+a6f1307b-a67e-486a-8687-031d46acc6f0,Stuffed Mooli Paratha Recipe With Radish Greens,indian,easy,60,standard,vegetarian,Stuffed Mooli Paratha Recipe With Radish Greens,quick_keyword_but_long_total_time
+0d8e71ad-334e-4b59-9fa3-4b982e0c7e76,Stuffed Portobello Mushrooms Recipe With 7 Grain Rice And Sprout Salad,indian,hard,60,standard,vegetarian,Stuffed Portobello Mushrooms Recipe With 7 Grain Rice And Sprout Salad,quick_keyword_but_long_total_time
+64ff887f-2576-4aa2-8363-984dcd09fefd,Tamil Nadu Style Milagu Thattai Recipe (Peppered Dal-Rice Fritters),indian,easy,60,standard,vegetarian,Tamil Nadu Milagu Thattai Recipe (Peppered Dal-Rice Fritters),quick_keyword_but_long_total_time
+4684487f-b2ff-4e0b-8743-a050020c7c7f,Tandoori Aloo Gobi Kathi Roll Recipe - Spicy Aloo Gobi Frankie,indian,hard,60,standard,vegetarian,Tandoori Aloo Gobi Kathi Roll Recipe - Spicy Aloo Gobi Frankie,quick_keyword_but_long_total_time
+b508b943-e413-4d1a-8cd8-cab64127c98c,Tandoori Paneer Darts Masala Recipe,indian,hard,60,standard,vegetarian,Tandoori Paneer Darts Masala Recipe,quick_keyword_but_long_total_time
+d1833ab4-1968-4d99-ac04-fb950ab99e1b,Thai Style Fried Bananas Recipe,indian,medium,60,standard,vegetarian,Thai Fried Bananas Recipe,quick_keyword_but_long_total_time
+d373062f-bd6c-4e6c-8cdd-3ba86d825fa8,Thai Yellow Curry Recipe,indian,hard,60,standard,vegetarian,Thai Yellow Curry Recipe,quick_keyword_but_long_total_time
+17b45969-4a9b-4b47-b9e8-ee3333af675a,The Oat and Green Moong Dal Pesarattu-Savory Lentil Crepe Recipe,indian,medium,60,standard,vegetarian,The Oat and Green Moong Dal Pesarattu-Savory Lentil Crepe Recipe,quick_keyword_but_long_total_time
+f5d9df5c-ac6e-4e2c-9808-1695b130bebd,Thengai Sadam Recipe (A Quick and Healthy Coconut Rice),indian,medium,60,quick,vegetarian,Thengai Sadam Recipe (A and Healthy Coconut Rice),quick_keyword_but_long_total_time
+68072631-4a98-4481-9df2-46597d7b5910,Thor Chal Recipe - Banana Stem Pulao Recipe,indian,medium,60,standard,vegetarian,Thor Chal Recipe - Banana Stem Pulao Recipe,quick_keyword_but_long_total_time
+25b4f7af-78e5-46bd-bf68-02e3bb67c8aa,Tomato Chole Recipe,indian,medium,60,standard,vegetarian,Tomato Chole Recipe,quick_keyword_but_long_total_time
+7afb7da7-c178-4d92-a93b-ce991fa584a6,Vegetarian Kabuli Pulao Recipe - Vegetarian Kabuli Pulao Recipe,indian,hard,60,standard,vegetarian,Vegetarian Kabuli Pulao Recipe - Vegetarian Kabuli Pulao Recipe,quick_keyword_but_long_total_time
+2b38b8cc-e7e6-48ab-8e9b-1637f139870d,Vegetarian Moussaka with Mushrooms Sauce Recipe,indian,hard,60,standard,vegetarian,Vegetarian Moussaka with Mushrooms Sauce Recipe,quick_keyword_but_long_total_time
+543b93d8-cdbb-4349-a463-92c2c54a3780,Vegetarian Thukpa Recipe,indian,hard,60,standard,vegetarian,Vegetarian Thukpa Recipe,quick_keyword_but_long_total_time
+4f50b50b-931a-4a45-b03e-ba8552c85b96,Vegetarian Tofu Matzo Ball Soup Recipe,indian,medium,60,standard,vegetarian,Vegetarian Tofu Matzo Ball Soup Recipe,quick_keyword_but_long_total_time
+fd3d221d-32c2-46e7-a875-9ba159696c3d,Whole Wheat Cupcakes Recipe,indian,easy,60,standard,vegetarian,Whole Wheat Cupcakes Recipe,quick_keyword_but_long_total_time
+80e053cf-b73c-433f-a9e1-cd535eb35241,"Whole Wheat, Oatmeal and Amaranth Fruitcake Cookie Recipe",indian,hard,60,standard,vegetarian,"Whole Wheat, Oatmeal and Amaranth Fruitcake Cookie Recipe",quick_keyword_but_long_total_time
+9a0973fe-ffb6-4c72-a2a5-69f4195115b3,Zhejiang  Style Crispy Five Spice Powder Spring Roll Recipe,indian,easy,60,standard,vegetarian,Zhejiang Crispy Five Spice Powder Spring Roll Recipe,quick_keyword_but_long_total_time
+e9d7c83f-4c85-4d18-b17b-2a31ae93c698,Baked Eggplant Stuffed with Red Lentil Hummus Recipe,indian,hard,65,standard,non_veg,Baked Eggplant Stuffed with Red Lentil Hummus Recipe,quick_keyword_but_long_total_time
+6b2ef677-47b7-435e-8438-5b1c05172196,Baked Oats and Whole Wheat Kachori Stuffed with Peas Recipe,indian,hard,65,standard,vegetarian,Baked Oats and Whole Wheat Kachori Stuffed with Peas Recipe,quick_keyword_but_long_total_time
+38094311-5859-4d3e-a718-91b0268e6ec4,Bharli Bhendi Recipe - Maharashtrian Style Stuffed Bhindi,indian,hard,65,standard,vegetarian,Bharli Bhendi Recipe - Maharashtrian Stuffed Bhindi,quick_keyword_but_long_total_time
+da89d5e9-197d-4b20-a5bc-8c70fbe238d2,Carrot and Oats  Whole Wheat Bread Recipe,indian,medium,65,standard,vegetarian,Carrot and Oats Whole Wheat Bread Recipe,quick_keyword_but_long_total_time
+2a7d4023-a45a-4253-ab35-4999dd32124c,Chicken Stuffed Bread Recipe,indian,hard,65,standard,non_veg,Chicken Stuffed Bread Recipe,quick_keyword_but_long_total_time
+54b33aad-65be-49ab-9c1b-954080040843,Chicken and Mushroom Pot Pie Recipe,indian,hard,65,standard,non_veg,Chicken and Mushroom Pot Pie Recipe,quick_keyword_but_long_total_time
+230ade48-bf30-47fe-81f5-7cabfd289a15,Creamy Dal Makhani Recipe,indian,hard,65,standard,vegetarian,Creamy Dal Makhani Recipe,quick_keyword_but_long_total_time
+97dbbea9-17e9-45b1-a30b-d75a94673162,Dim Posto Recipe - Bengali Egg Curry With Poppy Seeds,indian,hard,65,standard,non_veg,Dim Posto Recipe - Bengali Egg Curry With Poppy Seeds,quick_keyword_but_long_total_time
+178b09fa-8566-4ef2-99f6-f67030077dff,Dimer Malai Curry Recipe (Bengali Style Egg Curry In Coconut Milk),indian,hard,65,standard,non_veg,Dimer Malai Curry Recipe (Bengali Egg Curry In Coconut Milk),quick_keyword_but_long_total_time
+89873ed1-d16c-49c0-b12a-44a9ef68a60c,Eggless Chocolate Banana Cake Recipe,indian,hard,65,standard,non_veg,Eggless Chocolate Banana Cake Recipe,quick_keyword_but_long_total_time
+d1351d77-cd3b-45f1-bbbe-4969e20f3152,Gujarati Wadi Casserole Recipe,indian,medium,65,standard,vegetarian,Gujarati Wadi Casserole Recipe,quick_keyword_but_long_total_time
+a674c270-abdf-43c0-b943-f184f4dedb89,Gulab Phirni Recipe,indian,hard,65,standard,vegetarian,Gulab Phirni Recipe,quick_keyword_but_long_total_time
+166b1353-0a8a-46ba-b746-55f1a70fb9c9,Kerala Style Vedakkai Pachadi Recipe - Kerala Style Vendakkai Pachadi (Recipe in Hindi),indian,hard,65,standard,vegetarian,Kerala Vedakkai Pachadi Recipe - Kerala Vendakkai Pachadi (Recipe in Hindi),quick_keyword_but_long_total_time
+db0516d3-cb55-4333-9fec-b2ee7565046f,Kumbalakai Majjige Huli Recipe- Ash Gourd Buttermilk Curry,indian,medium,65,standard,vegetarian,Kumbalakai Majjige Huli Recipe- Ash Gourd Buttermilk Curry,quick_keyword_but_long_total_time
+fec861aa-4a7a-4a50-b78e-1945bb6b1202,Makai Dhokla Recipe - Savoury Steamed Corn Cake,indian,hard,65,standard,vegetarian,Makai Dhokla Recipe - Savoury Steamed Corn Cake,quick_keyword_but_long_total_time
+6cb301fe-7874-4b65-90d3-91dac736db36,Methi Matar Pulao Recipe - Fenugreek Green Peas Pulao,indian,hard,65,standard,vegetarian,Methi Matar Pulao Recipe - Fenugreek Green Peas Pulao,quick_keyword_but_long_total_time
+f7e4b760-8bd7-46c0-bd57-0779808c0759,Muesli Pumpkin Bread Recipe,indian,hard,65,standard,vegetarian,Muesli Pumpkin Bread Recipe,quick_keyword_but_long_total_time
+996e3305-853f-4098-a89d-b7def5d882ef,Name Cucumber Salad Recipe - Quickcomber sausage,indian,medium,65,quick,vegetarian,Name Cucumber Salad Recipe - Quickcomber sausage,quick_keyword_but_long_total_time
+b109df00-055a-4a2e-9ae0-6c94310d71d6,Navratan Korma (Recipe In Hindi),indian,hard,65,standard,vegetarian,Navratan Korma (Recipe In Hindi),quick_keyword_but_long_total_time
+9b379ac3-90a5-440a-a087-ad09b0b1e715,Navratan Korma Recipe,indian,hard,65,standard,vegetarian,Navratan Korma Recipe,quick_keyword_but_long_total_time
+bdf8fe12-a860-4ec6-9286-eb6668693ea4,Pakki Mutton Biryani Recipe,indian,hard,65,standard,non_veg,Pakki Mutton Biryani Recipe,quick_keyword_but_long_total_time
+dc1d0b92-f6df-49b5-b073-f7e65ff4c764,Ragi Halwa Recipe | Healthy Indian Sweet Made With Ragi,indian,medium,65,standard,vegetarian,Ragi Halwa Recipe | Healthy Indian Sweet Made With Ragi,quick_keyword_but_long_total_time
+b8ef6ada-1f0c-4e71-a80d-f5878f31d4a2,Rajma Galouti Kebab Recipe,indian,hard,65,standard,vegetarian,Rajma Galouti Kebab Recipe,quick_keyword_but_long_total_time
+4c50905b-d9d7-4668-8e93-adcd7b6cbfe9,Savory Flax Seed Multigrain Crackers Recipe,indian,hard,65,standard,vegetarian,Savory Flax Seed Multigrain Crackers Recipe,quick_keyword_but_long_total_time
+435e8ec7-acf3-425f-801d-4ff1f84f4691,Sookhi Moong Palak Dal Recipe (Whole Green Moong Gram with Spinach),indian,medium,65,standard,vegetarian,Sookhi Moong Palak Dal Recipe (Whole Green Moong Gram with Spinach),quick_keyword_but_long_total_time
+cefa946c-abbd-48b2-9b71-76fe47d6f73c,South Indian One Pot Sambar Rice Recipe,indian,hard,65,standard,vegetarian,South Indian One Pot Sambar Rice Recipe,quick_keyword_but_long_total_time
+c41d0e24-df17-459f-b3c5-f78121bf1dd6,Spaghetti Pasta Recipe In Roasted Pumpkin Sauce,indian,medium,65,standard,vegetarian,Spaghetti Pasta Recipe In Roasted Pumpkin Sauce,quick_keyword_but_long_total_time
+57b48b73-0546-43c3-8ab8-6fc058ee4663,Spicy Raisins And Walnut Cake Recipe,indian,hard,65,standard,vegetarian,Spicy Raisins And Walnut Cake Recipe,quick_keyword_but_long_total_time
+e54c7234-3437-44b4-b1cd-1149b70c27ab,Spinach and Dill Tart With Roasted Peppers Recipe,indian,medium,65,standard,vegetarian,Spinach and Dill Tart With Roasted Peppers Recipe,quick_keyword_but_long_total_time
+7d77bda2-f03d-4883-b502-d8a404433b67,Strawberry Bundt Cake with Muesli and Oats Recipe,indian,hard,65,standard,vegetarian,Strawberry Bundt Cake with Muesli and Oats Recipe,quick_keyword_but_long_total_time
+98f19d17-10ef-4d47-89fd-dc83d3848515,Strawberry Panna Cotta Tart With Chocolate Ganache Recipe,indian,hard,65,standard,vegetarian,Strawberry Panna Cotta Tart With Chocolate Ganache Recipe,quick_keyword_but_long_total_time
+50db9086-89ac-4719-8e29-32e93f58443c,Sugar Free Pineapple Dates Cake Recipe,indian,medium,65,standard,vegetarian,Sugar Free Pineapple Dates Cake Recipe,quick_keyword_but_long_total_time
+b7d711b0-a802-4f41-804c-4695aee4b6b6,Sweet Potato Brownie Recipe,indian,medium,65,standard,vegetarian,Sweet Potato Brownie Recipe,quick_keyword_but_long_total_time
+3ad701ad-ba8d-4f8f-8cd7-7ef79cb8effc,Traditional Steamed Modak Recipe (Ukadiche Modak With Rice flour),indian,hard,65,traditional,vegetarian,Steamed Modak Recipe (Ukadiche Modak With Rice flour),quick_keyword_but_long_total_time
+b5492323-4f81-4ce6-b0ec-a807e190feff,Vegetable Handi Biryani Recipe,indian,hard,65,standard,vegetarian,Vegetable Handi Biryani Recipe,quick_keyword_but_long_total_time
+3d229fa9-945e-47cb-b049-b22fc71cf87a,Vegetarian Sago Dumpling Recipe,indian,hard,65,standard,vegetarian,Vegetarian Sago Dumpling Recipe,quick_keyword_but_long_total_time
+159aa710-a922-464e-bbe4-e39841b332ec,Veggie Pearl Millet Tart Recipe,indian,hard,65,standard,non_veg,Veggie Pearl Millet Tart Recipe,quick_keyword_but_long_total_time
+f751a7f9-a58b-4c1e-8157-56184bfe3d12,Ragi Masala Twisters Recipe-Healthy Snack,indian,medium,67,standard,vegetarian,Ragi Masala Twisters Recipe-Healthy Snack,quick_keyword_but_long_total_time
+df595b6a-6dce-488f-846e-72756f69f97b,Konkani Style Doddak Recipe-Lentil Pancakes,indian,medium,68,standard,vegetarian,Konkani Doddak Recipe-Lentil Pancakes,quick_keyword_but_long_total_time
+69740076-6883-4bb9-ab5d-5aca479af7f9,Aloo Subz Dum Biryani Recipe,indian,hard,70,standard,vegetarian,Aloo Subz Dum Biryani Recipe,quick_keyword_but_long_total_time
+0c9c6341-115e-4130-b4cc-f9920735a117,Apple Enchilada Recipe,indian,hard,70,standard,vegetarian,Apple Enchilada Recipe,quick_keyword_but_long_total_time
+34060f6c-66be-4803-be6c-3a010d665cf1,Badusha Recipe | Balushahi Recipe - Sweet Indian Doughnut,indian,hard,70,standard,vegetarian,Badusha Recipe | Balushahi Recipe - Sweet Indian Doughnut,quick_keyword_but_long_total_time
+308f0326-8e71-4ceb-9fd3-a187ddc4a7ee,Baked Muesli Tart with Strawberry Yogurt and Chia Seeds Recipe,indian,medium,70,standard,vegetarian,Baked Muesli Tart with Strawberry Yogurt and Chia Seeds Recipe,quick_keyword_but_long_total_time
+aed37763-2990-483e-9549-61713bb5d3f9,Baked Potato-Spaghetti Rolls Recipe,indian,hard,70,standard,vegetarian,Baked Potato-Spaghetti Rolls Recipe,quick_keyword_but_long_total_time
+1f0ef5f8-45c8-4eb7-a31f-f7fe74c6f52a,Baked Roasted Pumpkin Penne Pasta With Tomato Basil Sauce Recipe,indian,hard,70,standard,vegetarian,Baked Roasted Pumpkin Penne Pasta With Tomato Basil Sauce Recipe,quick_keyword_but_long_total_time
+77936276-ac2b-4ae8-8d49-9687cefbc87a,Baklava Rolls Recipe - Turkish Sweet Rolls,indian,hard,70,standard,vegetarian,Baklava Rolls Recipe - Turkish Sweet Rolls,quick_keyword_but_long_total_time
+247d144d-dd92-4ac0-af2e-060f890c8cbc,Bengali Aloo Dum Recipe,indian,hard,70,standard,vegetarian,Bengali Aloo Dum Recipe,quick_keyword_but_long_total_time
+99807570-e198-467b-98d5-29d8a53d6c2a,Bengali Aloo Dum Recipe - Bengali Aloo Dum Recipe,indian,hard,70,standard,vegetarian,Bengali Aloo Dum Recipe - Bengali Aloo Dum Recipe,quick_keyword_but_long_total_time
+a5f0f38b-a843-4c28-b072-176ec1dc020f,Bihari Dal Pitha Recipe (Traditional Bihari Delicacy),indian,hard,70,traditional,vegetarian,Bihari Dal Pitha Recipe ( Bihari Delicacy),quick_keyword_but_long_total_time
+5ed66281-dd5f-4d2b-9407-18a2c073f7c5,Braided Almond Roll Recipe,indian,hard,70,standard,vegetarian,Braided Almond Roll Recipe,quick_keyword_but_long_total_time
+502ad5fd-cc82-4575-9cb7-b328f3af153d,Cauliflower Moong Dal Recipe,indian,medium,70,standard,vegetarian,Cauliflower Moong Dal Recipe,quick_keyword_but_long_total_time
+a4d84b91-4364-40c8-8488-7e49720f0597,Cauliflower Moong Dal Recipe - Cauliflower Moong Dal Recipe,indian,hard,70,standard,vegetarian,Cauliflower Moong Dal Recipe - Cauliflower Moong Dal Recipe,quick_keyword_but_long_total_time
+84367c76-5d9e-4a66-ac4a-56ca6a2c4814,Chocolate Coffee Sticky Cake Recipe,indian,hard,70,standard,vegetarian,Chocolate Coffee Sticky Cake Recipe,quick_keyword_but_long_total_time
+cad4a242-ea4b-4d59-9930-4ca52fc6634b,Chocolate Dipped Eggless Coconut Macaroon Recipe,indian,medium,70,standard,non_veg,Chocolate Dipped Eggless Coconut Macaroon Recipe,quick_keyword_but_long_total_time
+3775c397-79ba-4882-941f-6b7d02d51b54,Chole Capsicum Masala Recipe,indian,hard,70,standard,vegetarian,Chole Capsicum Masala Recipe,quick_keyword_but_long_total_time
+4c77e51e-c213-4f3f-baab-4e0fccfb2398,Chole Capsicum Masala Recipe - Chole Capsicum Masala Recipe,indian,hard,70,standard,vegetarian,Chole Capsicum Masala Recipe - Chole Capsicum Masala Recipe,quick_keyword_but_long_total_time
+feb282f3-45c0-4f4f-a695-bcd2bedb46fe,Churma Ladoo Recipe With Badam & Flaxseed - High Protein Snack,indian,medium,70,standard,vegetarian,Churma Ladoo Recipe With Badam & Flaxseed - High Protein Snack,quick_keyword_but_long_total_time
+82d8027a-eff6-490d-923e-e386fa17246d,Classic Andhra Style Chicken Curry Recipe,indian,hard,70,standard,non_veg,Classic Andhra Chicken Curry Recipe,quick_keyword_but_long_total_time
+da97bc89-819e-449e-8bb6-a3f4cb39b8e2,Classic Pizza Margherita Recipe - Pizza Topped With Cheese And Tomato Sauce,indian,hard,70,standard,vegetarian,Classic Pizza Margherita Recipe - Pizza Topped With Cheese And Tomato Sauce,quick_keyword_but_long_total_time
+f77c2338-7338-466d-a386-1213c6d880f3,Coca Cola Bundt Cake Recipe,indian,medium,70,standard,vegetarian,Coca Cola Bundt Cake Recipe,quick_keyword_but_long_total_time
+aa95c6b3-fecd-493b-844b-64e8433fe0eb,Crisp Baked Tandoori Mayo Cheddar Chicken Recipe,indian,medium,70,standard,non_veg,Crisp Baked Tandoori Mayo Cheddar Chicken Recipe,quick_keyword_but_long_total_time
+6e823f13-71b2-4ddd-8301-916ca181746a,Doi Bhetki Recipe - Bengali Style Yogurt Fish Curry,indian,hard,70,standard,non_veg,Doi Bhetki Recipe - Bengali Yogurt Fish Curry,quick_keyword_but_long_total_time
+4d001cf9-b946-496e-8978-97a21d6662af,Dry Fruit Burfi Recipe With Gulkand,indian,medium,70,standard,vegetarian,Dry Fruit Burfi Recipe With Gulkand,quick_keyword_but_long_total_time
+64ee52c2-8585-4683-8879-2e3469f2ddc5,Eggless Chocolate Pistachio Biscotti Recipe,indian,medium,70,standard,non_veg,Eggless Chocolate Pistachio Biscotti Recipe,quick_keyword_but_long_total_time
+e7481221-602f-49b9-9e31-f5924dab7752,Eggless Peanut Butter Cookies Recipe,indian,medium,70,standard,non_veg,Eggless Peanut Butter Cookies Recipe,quick_keyword_but_long_total_time
+9ee637b0-6a4d-4d22-b2b1-238b87def3ed,Egyptian Koshari Recipe,indian,hard,70,standard,vegetarian,Egyptian Koshari Recipe,quick_keyword_but_long_total_time
+08985d84-ea8a-4235-bfb9-55b8e666ca8e,Garlic & Ginger Spiced Potato Wedges Recipe (Baked),indian,medium,70,standard,vegetarian,Garlic & Ginger Spiced Potato Wedges Recipe (Baked),quick_keyword_but_long_total_time
+950f2316-5d0a-466f-bfc9-1305548cc480,Glazed Apples and Banana Wheat Crumb Tart Recipe,indian,medium,70,standard,vegetarian,Glazed Apples and Banana Wheat Crumb Tart Recipe,quick_keyword_but_long_total_time
+a10e13c4-e2de-478d-bb95-ce4a6138362e,Grilled Chicken Wings Recipe,indian,medium,70,standard,non_veg,Grilled Chicken Wings Recipe,quick_keyword_but_long_total_time
+0c45f19c-6667-458c-b556-a7a01b8daf7d,Handi Biryani Recipe With Chicken,indian,hard,70,standard,non_veg,Handi Biryani Recipe With Chicken,quick_keyword_but_long_total_time
+17a16f73-2e62-49e4-afe1-cbbc87b1b088,Healthy Creamy Chicken Soup With Vegetables Recipe,indian,hard,70,standard,non_veg,Healthy Creamy Chicken Soup With Vegetables Recipe,quick_keyword_but_long_total_time
+d3570ce0-42c7-49fa-b0da-a4bc75999de1,Homemade Kanpe Papdi Chaat Recipe,indian,hard,70,standard,vegetarian,Homemade Kanpe Papdi Chaat Recipe,quick_keyword_but_long_total_time
+5f70a4bb-60c4-41a8-bdb7-4df124538a96,Homemade Mole Sauce Recipe,indian,hard,70,standard,vegetarian,Homemade Mole Sauce Recipe,quick_keyword_but_long_total_time
+14d561a2-4c58-4556-9428-7d84f5c9bc45,Jackfruit Seed Modak Recipe,indian,hard,70,standard,vegetarian,Jackfruit Seed Modak Recipe,quick_keyword_but_long_total_time
+36314f2a-2b79-4c2f-ba29-d125ea477e45,Kashmiri Style Rista Recipe - Mutton Kofta Curry,indian,hard,70,standard,non_veg,Kashmiri Rista Recipe - Mutton Kofta Curry,quick_keyword_but_long_total_time
+0620d51d-4a6f-4f7b-a36a-a1b3bbf099c0,Kashmiri Style Yakhni Pulao With Chicken Recipe,indian,hard,70,standard,non_veg,Kashmiri Yakhni Pulao With Chicken Recipe,quick_keyword_but_long_total_time
+30f98b05-94f4-4a35-b231-acdc3d50ccf4,Kerala Chicken Curry Recipe,indian,hard,70,standard,non_veg,Kerala Chicken Curry Recipe,quick_keyword_but_long_total_time
+9471bfcc-8527-4e0e-9bc5-07d01d1ad6f1,Khaja Recipe (Layered Fritters Dunked In Sugar Syrup),indian,hard,70,standard,vegetarian,Khaja Recipe (Layered Fritters Dunked In Sugar Syrup),quick_keyword_but_long_total_time
+60287788-536c-4aef-accc-9ca23ad602cd,Kheer Puli Pitha | Bengali Pitha Recipe,indian,hard,70,standard,vegetarian,Kheer Puli Pitha | Bengali Pitha Recipe,quick_keyword_but_long_total_time
+83cda40c-f7a1-405f-a51f-5d621de870fe,Kollu Rasam Recipe - Healthy Horse Gram Rasam,indian,hard,70,standard,vegetarian,Kollu Rasam Recipe - Healthy Horse Gram Rasam,quick_keyword_but_long_total_time
+9fa45611-084f-4751-a95e-e53acbd703a5,Kunafa With Mango Cottage Cheese Cream Recipe,indian,hard,70,standard,vegetarian,Kunafa With Mango Cottage Cheese Cream Recipe,quick_keyword_but_long_total_time
+e7351ed7-8485-4014-9cbd-d5cf1661dd85,Lauki Ke Gatte Recipe - Whole Wheat Bottle Gourd Dumplings,indian,hard,70,standard,vegetarian,Lauki Ke Gatte Recipe - Whole Wheat Bottle Gourd Dumplings,quick_keyword_but_long_total_time
+a0efdacc-1f7a-49b4-beff-152c9e6ddda3,Makhan Bada Recipe,indian,medium,70,standard,vegetarian,Makhan Bada Recipe,quick_keyword_but_long_total_time
+48319c6c-473d-45b6-97b4-971b5eac4a99,Masoor Dal And Palak Khichdi Recipe,indian,hard,70,standard,vegetarian,Masoor Dal And Palak Khichdi Recipe,quick_keyword_but_long_total_time
+945ad33a-1ba1-400f-8598-d06c816f198b,Milagai Bajji Stuffed with Masala Chicken Recipe,indian,hard,70,standard,non_veg,Milagai Bajji Stuffed with Masala Chicken Recipe,quick_keyword_but_long_total_time
+bf9f5cc0-dab4-441b-a80a-2c717dfa872d,Minced Mutton Spring Rolls Recipe,indian,hard,70,standard,non_veg,Minced Mutton Spring Rolls Recipe,quick_keyword_but_long_total_time
+c4037de8-e0d3-4973-952f-02d3abf5997e,Moryechi Xacuti Recipe (Goan Style Shark Curry),indian,hard,70,standard,vegetarian,Moryechi Xacuti Recipe (Goan Shark Curry),quick_keyword_but_long_total_time
+ff896f9f-1d85-45b9-8169-04823645ff81,Murgh Masala Recipe - Chicken Tangdi Masala,indian,hard,70,standard,non_veg,Murgh Masala Recipe - Chicken Tangdi Masala,quick_keyword_but_long_total_time
+af5c3b45-f382-425e-bae5-1e73876c743d,Mutton Matar Keema Recipe -Minced Mutton With Green Peas,indian,hard,70,standard,non_veg,Mutton Matar Keema Recipe -Minced Mutton With Green Peas,quick_keyword_but_long_total_time
+3fc94899-3350-4d49-8f9e-0abdb10efe02,Nariyal Ki Kheer Recipe - Coconut Pudding,indian,medium,70,standard,vegetarian,Nariyal Ki Kheer Recipe - Coconut Pudding,quick_keyword_but_long_total_time
+d0631689-41e9-4055-b524-6fdcf083ebc8,Parmesan Cheese Biscuits Recipe,indian,medium,70,standard,vegetarian,Parmesan Cheese Biscuits Recipe,quick_keyword_but_long_total_time
+11073b65-0889-45a9-9d07-85efa13956fd,Pista Burfi Recipe - Indian Spiced Pistachio Fudge,indian,hard,70,standard,vegetarian,Pista Burfi Recipe - Indian Spiced Pistachio Fudge,quick_keyword_but_long_total_time
+d10ac01b-05de-4fc3-99ef-75786290e381,Prawn Cutlets With Sweet Potatoes Wedges Recipe,indian,medium,70,standard,non_veg,Prawn Cutlets With Sweet Potatoes Wedges Recipe,quick_keyword_but_long_total_time
+4f2aa235-342e-4db8-a6ee-290fd54cf3f2,Ruote Pasta & Eggplant Gratin Recipe,indian,hard,70,standard,non_veg,Ruote Pasta & Eggplant Gratin Recipe,quick_keyword_but_long_total_time
+6a33bed6-880c-46a5-b41b-452e1a954b07,Shakarkandi Malpua Recipe - Mishti Aloo Malpua Recipe,indian,hard,70,standard,vegetarian,Shakarkandi Malpua Recipe - Mishti Aloo Malpua Recipe,quick_keyword_but_long_total_time
+a352a724-4f9f-47ee-8234-55744e45a5c9,Sindhi Kadhi Recipe,indian,hard,70,standard,vegetarian,Sindhi Kadhi Recipe,quick_keyword_but_long_total_time
+c0b7dd56-5a28-4841-a78a-e1d631c6260d,Soya Chunks And Beetroot Biryani Recipe,indian,hard,70,standard,vegetarian,Soya Chunks And Beetroot Biryani Recipe,quick_keyword_but_long_total_time
+53e7f2c3-62b8-444a-820a-2550b51698a2,Stuffed Cabbage Rolls Recipe,indian,hard,70,standard,vegetarian,Stuffed Cabbage Rolls Recipe,quick_keyword_but_long_total_time
+773f1735-f66b-481c-bf11-1e2f41467eda,Surti Obbattu Recipe - Fruit & Nut Pooris In Saffron Milk,indian,hard,70,standard,vegetarian,Surti Obbattu Recipe - Fruit & Nut Pooris In Saffron Milk,quick_keyword_but_long_total_time
+5326b220-6a37-4933-92d6-57b54b9f76b8,Thai Chicken Green Curry With Vegetables Recipe,indian,hard,70,standard,non_veg,Thai Chicken Green Curry With Vegetables Recipe,quick_keyword_but_long_total_time
+f30a9841-c81c-42d2-8c13-c3304db07a42,Toffee Banana Recipe (Classic Chinese Dessert),indian,medium,70,standard,vegetarian,Toffee Banana Recipe (Classic Chinese Dessert),quick_keyword_but_long_total_time
+e22e8226-18b3-45a8-ad29-0495e2ed566c,Vegetarian Mexican Chili for Tacos Recipe - Made from Horse Gram,indian,hard,70,standard,vegetarian,Vegetarian Mexican Chili for Tacos Recipe - Made from Horse Gram,quick_keyword_but_long_total_time
+0740e71e-291e-4e0d-bec1-339cfe95a516,Whole Wheat Achaari Aloo Tacos - Indo Mexican Fusion Recipe,indian,hard,70,standard,vegetarian,Whole Wheat Achaari Aloo Tacos - Indo Mexican Fusion Recipe,quick_keyword_but_long_total_time
+1a7bd3bd-5a1b-4a0a-a220-7410b460f0c4,Whole Wheat Ravioli with Paneer & Creamy Mushroom Oat Sauce Recipe,indian,hard,70,standard,vegetarian,Whole Wheat Ravioli with Paneer & Creamy Mushroom Oat Sauce Recipe,quick_keyword_but_long_total_time
+d636f483-cccf-4e5d-a7f2-cad99d06a7f3,Amritsari Gobi Matar Recipe (Punjabi Style Creamy Cauliflower and Peas Curry),indian,hard,71,standard,vegetarian,Amritsari Gobi Matar Recipe (Punjabi Creamy Cauliflower and Peas Curry),quick_keyword_but_long_total_time
+b14d9d64-bc8f-4eef-a9d6-3579f049fd6d,Oriya Special Dalma Recipe - Lentils Cooked With Vegetables & Raw Papaya,indian,hard,73,standard,vegetarian,Oriya Special Dalma Recipe - Lentils Cooked With Vegetables & Raw Papaya,quick_keyword_but_long_total_time
+ce149995-5882-4eee-9c80-7870099004b0,Awadh Style Bakarkhani Roti Recipe ( Thick Spiced Flatbread Recipe ),indian,hard,75,standard,vegetarian,Awadh Bakarkhani Roti Recipe ( Thick Spiced Flatbread Recipe ),quick_keyword_but_long_total_time
+985ff426-1da2-48d7-8419-4d00166ff337,Baked Cheesy Rigati Pasta Recipe With Roasted Veggies,indian,hard,75,standard,non_veg,Baked Cheesy Rigati Pasta Recipe With Roasted Veggies,quick_keyword_but_long_total_time
+e6408de4-00f6-4465-b450-5d6cc9dbec6d,Bihari Style Kadhi Badi Recipe,indian,hard,75,standard,vegetarian,Bihari Kadhi Badi Recipe,quick_keyword_but_long_total_time
+6efc3b10-e111-46b7-98bd-3a1622c02a3b,Bisi Bele Bath Recipe - A Spicy Mixed Vegetable Sambar Rice,indian,hard,75,standard,vegetarian,Bisi Bele Bath Recipe - A Spicy Mixed Vegetable Sambar Rice,quick_keyword_but_long_total_time
+6fb8125a-45b2-4d12-8fe5-69035d4adf0b,Cheesy Chicken Tikka Recipe,indian,hard,75,standard,non_veg,Cheesy Chicken Tikka Recipe,quick_keyword_but_long_total_time
+0b47b00b-9551-4be6-9cdb-9b87a358c306,Chettinad Style Potato Kara Kuzhambu Recipe,indian,hard,75,standard,vegetarian,Chettinad Potato Kara Kuzhambu Recipe,quick_keyword_but_long_total_time
+58cf811d-c402-4bae-bf10-55ea8d32863a,Dal And Vegetable Kebab Recipe,indian,hard,75,standard,vegetarian,Dal And Vegetable Kebab Recipe,quick_keyword_but_long_total_time
+cf0663a1-826d-4dee-bc10-44ebbe5978ba,Eggless Mango Cake Recipe,indian,hard,75,standard,non_veg,Eggless Mango Cake Recipe,quick_keyword_but_long_total_time
+96ad510c-491b-48c9-8bb6-70c493cdbf70,Eggless Sugarless Oats And Nuts Cookie Recipe,indian,hard,75,standard,non_veg,Eggless Sugarless Oats And Nuts Cookie Recipe,quick_keyword_but_long_total_time
+2bb70722-f232-4a0f-88aa-e401d3d74aea,Eggless Whole Wheat Banana Bread Recipe-Vegan Options,indian,medium,75,standard,non_veg,Eggless Whole Wheat Banana Bread Recipe-Vegan Options,quick_keyword_but_long_total_time
+c4c278a2-42cd-43ed-a2fb-50059ffd6967,Foxtail Millet Kheer Recipe (Millet Pudding With Saffron & Nuts),indian,medium,75,standard,vegetarian,Foxtail Millet Kheer Recipe (Millet Pudding With Saffron & Nuts),quick_keyword_but_long_total_time
+d32060a6-eeea-4524-b44e-aa8130f18f13,Gond Ke Ladoo Recipe - Edible Gum Ladoo,indian,hard,75,standard,vegetarian,Gond Ke Ladoo Recipe - Edible Gum Ladoo,quick_keyword_but_long_total_time
+a3904640-e967-4f65-832e-bf2f2521de5c,Haleem Kebab Recipe,indian,hard,75,standard,vegetarian,Haleem Kebab Recipe,quick_keyword_but_long_total_time
+06a11227-ddda-4413-a2f0-72ecfd5e9eb6,High Protein Broccoli & Coriander Loaf Recipe,indian,medium,75,standard,vegetarian,High Protein Broccoli & Coriander Loaf Recipe,quick_keyword_but_long_total_time
+5fa8b23b-b0f6-4fb7-b1ab-14c6d11236ce,Irish Cream Bundt Cake Recipe,indian,medium,75,standard,vegetarian,Irish Cream Bundt Cake Recipe,quick_keyword_but_long_total_time
+211def43-b435-4fc5-b3fb-a209941872fb,Jackfruit Idli Recipe - Pansu Idli,indian,hard,75,standard,vegetarian,Jackfruit Idli Recipe - Pansu Idli,quick_keyword_but_long_total_time
+68623ef2-7149-4e63-ad48-13637fe9be6f,Karnataka Style Obbattu Saaru Recipe - Sweet & Spicy Rasam Recipe,indian,hard,75,standard,vegetarian,Karnataka Obbattu Saaru Recipe - Sweet & Spicy Rasam Recipe,quick_keyword_but_long_total_time
+2bb58d85-2d0a-4a1f-98e4-2146297d8603,Kasuri Malai Murgh Tikka Recipe,indian,hard,75,standard,vegetarian,Kasuri Malai Murgh Tikka Recipe,quick_keyword_but_long_total_time
+be3f400c-a07a-4e96-b301-467fb3218e5a,Mexican Vegetarian Burrito Bowl Recipe,indian,hard,75,standard,vegetarian,Mexican Vegetarian Burrito Bowl Recipe,quick_keyword_but_long_total_time
+e73a570b-dfeb-4049-9c66-6d045806ec17,"Oats, Cranberry And Walnut Bread Recipe",indian,hard,75,standard,vegetarian,"Oats, Cranberry And Walnut Bread Recipe",quick_keyword_but_long_total_time
+2d7da9b7-d73f-4a83-8d52-cd8e9db1229c,Paneer In Lemon Honey Sauce Recipe,indian,medium,75,standard,vegetarian,Paneer In Lemon Honey Sauce Recipe,quick_keyword_but_long_total_time
+d0412b29-a96d-4967-84fb-07ff0ba6663e,Parsi Style Vegetable Dhansak Recipe- Parsi Vegetable Dal,indian,hard,75,standard,vegetarian,Parsi Vegetable Dhansak Recipe- Parsi Vegetable Dal,quick_keyword_but_long_total_time
+75024883-f779-487a-8d4a-0ab5f87e5bb3,Pav Bhaji Pizza Recipe,indian,hard,75,standard,vegetarian,Pav Bhaji Pizza Recipe,quick_keyword_but_long_total_time
+0538aa87-ee51-410a-97bf-1b48b4d72a22,Pineapple Mawa Delight Recipe,indian,medium,75,standard,vegetarian,Pineapple Mawa Delight Recipe,quick_keyword_but_long_total_time
+4ae9f372-2863-4555-bd5e-f3fea73260c7,Pizza Pinwheels Recipe,indian,hard,75,standard,vegetarian,Pizza Pinwheels Recipe,quick_keyword_but_long_total_time
+28d5f2c5-2677-4eed-9a37-3dc7be70ffa2,Raw Jackfruit Biryani Recipe - Kathal Biryani,indian,hard,75,standard,vegetarian,Raw Jackfruit Biryani Recipe - Kathal Biryani,quick_keyword_but_long_total_time
+3b0d9644-83bb-4bcf-ac5b-28ad8ab0652b,Roasted Eggplant Parmigiana Recipe,indian,hard,75,standard,non_veg,Roasted Eggplant Parmigiana Recipe,quick_keyword_but_long_total_time
+7669a5ab-531c-479b-8046-521c35f5b660,Roasted Tomato & Tortellini Soup Recipe,indian,hard,75,standard,vegetarian,Roasted Tomato & Tortellini Soup Recipe,quick_keyword_but_long_total_time
+230cbbf4-9dd2-4ac4-96e9-b078191a0aa8,Shrimp Spinach Cheese Swirl Recipe,indian,hard,75,standard,vegetarian,Shrimp Spinach Cheese Swirl Recipe,quick_keyword_but_long_total_time
+9d37da85-20cd-4cd5-8fd0-fdd1268ddf90,"Stuffed Pita Recipe With Tandoori Mayo Chickpeas, Pickled Onions and Vegetables",indian,hard,75,standard,vegetarian,"Stuffed Pita Recipe With Tandoori Mayo Chickpeas, Pickled Onions and Vegetables",quick_keyword_but_long_total_time
+124371db-ff33-48d2-a0bb-2a90b60a2bf7,Tamil Nadu Style Dal Masala Vada with Cabbage Recipe,indian,medium,75,standard,vegetarian,Tamil Nadu Dal Masala Vada with Cabbage Recipe,quick_keyword_but_long_total_time
+aaa11d60-16ff-422c-a000-755d13f56ad1,Vermicelli Kunafa Recipe With Paneer & Cream Filling,indian,hard,75,standard,vegetarian,Vermicelli Kunafa Recipe With Paneer & Cream Filling,quick_keyword_but_long_total_time
+455f7547-f56c-4711-be39-034944cafd25,Oats Chivda Recipe- Oats Poha Mixture- No Onion No Garlic,indian,hard,79,standard,vegetarian,Oats Chivda Recipe- Oats Poha Mixture- No Onion No Garlic,quick_keyword_but_long_total_time
+e4ba63f2-c276-4247-ab96-bbcaaef6eb94,Badam Halwa Recipe - Delicious Almond Halwa With Khoya,indian,medium,80,standard,vegetarian,Badam Halwa Recipe - Delicious Almond Halwa With Khoya,quick_keyword_but_long_total_time
+b0bbd5f1-28f6-4b4f-a90d-844256ee85ac,Baked Whole Wheat Masala Baati Recipe (Healthy Rajasthani Spiced Wheat Dumplings),indian,hard,80,standard,vegetarian,Baked Whole Wheat Masala Baati Recipe (Healthy Rajasthani Spiced Wheat Dumplings),quick_keyword_but_long_total_time
+f9687e31-2bb0-4547-9b15-c0e2949736af,Cajun Style Potatoes Recipe,indian,medium,80,standard,vegetarian,Cajun Potatoes Recipe,quick_keyword_but_long_total_time
+12693498-873b-4490-9127-87c60ff600be,Cauliflower Kurma (Tamil Nadu Restaurant Style Cauliflower Chops) Recipe,indian,hard,80,standard,vegetarian,Cauliflower Kurma (Tamil Nadu Restaurant Cauliflower Chops) Recipe,quick_keyword_but_long_total_time
+76e9cd20-ffb7-42e7-87dd-5fcad3ddcb02,Chinese Chicken Sweet Corn Soup Recipe,indian,medium,80,standard,non_veg,Chinese Chicken Sweet Corn Soup Recipe,quick_keyword_but_long_total_time
+42321381-c05a-4262-a86d-3d79b5857df7,Chocolate Nutella Lava Cookies Recipe,indian,medium,80,standard,vegetarian,Chocolate Nutella Lava Cookies Recipe,quick_keyword_but_long_total_time
+9b5263cc-7a58-4e9c-a3b9-5b001598a473,Dried Cranberry & White Chocolate Chip Biscotti Recipe,indian,medium,80,standard,vegetarian,Dried Cranberry & White Chocolate Chip Biscotti Recipe,quick_keyword_but_long_total_time
+e4b30127-9c03-41d9-8f59-2977bba1cb60,Eggless Ragi & Whole Wheat Crisp Biscuits Recipe,indian,hard,80,standard,non_veg,Eggless Ragi & Whole Wheat Crisp Biscuits Recipe,quick_keyword_but_long_total_time
+2e3e1cc9-a7fe-45db-af7b-4db8a9241b02,Eggless Thandai Cookie Recipe,indian,hard,80,standard,non_veg,Eggless Thandai Cookie Recipe,quick_keyword_but_long_total_time
+05dd310c-7449-436e-9ae6-4240bf755e6d,Fish Tandoori Recipe,indian,hard,80,standard,non_veg,Fish Tandoori Recipe,quick_keyword_but_long_total_time
+9e672100-02e9-4337-97a2-a75e4d3fba44,Matar Paneer Kachori Korma Recipe - Green Peas And Paneer Kachori Curry,indian,hard,80,standard,vegetarian,Matar Paneer Kachori Korma Recipe - Green Peas And Paneer Kachori Curry,quick_keyword_but_long_total_time
+52b841ff-c82a-4f58-b37f-4de6a681bda1,Muesli Olive Oil Rusk Recipe,indian,hard,80,standard,vegetarian,Muesli Olive Oil Rusk Recipe,quick_keyword_but_long_total_time
+2486cb68-94b3-4bdd-bbf3-d5ad179f3f6e,Oatmeal Cherry Cookies Recipe,indian,medium,80,standard,vegetarian,Oatmeal Cherry Cookies Recipe,quick_keyword_but_long_total_time
+a71240bc-708a-4c7a-ab73-91b9537c3b1f,Odia Style Chuin Aloo Besara Recipe-Potato & Drumsticks Fry In Mustard Paste,indian,medium,80,standard,vegetarian,Odia Chuin Aloo Besara Recipe-Potato & Drumsticks Fry In Mustard Paste,quick_keyword_but_long_total_time
+17968963-7ac8-4574-807d-4b1bbfcbdaa0,Oriya Style Parval Sabzi (Recipe In Hindi),indian,hard,80,standard,vegetarian,Oriya Parval Sabzi (Recipe In Hindi),quick_keyword_but_long_total_time
+d644dbd0-71bc-412c-bfdd-86dcd068be4e,Paneer Broccoli Soya Ghee Roast Pockets Recipe,indian,hard,80,standard,vegetarian,Paneer Broccoli Soya Ghee Roast Pockets Recipe,quick_keyword_but_long_total_time
+04d2be1c-202d-4fee-ae6f-254b94aa511a,Puran Poli Recipe | Gujarati & Maharastrian | Sweet Spiced Stuffed Paratha With Jaggery,indian,hard,80,standard,vegetarian,Puran Poli Recipe | Gujarati & Maharastrian | Sweet Spiced Stuffed Paratha With Jaggery,quick_keyword_but_long_total_time
+58892473-2fb2-40af-a3f0-eeb6649fb8ca,Quick & Easy Apple Cake Recipe,indian,medium,80,quick,vegetarian,& Apple Cake Recipe,quick_keyword_but_long_total_time
+d1efa507-aa4e-40e4-b95a-9e9198bf3509,Quinoa Chocolate Carrot Cake Recipe,indian,hard,80,standard,vegetarian,Quinoa Chocolate Carrot Cake Recipe,quick_keyword_but_long_total_time
+4d2915c8-2778-4938-8cdd-3d3b9ef11a03,Rosemary And Thyme Chicken Recipe,indian,medium,80,standard,non_veg,Rosemary And Thyme Chicken Recipe,quick_keyword_but_long_total_time
+2efc0c2e-2e46-4a9f-85ae-cad3aff81a38,Spicy Aloo Naan Recipe,indian,hard,80,standard,vegetarian,Spicy Aloo Naan Recipe,quick_keyword_but_long_total_time
+d6989a2b-b8a3-447d-8796-88bd39e9612c,Stuffed Palak Paneer Paratha,indian,medium,80,standard,vegetarian,Stuffed Palak Paneer Paratha,quick_keyword_but_long_total_time
+18d6a5d6-f1f4-47e4-8333-bb04833604fc,Telangana Style Barada Palya Recipe - Chana Dal Dry Sabzi,indian,hard,80,standard,vegetarian,Telangana Barada Palya Recipe - Chana Dal Dry Sabzi,quick_keyword_but_long_total_time
+723d3b15-5e8d-4c81-9bed-795b280e4a48,Thalassery Chicken Biriyani Recipe,indian,hard,80,standard,non_veg,Thalassery Chicken Biriyani Recipe,quick_keyword_but_long_total_time
+fd98655c-dc75-4235-b9b7-8d0c36956dac,Tofu Fried Rice Recipe,indian,hard,80,standard,vegetarian,Tofu Fried Rice Recipe,quick_keyword_but_long_total_time
+0b85acd4-d9e2-431b-88b6-e55724cc8af3,Baked Cauliflower Samosa Recipe,indian,hard,85,standard,vegetarian,Baked Cauliflower Samosa Recipe,quick_keyword_but_long_total_time
+b1aaa459-4b1b-496e-be2f-852ab004a48b,Brownie Butter Cake Recipe,indian,medium,85,standard,vegetarian,Brownie Butter Cake Recipe,quick_keyword_but_long_total_time
+686f5257-2c04-4ba9-b161-4aaf70adaa54,Cheese and Spinach Tart Recipe,indian,medium,85,standard,vegetarian,Cheese and Spinach Tart Recipe,quick_keyword_but_long_total_time
+747345d2-27a7-4f3f-91fa-d1b4ccfd2bde,Chicken Shawarma Recipe,indian,hard,85,standard,non_veg,Chicken Shawarma Recipe,quick_keyword_but_long_total_time
+ab67a0d3-46e6-411e-b4bf-0e73b2bbab90,Eggless Spiced Carrot Olive Cake Recipe,indian,hard,85,standard,non_veg,Eggless Spiced Carrot Olive Cake Recipe,quick_keyword_but_long_total_time
+ace9f417-5349-447d-8fab-8fb2a68b120f,Fulkopir Paturi Recipe,indian,hard,85,standard,vegetarian,Fulkopir Paturi Recipe,quick_keyword_but_long_total_time
+bf9013e0-a094-49fd-a482-8e989ede7963,Greek Style Vegan Moussaka Recipe,indian,hard,85,standard,vegetarian,Greek Vegan Moussaka Recipe,quick_keyword_but_long_total_time
+5afe2e69-312c-4da2-81cf-2cf77005bf85,Healthy Fulkopir Paturi Recipe (Bengali Style Cauliflower Dumplings),indian,hard,85,standard,vegetarian,Healthy Fulkopir Paturi Recipe (Bengali Cauliflower Dumplings),quick_keyword_but_long_total_time
+0348f11f-804f-4af6-810d-7547836e537b,Maharashtrian Style Semolina and Yogurt Cake Recipe,indian,medium,85,standard,vegetarian,Maharashtrian Semolina and Yogurt Cake Recipe,quick_keyword_but_long_total_time
+d6f81574-5935-4a22-84b6-f79677c143f0,Mexican Inspired Vegetarian Oven Roasted Stuffed Pepper Recipe,indian,hard,85,standard,vegetarian,Mexican Inspired Vegetarian Oven Roasted Stuffed Pepper Recipe,quick_keyword_but_long_total_time
+35ae098d-8cd6-4861-afc4-402628c2a8a9,Moroccan Harira Recipe (Thick Soup With Chickpeas & Masoor Dal),indian,hard,85,standard,vegetarian,Moroccan Harira Recipe (Thick Soup With Chickpeas & Masoor Dal),quick_keyword_but_long_total_time
+7d52bbeb-0b3b-4b48-a0d1-1d0710774fef,Mushrooms And Zucchini Puffs Recipe,indian,hard,85,standard,vegetarian,Mushrooms And Zucchini Puffs Recipe,quick_keyword_but_long_total_time
+f0b14d1e-aaef-4a93-b6b6-cd02bb9ee0cf,Shehenshahi Parsi Keema Pulao Recipe,indian,hard,85,standard,vegetarian,Shehenshahi Parsi Keema Pulao Recipe,quick_keyword_but_long_total_time
+b4fd2d43-84f8-4c63-8325-26d1e1f2b81e,Sweet Pongal With Thai Jasmine Rice And Palm Sugar Recipe,indian,medium,85,standard,vegetarian,Sweet Pongal With Thai Jasmine Rice And Palm Sugar Recipe,quick_keyword_but_long_total_time
+dc9ca365-53af-4b65-b58a-0e98e60b9af7,Turkish Pide Recipe - Crusty Bread with Sesame Seeds,indian,medium,85,standard,vegetarian,Turkish Pide Recipe - Crusty Bread with Sesame Seeds,quick_keyword_but_long_total_time
+cd4bd203-df78-425a-9a7a-bccae77289dd,Eggless Date & Walnut Oatmeal Cake Recipe,indian,medium,89,standard,non_veg,Eggless Date & Walnut Oatmeal Cake Recipe,quick_keyword_but_long_total_time
+21dac8ad-f656-4704-aad4-90db0651996b,Almond Butter & Fig Muesli Bar Recipe,indian,medium,90,standard,vegetarian,Almond Butter & Fig Muesli Bar Recipe,quick_keyword_but_long_total_time
+39af60be-9141-4be7-bc90-728b4552e88c,Angoori Rasmalai Recipe,indian,hard,90,standard,vegetarian,Angoori Rasmalai Recipe,quick_keyword_but_long_total_time
+4c968b75-1f57-4fe8-9847-66c23ecd2f2c,Baked Fish In Coconut Milk Recipe,indian,hard,90,standard,non_veg,Baked Fish In Coconut Milk Recipe,quick_keyword_but_long_total_time
+6f1c15b2-a70b-4269-ae74-ebae9a626902,Basbousa Recipe With Egg,indian,hard,90,standard,non_veg,Basbousa Recipe With Egg,quick_keyword_but_long_total_time
+261b274a-e442-4d9d-b3db-c4c526e51ed0,Bengaluru Style Brinjal Gravy Recipe - For Biryani,indian,hard,90,standard,vegetarian,Bengaluru Brinjal Gravy Recipe - For Biryani,quick_keyword_but_long_total_time
+ff869556-bd85-4685-a835-23fe803d0e84,Carrot Chutney Recipe,indian,medium,90,standard,vegetarian,Carrot Chutney Recipe,quick_keyword_but_long_total_time
+1475bc2a-10c8-43aa-bc68-6a115e323ec1,Chicken & Bell Pepper Skewers Recipe,indian,hard,90,standard,non_veg,Chicken & Bell Pepper Skewers Recipe,quick_keyword_but_long_total_time
+da6bb58f-397e-4100-aceb-b0b5b5011a9c,Chicken Barbecue Pizza Recipe,indian,hard,90,standard,non_veg,Chicken Barbecue Pizza Recipe,quick_keyword_but_long_total_time
+f8f7f3f0-f0c8-4742-ac1b-76f96598314e,Chicken Teriyaki Rice Bowl Recipe,indian,hard,90,standard,non_veg,Chicken Teriyaki Rice Bowl Recipe,quick_keyword_but_long_total_time
+41a833c1-11ce-40ea-9758-3304e8433cfe,Coffee Chocolate Truffles Recipe,indian,hard,90,standard,vegetarian,Coffee Chocolate Truffles Recipe,quick_keyword_but_long_total_time
+22b58e67-c607-48de-9b30-78a31dbd32d4,Creamy Phirni Recipe - North Indian Rice Pudding,indian,medium,90,standard,vegetarian,Creamy Phirni Recipe - North Indian Rice Pudding,quick_keyword_but_long_total_time
+095dc5ed-b072-4511-a991-df0096c35318,Eggless Traditional Christmas Cake Recipe - Vegan Options,indian,hard,90,traditional,non_veg,Eggless Christmas Cake Recipe - Vegan Options,quick_keyword_but_long_total_time
+7df3648f-ab70-4e62-9f79-b6a802f59b46,Gujarati Biraj Recipe - Saffron Flavored Sweet Lentil Rice With Dry Fruits & Coconut,indian,medium,90,standard,vegetarian,Gujarati Biraj Recipe - Saffron Flavored Sweet Lentil Rice With Dry Fruits & Coconut,quick_keyword_but_long_total_time
+b6f7aa0a-2fd6-49f3-b480-245f868bb1ee,Homemade Butter Naan Recipe - Soft Yogurt Bread,indian,hard,90,standard,vegetarian,Homemade Butter Naan Recipe - Soft Yogurt Bread,quick_keyword_but_long_total_time
+2b37b127-4428-441e-ad80-ffe1e767f018,Hyderabad Soy Biryani Recipe With Vegetables & Palak,indian,hard,90,standard,vegetarian,Hyderabad Soy Biryani Recipe With Vegetables & Palak,quick_keyword_but_long_total_time
+b5f035b3-6fac-4112-bb02-691acd2fd407,Indian Festive Sweet Rice And Jamun Bhog Recipe,indian,medium,90,standard,vegetarian,Indian Festive Sweet Rice And Jamun Bhog Recipe,quick_keyword_but_long_total_time
+c3d80dbf-ccc3-4989-8e57-aaa43b8b5e3f,Kathal Biryani Recipe- Raw Jackfruit Biryani Topped with Caramelised Onions,indian,hard,90,standard,vegetarian,Kathal Biryani Recipe- Raw Jackfruit Biryani Topped with Caramelised Onions,quick_keyword_but_long_total_time
+6e092324-73a9-414e-b4e4-3fe8b74d36ba,Kerala Cherupayar Curry Recipe (Green Moong and Yellow Moong Dal Recipe),indian,medium,90,standard,vegetarian,Kerala Cherupayar Curry Recipe (Green Moong and Yellow Moong Dal Recipe),quick_keyword_but_long_total_time
+ef9f3dbd-89e6-4fda-a563-a14fdd7f1728,Khatte Chole Recipe - A Delicious North Indian Chana Masala,indian,hard,90,standard,vegetarian,Khatte Chole Recipe - A Delicious North Indian Chana Masala,quick_keyword_but_long_total_time
+53b7b34f-4c96-4152-b953-9bfdec59ad10,Laal Maas Biryani Recipe,indian,hard,90,standard,vegetarian,Laal Maas Biryani Recipe,quick_keyword_but_long_total_time
+edf9a14a-5b8b-4d85-ab73-b24ba41e51ed,Lal Mas Biryani Recipe - Laal Maas Biryani Recipe,indian,hard,90,standard,vegetarian,Lal Mas Biryani Recipe - Laal Maas Biryani Recipe,quick_keyword_but_long_total_time
+922328e0-6279-418e-b45b-e8c3c9581084,Mango & Lemon Bar Recipe,indian,hard,90,standard,vegetarian,Mango & Lemon Bar Recipe,quick_keyword_but_long_total_time
+fb9f9415-2945-454e-9ca0-0a95d6ffbc71,Mango Greek Yogurt Cheesecake with Muesli Crumble Recipe,indian,medium,90,standard,vegetarian,Mango Greek Yogurt Cheesecake with Muesli Crumble Recipe,quick_keyword_but_long_total_time
+4ad33002-dd05-46bc-850f-cdd31fed5318,Mutton Dum Biryani Recipe,indian,hard,90,standard,non_veg,Mutton Dum Biryani Recipe,quick_keyword_but_long_total_time
+f3359b74-b6b5-456f-b0e8-128ba05bc882,North Arcot Special Thavalai Dosai Recipe,indian,medium,90,standard,vegetarian,North Arcot Special Thavalai Dosai Recipe,quick_keyword_but_long_total_time
+df0f5ed1-eef7-4704-8512-1d279e9902db,Paneer I Pizza Recipe,indian,hard,90,standard,vegetarian,Paneer I Pizza Recipe,quick_keyword_but_long_total_time
+a33aa381-5212-4148-a599-98bb1b4446e6,Parsi Lagan Nu Custard Recipe,indian,medium,90,standard,vegetarian,Parsi Lagan Nu Custard Recipe,quick_keyword_but_long_total_time
+31ef2831-e4f4-435c-bb44-b39fcb8f7aee,Pitor Ki Sabzi Recipe,indian,hard,90,standard,vegetarian,Pitor Ki Sabzi Recipe,quick_keyword_but_long_total_time
+4ef1fe57-d193-484a-a85a-01c994d66ada,Red Bean Mexican Burrito Bowl Recipe - Roz Ka Khana With Figaro Olive Oil,indian,hard,90,standard,vegetarian,Red Bean Mexican Burrito Bowl Recipe - Roz Ka Khana With Figaro Olive Oil,quick_keyword_but_long_total_time
+7c2bc37a-856d-457e-8a30-fc5d4b166ec8,Soya Granule Samosa Recipe - Perfect Evening Snack,indian,hard,90,standard,vegetarian,Soya Granule Samosa Recipe - Perfect Evening Snack,quick_keyword_but_long_total_time
+8dc4f89a-e4d8-4357-98e3-d5ccc934dbae,Spinach Ricotta Stuffed Ravioli Recipe Tossed In Cheesy Pumpkin Sauce,indian,hard,90,standard,vegetarian,Spinach Ricotta Stuffed Ravioli Recipe Tossed In Cheesy Pumpkin Sauce,quick_keyword_but_long_total_time
+ad28efd8-ee17-4649-8fb1-a4a7dc6d136b,Tandoori Mayonnaise Chicken Cigar Recipe,indian,hard,90,standard,non_veg,Tandoori Mayonnaise Chicken Cigar Recipe,quick_keyword_but_long_total_time
+07092a8a-f270-4b93-a9bb-80114756caec,Tangy Tomato Pie Tart Recipe,indian,hard,90,standard,vegetarian,Tangy Tomato Pie Tart Recipe,quick_keyword_but_long_total_time
+a61e7c06-49fd-47e9-971b-6cd4842bdaea,Vegetarian Chinese Sizzler With Noodles & Momos Recipe,indian,hard,90,standard,vegetarian,Vegetarian Chinese Sizzler With Noodles & Momos Recipe,quick_keyword_but_long_total_time
+74d67a93-c751-4756-991a-4e346fd6af8b,Whole Wheat Eggless Cinnamon & Raisin Swirl Bread Recipe,indian,hard,90,standard,non_veg,Whole Wheat Eggless Cinnamon & Raisin Swirl Bread Recipe,quick_keyword_but_long_total_time
+25c3c407-1bf1-4341-9b17-80e1ed92aa39,Canadian Egg Free Butter Tart Recipe (Eggless),indian,hard,95,standard,non_veg,Canadian Egg Free Butter Tart Recipe (Eggless),quick_keyword_but_long_total_time
+7d2a8152-e60d-46d0-aaab-ef058d9d1bfc,Chicken Cooked in Banana Leaves Recipe,indian,hard,95,standard,non_veg,Chicken Cooked in Banana Leaves Recipe,quick_keyword_but_long_total_time
+a6ca108e-1929-4dd7-b12c-381217d1e8f6,Chocolate And Salted Caramel Tart Recipe,indian,hard,95,standard,vegetarian,Chocolate And Salted Caramel Tart Recipe,quick_keyword_but_long_total_time
+30810a05-a493-4b22-aa3e-05bde8cc6f0f,Prawn Masala Kozhukattai Recipe - Prawn Masala Dumplings,indian,hard,95,standard,non_veg,Prawn Masala Kozhukattai Recipe - Prawn Masala Dumplings,quick_keyword_but_long_total_time
+746b7dd9-912b-4109-8721-9ef5db41c04f,Spicy Neer Dosa Recipe,indian,hard,95,standard,vegetarian,Spicy Neer Dosa Recipe,quick_keyword_but_long_total_time
+0b471f7a-0cb9-4404-b11a-d09e408bb16f,Apple Carrot Sweet Potato Soup With Garam Masala Roasted Chickpeas Recipe,indian,hard,100,standard,vegetarian,Apple Carrot Sweet Potato Soup With Garam Masala Roasted Chickpeas Recipe,quick_keyword_but_long_total_time
+fe66655e-3876-470c-9138-66167bbf2219,Bacon Quiche Tart Recipe,indian,hard,100,standard,vegetarian,Bacon Quiche Tart Recipe,quick_keyword_but_long_total_time
+371044aa-7718-4188-8a5a-fd15284dc6fe,Calcutta Style Chicken Biryani Recipe,indian,hard,100,standard,non_veg,Calcutta Chicken Biryani Recipe,quick_keyword_but_long_total_time
+e5eb916b-bfbf-4ff2-9d0c-b95b604fc43e,Chinese style Black Sesame Nai Huang Bao Recipe (Steamed Custard Buns),indian,hard,100,standard,vegetarian,Chinese Black Sesame Nai Huang Bao Recipe (Steamed Custard Buns),quick_keyword_but_long_total_time
+c02baca7-98c3-4ce7-99f5-c3f6b65894bc,Classic New York Style Cheesecake Recipe,indian,medium,100,standard,vegetarian,Classic New York Cheesecake Recipe,quick_keyword_but_long_total_time
+7c063d3e-c278-4f44-8e82-631d157e455f,Delicious Methi Chicken Curry - Murgh Methi Curry Recipe,indian,hard,100,standard,non_veg,Delicious Methi Chicken Curry - Murgh Methi Curry Recipe,quick_keyword_but_long_total_time
+abc54829-2aa5-463e-8f99-7d382315676f,French Onion Tart Recipe,indian,hard,100,standard,vegetarian,French Onion Tart Recipe,quick_keyword_but_long_total_time
+800ad6ba-60e3-4fbd-97cd-306961181473,Italian Baked Eggplant in Tomato & Parmesan - Melanzane alla Parmigiana Recipe,indian,hard,100,standard,non_veg,Italian Baked Eggplant in Tomato & Parmesan - Melanzane alla Parmigiana Recipe,quick_keyword_but_long_total_time
+eb76e4de-bbd1-4935-b59d-972b26943dc4,Kolkata Chicken Chaap Recipe  - Slow Cooked Chicken Legs,indian,hard,100,standard,non_veg,Kolkata Chicken Chaap Recipe - Slow Cooked Chicken Legs,quick_keyword_but_long_total_time
+e695528b-3f18-441e-83aa-917aee1079fb,One Pot Creamy Spinach Lentils Recipe,indian,medium,100,standard,vegetarian,One Pot Creamy Spinach Lentils Recipe,quick_keyword_but_long_total_time
+6fd12ad5-dc7b-4599-b46e-3bc489581e9e,Pathare Prabhu Roath Recipe (Semolina Cake),indian,medium,100,standard,vegetarian,Pathare Prabhu Roath Recipe (Semolina Cake),quick_keyword_but_long_total_time
+c6338e45-c297-43b4-9e7b-48163bbfb987,Potato Stuffed Dal Dhokli Recipe,indian,hard,100,standard,vegetarian,Potato Stuffed Dal Dhokli Recipe,quick_keyword_but_long_total_time
+1329253d-f372-4195-9933-c842f65a1cc5,Rajasthani Dal Bati Churma Recipe | Dhaba Style recipe,indian,hard,100,standard,vegetarian,Rajasthani Dal Bati Churma Recipe | Dhaba recipe,quick_keyword_but_long_total_time
+44d44647-aad4-4550-97f5-c8bf65a42e2a,South Indian Grilled Fish With Spicy Fusion Sauce Recipe,indian,hard,100,standard,non_veg,South Indian Grilled Fish With Spicy Fusion Sauce Recipe,quick_keyword_but_long_total_time
+c0be5e23-11cb-472f-a61e-d5446b61ecb8,Spicy Egg Biryani Recipe with Figaro Olive Oil,indian,hard,100,standard,non_veg,Spicy Egg Biryani Recipe with Figaro Olive Oil,quick_keyword_but_long_total_time
+8d53c240-6897-4021-ad76-c376330b300e,Spinach Paneer Kofta Curry Recipe,indian,hard,100,standard,vegetarian,Spinach Paneer Kofta Curry Recipe,quick_keyword_but_long_total_time
+ef1f7b06-3962-4565-9de2-907797cdd57f,Stuffed Bun With Veggies Recipe,indian,hard,100,standard,non_veg,Stuffed Bun With Veggies Recipe,quick_keyword_but_long_total_time
+a25fedd6-5fb6-47b1-84c6-8c7144daf91c,Tandoori Chicken Crostini Recipe,indian,hard,100,standard,non_veg,Tandoori Chicken Crostini Recipe,quick_keyword_but_long_total_time
+97eb4c34-b259-44ec-b2cc-c6f4a563a611,Thengai Poornam Kozhukattai & Uppu Kozhukattai Recipe,indian,hard,100,standard,vegetarian,Thengai Poornam Kozhukattai & Uppu Kozhukattai Recipe,quick_keyword_but_long_total_time
+957d1741-457f-434c-85a1-2c35e907b145,Zesty Fish Quiche Recipe Flavored With Cheesy Garlic Mayo,indian,hard,100,standard,non_veg,Zesty Fish Quiche Recipe Flavored With Cheesy Garlic Mayo,quick_keyword_but_long_total_time
+844ed75f-2d37-4e5d-a149-980833ae7405,Cajun Kidney beans Rice With Soya Chunks Recipe,indian,hard,105,standard,vegetarian,Cajun Kidney beans Rice With Soya Chunks Recipe,quick_keyword_but_long_total_time
+d63533ca-2591-4088-9d79-5a81e285f18a,Chocolate Salted Caramel Tart Recipe,indian,hard,105,standard,vegetarian,Chocolate Salted Caramel Tart Recipe,quick_keyword_but_long_total_time
+98d7f816-476a-4c38-9df9-8483047e15cf,Goan Style Chicken Galinha Cafreal Recipe,indian,medium,105,standard,non_veg,Goan Chicken Galinha Cafreal Recipe,quick_keyword_but_long_total_time
+f0392d0d-4b8a-49e9-b491-55334caa5849,Goan Style Frango Vera Recipe - Chicken Vera,indian,medium,105,standard,non_veg,Goan Frango Vera Recipe - Chicken Vera,quick_keyword_but_long_total_time
+e350aabb-28da-44e3-9c51-733d36d49c44,Muesli Chia Seeds Kaiser Roll Recipe - Hard Roll Recipe,indian,hard,105,standard,vegetarian,Muesli Chia Seeds Kaiser Roll Recipe - Hard Roll Recipe,quick_keyword_but_long_total_time
+c5b52dfc-56d4-4601-a8c4-18fdd381feb6,Murgh Musallam Recipe - Masala Roasted Chicken,indian,hard,105,standard,non_veg,Murgh Musallam Recipe - Masala Roasted Chicken,quick_keyword_but_long_total_time
+39972182-6bd1-434c-af70-59bbe17e69f4,Nimki Aloo Anardana Curry Recipe - Potato And Nimki Curry,indian,hard,105,standard,vegetarian,Nimki Aloo Anardana Curry Recipe - Potato And Nimki Curry,quick_keyword_but_long_total_time
+ec320ac0-7bdf-4c8e-9948-c18b2ee7813b,Spinach & Paneer Cornmeal Roll Recipe,indian,hard,105,standard,vegetarian,Spinach & Paneer Cornmeal Roll Recipe,quick_keyword_but_long_total_time
+06a48aef-30ec-45ef-9617-14beae5c6c88,Sprouted Moong Dhokla Recipe,indian,hard,105,standard,vegetarian,Sprouted Moong Dhokla Recipe,quick_keyword_but_long_total_time
+b326b7ed-15a1-4213-a8ed-a6e7030afa8f,Traditional Bihari Litti Chokha Recipe,indian,hard,105,traditional,vegetarian,Bihari Litti Chokha Recipe,quick_keyword_but_long_total_time
+1ab06a26-e60d-46ce-bb48-d9f68e8d2f09,Vegetable Tartlets Recipe,indian,hard,105,standard,vegetarian,Vegetable Tartlets Recipe,quick_keyword_but_long_total_time
+477f2ffe-3214-40a4-9169-3653c6cc8b22,Barnyard Millet Bisi Bele Bath Recipe,indian,hard,110,standard,vegetarian,Barnyard Millet Bisi Bele Bath Recipe,quick_keyword_but_long_total_time
+e200f811-3b96-4936-9c4b-7519e9542664,Eggless Devil's Food Cake Recipe,indian,hard,110,standard,non_veg,Eggless Devil's Food Cake Recipe,quick_keyword_but_long_total_time
+3b3f1c0a-cd52-4ef6-943e-f56b92ebc23a,Himachali Mutton Rara Recipe,indian,hard,110,standard,non_veg,Himachali Mutton Rara Recipe,quick_keyword_but_long_total_time
+4ed9bfc5-c466-4eb2-b90f-503c268cc994,Paya Curry Recipe | Lamb Trotters,indian,hard,110,standard,non_veg,Paya Curry Recipe | Lamb Trotters,quick_keyword_but_long_total_time
+b9bd16e4-26bb-4197-b12f-bd9770c67c1f,Rustic Cottage Pie With Mushroom Sauce Recipe,indian,hard,110,standard,vegetarian,Rustic Cottage Pie With Mushroom Sauce Recipe,quick_keyword_but_long_total_time
+90ee41ab-535b-49c5-97cd-9a9836661801,Arabian Chicken Mandi Recipe -Yemeni Style Rice & Chicken,indian,hard,120,standard,non_veg,Arabian Chicken Mandi Recipe -Yemeni Rice & Chicken,quick_keyword_but_long_total_time
+bc58c089-a77c-49c3-8ae1-da4d9aeec14a,Attukal Mochai Kuzhambu Recipe-Mutton Leg & Field Beans Gravy,indian,hard,120,standard,non_veg,Attukal Mochai Kuzhambu Recipe-Mutton Leg & Field Beans Gravy,quick_keyword_but_long_total_time
+c4948f11-d048-4d03-a75f-87e29ecf7e95,Choco Swirl Cookies Recipe (Eggless Choco Pinwheel Cookies),indian,medium,120,standard,non_veg,Choco Swirl Cookies Recipe (Eggless Choco Pinwheel Cookies),quick_keyword_but_long_total_time
+7b2d74f3-e4f6-4628-a27e-5792601d52b8,Chocolate Ganache Tart Recipe,indian,medium,120,standard,vegetarian,Chocolate Ganache Tart Recipe,quick_keyword_but_long_total_time
+f0e51fbc-441d-4fc3-80d5-7eec80168f9b,Chocolate Honeycomb Bun Recipe,indian,hard,120,standard,vegetarian,Chocolate Honeycomb Bun Recipe,quick_keyword_but_long_total_time
+27b89de8-f458-485e-bea8-d3f4bb24e4eb,Egg Biryani Recipe With Coconut Milk,indian,hard,120,standard,non_veg,Egg Biryani Recipe With Coconut Milk,quick_keyword_but_long_total_time
+04ad1915-3a35-47f3-a4f9-6d4575850ffa,Herbed Focaccia Bread Recipe,indian,medium,120,standard,vegetarian,Herbed Focaccia Bread Recipe,quick_keyword_but_long_total_time
+e812f040-24d4-4ab9-8443-1f84aa492728,Homemade Baked Beans Recipe (Wholesome & Healthy),indian,hard,120,standard,vegetarian,Homemade Baked Beans Recipe (Wholesome & Healthy),quick_keyword_but_long_total_time
+c9337212-6cfd-45ce-b3f1-b43dd5de728f,Matar Kachori Recipe,indian,hard,120,standard,vegetarian,Matar Kachori Recipe,quick_keyword_but_long_total_time
+3d479120-a360-45df-84c8-b4fd2f642b0d,Nutty Pineapple Tutti Frutti Cake Recipe (White Fruitcake),indian,medium,120,standard,vegetarian,Nutty Pineapple Tutti Frutti Cake Recipe (White Fruitcake),quick_keyword_but_long_total_time
+5a829c4e-0ca4-4795-8a08-3790bcb5e3db,Red Velvet Cake Recipe,indian,hard,120,standard,vegetarian,Red Velvet Cake Recipe,quick_keyword_but_long_total_time
+9b134e81-b7ad-4fd6-803c-4d0561163d3a,Tawa Crispy Pomfret Fry Recipe,indian,medium,120,standard,vegetarian,Tawa Crispy Pomfret Fry Recipe,quick_keyword_but_long_total_time
+2d136e35-393b-4b7a-81c2-40ca7d7e8d67,Whole Grain and Oat Buns Recipe (Healthy Dinner Rolls),indian,hard,120,standard,vegetarian,Whole Grain and Oat Buns Recipe (Healthy Dinner Rolls),quick_keyword_but_long_total_time
+c6e04e7a-0c23-474d-ad55-ea97881c368a,Orange Zested Shortbread Cookie Recipe (Egg Free/Eggless),indian,hard,125,standard,non_veg,Orange Zested Shortbread Cookie Recipe (Egg Free/Eggless),quick_keyword_but_long_total_time
+bd1d474f-c96d-4807-a852-8ee797ba9e0a,Savory Ricotta Tart Recipe,indian,medium,125,standard,vegetarian,Savory Ricotta Tart Recipe,quick_keyword_but_long_total_time
+0973e441-8ccb-4b9b-95f2-884ebec4e668,Fruit-Chia Rice paper rolls in a Mango Tahini Dipping sauce Recipe,indian,hard,130,standard,vegetarian,Fruit-Chia Rice paper rolls in a Mango Tahini Dipping sauce Recipe,quick_keyword_but_long_total_time
+b8914c39-3710-4083-a927-a769507a454c,Potato Puff Pastry Recipe,indian,hard,130,standard,vegetarian,Potato Puff Pastry Recipe,quick_keyword_but_long_total_time
+37eb7689-4850-4845-9d56-7ebfaab8e234,Pain Viennois | Vienna Bread Recipe,indian,hard,135,standard,vegetarian,Pain Viennois | Vienna Bread Recipe,quick_keyword_but_long_total_time
+ba4e062b-5d3e-42d8-87b9-51a6ba0f5d2e,Pissaladiere Recipe - Provencal Onion Tart Recipe,indian,hard,135,standard,vegetarian,Pissaladiere Recipe - Provencal Onion Tart Recipe,quick_keyword_but_long_total_time
+79e16ee4-206a-4555-ba54-727fd80d7080,Strawberry & Chocolate Rolls Recipe With Vanilla Glaze,indian,hard,135,standard,vegetarian,Strawberry & Chocolate Rolls Recipe With Vanilla Glaze,quick_keyword_but_long_total_time
+13290da1-2a05-447e-9186-1ae557d49e99,Tart Provencal With Ratatouille Recipe,indian,hard,135,standard,vegetarian,Tart Provencal With Ratatouille Recipe,quick_keyword_but_long_total_time
+40f3f6d5-5d01-4e60-8e71-1d210858a860,Baklava Recipe - Turkish Traditional Sweet,indian,hard,140,traditional,vegetarian,Baklava Recipe - Turkish Sweet,quick_keyword_but_long_total_time
+76324220-26a6-4ee6-9f6e-6475c2fa4213,Creamy Mango Kulfi Recipe With Cream Cheese,indian,medium,140,standard,vegetarian,Creamy Mango Kulfi Recipe With Cream Cheese,quick_keyword_but_long_total_time
+671cb744-8d54-45c7-8a8c-280f7814f645,Focaccia With Cherry Tomatoes & Caramelized Onion Recipe,indian,hard,140,standard,vegetarian,Focaccia With Cherry Tomatoes & Caramelized Onion Recipe,quick_keyword_but_long_total_time
+caceba4e-43b4-4926-bf42-dd701525626b,Milk Braid Rolls Recipe,indian,hard,140,standard,vegetarian,Milk Braid Rolls Recipe,quick_keyword_but_long_total_time
+cc87335d-85e8-4a06-b490-a14f266464cb,Moroccan Roast Chicken with Apricots Recipe,indian,hard,140,standard,non_veg,Moroccan Roast Chicken with Apricots Recipe,quick_keyword_but_long_total_time
+e550143c-fb2c-4e85-a966-ea84e8755dd3,Roasted Garlic Pineapple Paneer Pizza Recipe,indian,hard,140,standard,vegetarian,Roasted Garlic Pineapple Paneer Pizza Recipe,quick_keyword_but_long_total_time
+408f62bb-61b4-4730-bffd-8b98e3439a68,Wheat Pizza Pockets Recipe Baked with Chicken Filling,indian,hard,140,standard,non_veg,Wheat Pizza Pockets Recipe Baked with Chicken Filling,quick_keyword_but_long_total_time
+32842a21-70e8-4854-bb50-425c7ad08150,Whole Wheat Methi Garlic Naan Recipe  | Oven Method with yeast,indian,medium,140,standard,vegetarian,Whole Wheat Methi Garlic Naan Recipe | Oven Method with yeast,quick_keyword_but_long_total_time
+b0b091b6-9695-4382-8e2e-8b463e0f288e,Warqi Paratha Recipe,indian,hard,145,standard,vegetarian,Warqi Paratha Recipe,quick_keyword_but_long_total_time
+7a4f5a29-19ed-4d04-a9d6-97e8c0bbedf0,Black Bean Walnut Burger Recipe,indian,hard,150,standard,vegetarian,Black Bean Walnut Burger Recipe,quick_keyword_but_long_total_time
+6f84cb20-278d-4c02-ab5e-93c80643ceae,Caramelized Onion Tart with Ricotta Cheese Recipe,indian,hard,150,standard,vegetarian,Caramelized Onion Tart with Ricotta Cheese Recipe,quick_keyword_but_long_total_time
+64145c01-df41-47f3-816a-08d243c6ef72,Chicken Dum Biryani Recipe,indian,hard,150,standard,non_veg,Chicken Dum Biryani Recipe,quick_keyword_but_long_total_time
+e64f9095-b6a5-430b-bbca-4b0da0ca3cd1,Kumror Chokka Recipe - Kaddu Kala Chana Sabzi | Pumpkin Chickpea Curry,indian,hard,150,standard,vegetarian,Kumror Chokka Recipe - Kaddu Kala Chana Sabzi | Pumpkin Chickpea Curry,quick_keyword_but_long_total_time
+9cd9bbb7-c6fa-43b0-af93-b7047271f52f,Italian Grissini Recipe- Homemade Breadsticks,indian,medium,155,standard,vegetarian,Italian Grissini Recipe- Homemade Breadsticks,quick_keyword_but_long_total_time
+65134fac-5706-41ab-9730-e2c2c8d8f0d8,Kala Chana Masala Recipe,indian,hard,155,standard,vegetarian,Kala Chana Masala Recipe,quick_keyword_but_long_total_time
+b859cda0-c958-4eb4-a9d2-09f88c5f2937,Spicy Tandoori Paneer Open Puff Recipe,indian,hard,155,standard,vegetarian,Spicy Tandoori Paneer Open Puff Recipe,quick_keyword_but_long_total_time
+78de8bc1-8b09-4888-a067-9c0b736e7ee7,Chana Dal Aloo Cutlet Recipe - Gram Dal Potato Cutlet Recipe,indian,hard,160,standard,vegetarian,Chana Dal Aloo Cutlet Recipe - Gram Dal Potato Cutlet Recipe,quick_keyword_but_long_total_time
+baa7b9b8-91d8-4739-aa9a-8df9353c9c1a,Garlic Knot Recipe,indian,hard,160,standard,vegetarian,Garlic Knot Recipe,quick_keyword_but_long_total_time
+31421860-72a4-4ae5-98da-0177a5d2e6c9,Homemade Lemon Sevai Recipe - Lemon Idiyappam Recipe,indian,hard,160,standard,vegetarian,Homemade Lemon Sevai Recipe - Lemon Idiyappam Recipe,quick_keyword_but_long_total_time
+66656c33-80da-4b8c-96c3-c32f02c97e64,Homemade Thengai Sevai Recipe - Coconut Idiyappam Recipe,indian,hard,160,standard,vegetarian,Homemade Thengai Sevai Recipe - Coconut Idiyappam Recipe,quick_keyword_but_long_total_time
+e52412fb-3947-4264-9173-5a90f0588d8b,Kerala Style Christmas Plum Cake Recipe,indian,hard,160,standard,vegetarian,Kerala Christmas Plum Cake Recipe,quick_keyword_but_long_total_time
+5c0b949d-3026-4b7a-a83d-993a590d0d5f,Maa Ki Dal (Recipe),indian,hard,160,standard,vegetarian,Maa Ki Dal (Recipe),quick_keyword_but_long_total_time
+76620ce8-23c5-4baf-aae9-5624983efa36,Maa Ki Dal Recipe - Punjabi Style Black Urad Dal Recipe,indian,hard,160,standard,vegetarian,Maa Ki Dal Recipe - Punjabi Black Urad Dal Recipe,quick_keyword_but_long_total_time
+33b1c78a-de60-4360-9a99-5a2de475be67,Pacha Payir Kulambu Recipe (South Indian Style Green Gram Curry),indian,hard,160,standard,non_veg,Pacha Payir Kulambu Recipe (South Indian Green Gram Curry),quick_keyword_but_long_total_time
+de08e816-fa53-4f2d-9844-62dd1c23905b,Pesto and Tangy Tomato Whirls with Hints of Garlic,indian,hard,160,standard,vegetarian,Pesto and Tangy Tomato Whirls with Hints of Garlic,quick_keyword_but_long_total_time
+513fcdf4-e049-4057-b77c-5b3dc96fa703,Berry Focaccia with Mascarpone Cheese Recipe(Italian bread topped with mixed berries and served with Sweetened Mascarpone Cheese),indian,hard,165,standard,vegetarian,Berry Focaccia with Mascarpone Cheese Recipe(Italian bread topped with mixed berries and served with Sweetened Mascarpone Cheese),quick_keyword_but_long_total_time
+32e76819-8f93-4ebe-8d1c-aa5bebfb5f4d,Coconut Thumbprint Cookies With Pineapple And Apricot Preserve Recipe,indian,hard,165,standard,vegetarian,Coconut Thumbprint Cookies With Pineapple And Apricot Preserve Recipe,quick_keyword_but_long_total_time
+c22812a5-c87a-4f2b-a0da-f30ea1c4cf66,Mangalorean Kadle Manoli Recipe  - Tindora Kala Chana Sabzi,indian,hard,165,standard,vegetarian,Mangalorean Kadle Manoli Recipe - Tindora Kala Chana Sabzi,quick_keyword_but_long_total_time
+3e9b12f5-e10b-4445-b961-cbee3b9f3efa,Chicken Malai Kebab Recipe (Reshmi Kebab),indian,hard,170,standard,non_veg,Chicken Malai Kebab Recipe (Reshmi Kebab),quick_keyword_but_long_total_time
+aa6d95c8-1965-4e7e-b2c9-f9b30d9a6d4b,Lucknowi Murgh Biryani Recipe - Awadhi Style Chicken Biryani,indian,hard,170,standard,non_veg,Lucknowi Murgh Biryani Recipe - Awadhi Chicken Biryani,quick_keyword_but_long_total_time
+efaa6dc8-3b89-489b-9af3-6ec059a9b9d3,Multigrain Pizza with Roasted Vegetables Recipe,indian,hard,170,standard,vegetarian,Multigrain Pizza with Roasted Vegetables Recipe,quick_keyword_but_long_total_time
+b1d2e206-87ba-48b0-b06a-0b989154909b,Parmesan Corn Chili Fries Recipe,indian,medium,170,standard,vegetarian,Parmesan Corn Chili Fries Recipe,quick_keyword_but_long_total_time
+e98b97f6-e29c-44c0-aca8-da5212136257,Hawaiian Chicken Skewers Recipe,indian,hard,175,standard,non_veg,Hawaiian Chicken Skewers Recipe,quick_keyword_but_long_total_time
+817a7ff4-2c01-4a94-a918-37ef986f4026,Chicken Pizza With Caramelised Red Onion Recipe,indian,hard,180,standard,non_veg,Chicken Pizza With Caramelised Red Onion Recipe,quick_keyword_but_long_total_time
+5c6293be-c416-4b45-acbc-93fdcba1bcc3,Chocolate Tart Recipe,indian,hard,180,standard,vegetarian,Chocolate Tart Recipe,quick_keyword_but_long_total_time
+b9025bec-d65e-4614-a86d-aac641bd246e,Crispy Oven Roasted Curried Chickpeas Recipe,indian,medium,180,standard,vegetarian,Crispy Oven Roasted Curried Chickpeas Recipe,quick_keyword_but_long_total_time
+f2b25e47-5882-40d7-8a98-c9b75e129c4f,Murgh Malaiwala Recipe - Chicken In Rich Creamy Gravy,indian,hard,180,standard,non_veg,Murgh Malaiwala Recipe - Chicken In Rich Creamy Gravy,quick_keyword_but_long_total_time
+3a6912b8-6909-4028-b4d4-df1b76f256a4,Mutton Chaap Recipe - Slow Cooked Lamb Chops,indian,hard,180,standard,non_veg,Mutton Chaap Recipe - Slow Cooked Lamb Chops,quick_keyword_but_long_total_time
+1e9dc675-2230-44bf-b3a2-6646b1d62e59,Nuchinunde / Nucchina Unde Recipe -Karnataka Style Dal Steamed Pakora,indian,medium,185,standard,vegetarian,Nuchinunde / Nucchina Unde Recipe -Karnataka Dal Steamed Pakora,quick_keyword_but_long_total_time
+eb25691f-a269-447c-951c-170ad4e39586,Beetroot Millet Paniyaram Recipe,indian,hard,190,standard,vegetarian,Beetroot Millet Paniyaram Recipe,quick_keyword_but_long_total_time
+7845fb96-d59c-4e2a-aa80-8b43a0a85554,Bengali Sita Bhog Recipe,indian,hard,190,standard,vegetarian,Bengali Sita Bhog Recipe,quick_keyword_but_long_total_time
+f30a40fe-cb8a-43b1-a20e-0a918efbef59,Caprese Empanada Recipe With Tomato Basil And Mozzarella,indian,hard,190,standard,vegetarian,Caprese Empanada Recipe With Tomato Basil And Mozzarella,quick_keyword_but_long_total_time
+060f28e6-97f9-4894-bae7-885dd4a1c349,Dhaba Mutton Recipe-Spicy Mutton Gravy,indian,hard,190,standard,non_veg,Dhaba Mutton Recipe-Spicy Mutton Gravy,quick_keyword_but_long_total_time
+2c16f11f-32cd-4a46-8e19-0bdd077c2333,Pizza Margherita Recipe,indian,hard,190,standard,vegetarian,Pizza Margherita Recipe,quick_keyword_but_long_total_time
+abcfa235-d314-405c-82c8-16dfda36c636,Cucumber Neer Dosa Recipe-Rice Pancake,indian,hard,195,standard,vegetarian,Cucumber Neer Dosa Recipe-Rice Pancake,quick_keyword_but_long_total_time
+556d070e-0f19-4729-9a6f-ad94707bd830,Lemon 7 Up Cake Recipe,indian,medium,195,standard,vegetarian,Lemon 7 Up Cake Recipe,quick_keyword_but_long_total_time
+4d4ecd7a-7a89-4edb-b915-1beb1e94fb44,Mango Kalakand Recipe,indian,medium,200,standard,vegetarian,Mango Kalakand Recipe,quick_keyword_but_long_total_time
+d92470cc-be47-422f-8d0e-3c206db26c94,Baked Yogurt Tart Recipe with Figs and Blueberries Recipe(With Eggless Recipe Option),indian,hard,210,standard,non_veg,Baked Yogurt Tart Recipe with Figs and Blueberries Recipe(With Eggless Recipe Option),quick_keyword_but_long_total_time
+0d51b5f4-f978-46cb-bb35-855630f58fde,Chak-Hao Amubi Recipe (Black Rice Pudding),indian,medium,220,standard,vegetarian,Chak-Hao Amubi Recipe (Black Rice Pudding),quick_keyword_but_long_total_time
+66c0dd6a-edad-4983-ae35-a2c56eadb33d,Kashmiri Style Shab Deg Recipe-Mutton Kofta and Turnip Curry,indian,hard,220,standard,non_veg,Kashmiri Shab Deg Recipe-Mutton Kofta and Turnip Curry,quick_keyword_but_long_total_time
+433dd7bb-590a-48c8-a8a3-8e07f38c02a2,Kerala Style Prawns & Shrimp Biryani  -Chemmeen Biryani Recipe,indian,hard,220,standard,non_veg,Kerala Prawns & Shrimp Biryani -Chemmeen Biryani Recipe,quick_keyword_but_long_total_time
+e7880ffd-80c2-4bf2-b264-b14b417bce86,Sri Lankan Egg Bread Recipe,indian,hard,220,standard,non_veg,Sri Lankan Egg Bread Recipe,quick_keyword_but_long_total_time
+60bc19b2-fad2-45be-95c2-5dec278fea98,Bengali Style Dhokar Dalna Recipe (Spiced Lentil Cakes in Tomato Gravy Recipe),indian,hard,225,standard,vegetarian,Bengali Dhokar Dalna Recipe (Spiced Lentil Cakes in Tomato Gravy Recipe),quick_keyword_but_long_total_time
+2e9bb6ab-7e31-4980-b61f-025d836bebee,Bengali style meat broth recipe-mutton curry,indian,hard,225,standard,non_veg,Bengali meat broth recipe-mutton curry,quick_keyword_but_long_total_time
+0cfdb85f-7d1b-4aeb-9385-1fe85fe99457,Mushroom filled Vol-au-Vent Recipe,indian,medium,225,standard,vegetarian,Mushroom filled Vol-au-Vent Recipe,quick_keyword_but_long_total_time
+39048989-bfa6-4219-9746-24bacb2d4a5e,Kerala Style Appam Recipe - Fermented Rice Pancakes With Coconut,indian,medium,230,standard,vegetarian,Kerala Appam Recipe - Fermented Rice Pancakes With Coconut,quick_keyword_but_long_total_time
+08a42adc-7160-4010-97c9-d4e6c1f991eb,Buttermilk Cinnamon Rolls Recipe,indian,hard,240,standard,vegetarian,Buttermilk Cinnamon Rolls Recipe,quick_keyword_but_long_total_time
+d6a29758-f805-468b-a9ec-c265a1097e5c,French Brioche Recipe (Savoury Version),indian,hard,250,standard,vegetarian,French Brioche Recipe (Savoury Version),quick_keyword_but_long_total_time
+91430b64-58b6-41a0-b8bd-3d6e409b6965,Burnt Orange Panna Cotta Recipe,indian,hard,255,standard,vegetarian,Burnt Orange Panna Cotta Recipe,quick_keyword_but_long_total_time
+93f18ce4-fdb2-4d03-b5b0-a5f1a5957c0f,Peanut Butter And Flax Oats Bar With Chocolate Chip Recipe,indian,medium,255,standard,vegetarian,Peanut Butter And Flax Oats Bar With Chocolate Chip Recipe,quick_keyword_but_long_total_time
+8c4c3e04-d502-4c4f-acc7-d66a88936001,Simple Peruvian (Mayocoba) Beans Salad Recipe,indian,medium,255,standard,vegetarian,Simple Peruvian (Mayocoba) Beans Salad Recipe,quick_keyword_but_long_total_time
+1090a544-2c74-4bbf-a901-34916447cba3,Whole Wheat Sunflower Seed Bread Recipe,indian,hard,255,standard,vegetarian,Whole Wheat Sunflower Seed Bread Recipe,quick_keyword_but_long_total_time
+e403c952-b61f-4e47-ba1c-ef05b80ee867,Black Forest Cake Recipe,indian,hard,260,standard,vegetarian,Black Forest Cake Recipe,quick_keyword_but_long_total_time
+c9718155-5779-46c8-8347-b24b547d9263,Decadent Chocolate Truffles Recipe,indian,medium,260,standard,vegetarian,Decadent Chocolate Truffles Recipe,quick_keyword_but_long_total_time
+51b61609-e32c-4c43-b3db-1bf26eac442c,Basic Homemade Bread Recipe Using Yeast,indian,medium,270,standard,vegetarian,Basic Homemade Bread Recipe Using Yeast,quick_keyword_but_long_total_time
+2e8581c9-e2a9-4b8a-bccf-e8823638836e,Mexican Style Cemita Recipe - Sesame Sandwich Bun,indian,hard,270,standard,vegetarian,Mexican Cemita Recipe - Sesame Sandwich Bun,quick_keyword_but_long_total_time
+daffe1af-9ffa-4f75-a2f6-61e740926417,Rajasthani Dal Recipe,indian,hard,270,standard,vegetarian,Rajasthani Dal Recipe,quick_keyword_but_long_total_time
+95445e98-0b8e-47f7-95a2-172d6c2318f1,Dibba Rotti/Minapa Rotti Recipe (Pan Idli Recipe),indian,medium,280,standard,vegetarian,Dibba Rotti/Minapa Rotti Recipe (Pan Idli Recipe),quick_keyword_but_long_total_time
+b0947964-2a50-4596-a9be-fb82c28dd85a,Tomato Dosa Recipe,indian,hard,285,standard,vegetarian,Tomato Dosa Recipe,quick_keyword_but_long_total_time
+b2babf3a-651b-490c-ac90-f6e6c1c7f5c3,Calcutta Style Ghugni Recipe-Tangy Yellow Peas Curry,indian,hard,290,standard,vegetarian,Calcutta Ghugni Recipe-Tangy Yellow Peas Curry,quick_keyword_but_long_total_time
+c93caaf0-557a-41b1-a9e6-01b4fdd85aa5,Manganem Recipe - Goan Style Chana Dal Payasam,indian,hard,300,standard,vegetarian,Manganem Recipe - Goan Chana Dal Payasam,quick_keyword_but_long_total_time
+d5144926-8d76-47e7-bf39-7c3345f8e463,Banana Cream Pie Recipe,indian,hard,315,standard,vegetarian,Banana Cream Pie Recipe,quick_keyword_but_long_total_time
+fc4be58d-34bd-48df-8caf-93daa7e93f11,Adraki Rajma Masala Recipe - Rajma Masala Recipe,indian,hard,320,standard,vegetarian,Adraki Rajma Masala Recipe - Rajma Masala Recipe,quick_keyword_but_long_total_time
+642a6934-93ef-4a40-b626-ee336c6ecf20,Quick & Easy Creamy Fruit Trifle Recipe,indian,medium,320,quick,vegetarian,& Creamy Fruit Trifle Recipe,quick_keyword_but_long_total_time
+019c9533-2d93-4238-a155-4599a4edec93,Hibiscus (Chembaruthi) Neer Dosa Recipe,indian,hard,345,standard,vegetarian,Hibiscus (Chembaruthi) Neer Dosa Recipe,quick_keyword_but_long_total_time
+1390aa9e-1b66-4a11-8dcc-1c6fa9f43f5d,Beetroot Hummus Recipe,indian,hard,390,standard,vegetarian,Beetroot Hummus Recipe,quick_keyword_but_long_total_time
+d7402d62-52a5-485b-9c2e-b4dbe30948c3,Thandai Mousse Recipe,indian,hard,390,standard,vegetarian,Thandai Mousse Recipe,quick_keyword_but_long_total_time
+1d7c918e-d6e6-4ef1-90a0-b9d59f422989,Sicilian Watermelon Pudding Recipe With Cinnamon Twist  - Gelo Di Melone,indian,medium,395,standard,vegetarian,Sicilian Watermelon Pudding Recipe With Cinnamon Twist - Gelo Di Melone,quick_keyword_but_long_total_time
+884ddf9b-4c0b-4e65-93ef-0987e9a6b9e4,Moong Dal Dosa Recipe,indian,hard,400,standard,vegetarian,Moong Dal Dosa Recipe,quick_keyword_but_long_total_time
+fd0ddeed-ff42-4b25-bd55-05405ee1a31c,Crispy Vegetable Recipe - Crispy Bhujia,indian,medium,410,standard,vegetarian,Crispy Vegetable Recipe - Crispy Bhujia,quick_keyword_but_long_total_time
+f66079e1-9d8c-4aac-a441-b5797e1cc329,Mushroom and beet wellington With Red Vinaigrette Sauce Recipe,indian,hard,410,standard,vegetarian,Mushroom and beet wellington With Red Vinaigrette Sauce Recipe,quick_keyword_but_long_total_time
+6e46ee36-d136-42dc-b79a-c7297765a975,Moong Dal Idli Recipe,indian,hard,415,standard,vegetarian,Moong Dal Idli Recipe,quick_keyword_but_long_total_time
+87cb5b73-24b5-4209-af0e-14d06d6505dc,Lebanese Style Shish Tawook Recipe - Grilled Chicken Skewers,indian,hard,420,standard,non_veg,Lebanese Shish Tawook Recipe - Grilled Chicken Skewers,quick_keyword_but_long_total_time
+b91aa7d4-0746-42c9-9742-07f7e3974d51,Thonnai Idli Recipe (Dried Leaves Idli),indian,hard,420,standard,vegetarian,Thonnai Idli Recipe (Dried Leaves Idli),quick_keyword_but_long_total_time
+cda7cf16-6777-4160-8a26-21a5a318b400,Dried Kala Chana Masala Recipe - Ashtami Prasad,indian,hard,425,standard,vegetarian,Dried Kala Chana Masala Recipe - Ashtami Prasad,quick_keyword_but_long_total_time
+61cd60e2-331f-4c94-8349-20404911f9a1,Garlic Crust Vegetable Pizza Recipe,indian,hard,430,standard,vegetarian,Garlic Crust Vegetable Pizza Recipe,quick_keyword_but_long_total_time
+7821402b-909b-42e6-896c-06fbaa5f5e2b,Kerala Kadala Curry Recipe - Spicy Chickpeas in Coconut Curry,indian,hard,460,standard,vegetarian,Kerala Kadala Curry Recipe - Spicy Chickpeas in Coconut Curry,quick_keyword_but_long_total_time
+6ae2f15a-0045-4832-98bd-a5519f63f8c4,Sweet And Tangy Mango Ice-cream Recipe,indian,medium,495,standard,vegetarian,Sweet And Tangy Mango Ice-cream Recipe,quick_keyword_but_long_total_time
+c59fef20-f539-4ea9-94df-02e904f1f657,Coffee Ice Cream Recipe,indian,medium,500,standard,vegetarian,Coffee Ice Cream Recipe,quick_keyword_but_long_total_time
+a179b7fd-9abd-4039-8cdf-6369369afb72,Malai Chickpea Kebab Recipe,indian,medium,525,standard,vegetarian,Malai Chickpea Kebab Recipe,quick_keyword_but_long_total_time
+9ded12ef-0ae9-4468-ab0f-08b81fba6f9f,Karnataka Style Kadle Kaalu Saru Recipe (Black Chickpea Curry Recipe),indian,hard,530,standard,vegetarian,Karnataka Kadle Kaalu Saru Recipe (Black Chickpea Curry Recipe),quick_keyword_but_long_total_time
+2a245c9d-d58d-44a6-8cd1-c12ea92acf99,Dhania Chole Masala Recipe - Chickpeas In Fresh Coriander Gravy,indian,hard,540,standard,vegetarian,Dhania Chole Masala Recipe - Chickpeas In Fresh Coriander Gravy,quick_keyword_but_long_total_time
+84c074dc-5937-4639-9242-130da92b4ac7,Chole Biryani Recipe - Spicy Chana Biryani  Recipe,indian,hard,550,standard,vegetarian,Chole Biryani Recipe - Spicy Chana Biryani Recipe,quick_keyword_but_long_total_time
+ec802e62-f775-4fd1-88d0-92493b178d10,Kashmiri Style Rajma Recipe,indian,hard,550,standard,vegetarian,Kashmiri Rajma Recipe,quick_keyword_but_long_total_time
+e9b1adbd-a115-4121-bc9c-790c7863e367,Oats and Green Moong Dal Dahi Vada Recipe,indian,medium,560,standard,vegetarian,Oats and Green Moong Dal Dahi Vada Recipe,quick_keyword_but_long_total_time
+202f0246-c93b-4436-828f-ddfa70397819,Himachali Khatta Recipe (Tangy Black Chickpea Curry),indian,hard,580,standard,vegetarian,Himachali Khatta Recipe (Tangy Black Chickpea Curry),quick_keyword_but_long_total_time
+185cf71b-b1e6-4edf-8f05-24300bd6d1bb,Mocha Swiss Roll Recipe (Cream Roll),indian,medium,795,standard,vegetarian,Mocha Swiss Roll Recipe (Cream Roll),quick_keyword_but_long_total_time
+12721877-41c0-4c36-a913-49891f43cafa,Rich Chocolate Cheesecake Recipe,indian,hard,800,standard,vegetarian,Rich Chocolate Cheesecake Recipe,quick_keyword_but_long_total_time
+ad08b23e-4c21-4eaf-8174-08b5122d3e4b,Homemade Mango Ice-Cream Recipe,indian,medium,920,standard,vegetarian,Homemade Mango Ice-Cream Recipe,quick_keyword_but_long_total_time
+a3f17346-b332-49d8-b3a1-c5d6401a5c77,"Homemade Quick Puff Pastry Sheet Recipe | Perfect For Puffs, Tarts & Pies.",indian,hard,1440,quick,vegetarian,"Homemade Puff Pastry Sheet Recipe | Perfect For Puffs, Tarts & Pies.",quick_keyword_but_long_total_time
+2a289407-936d-4514-89ae-20472a9be290,Biryani Masala Powder Recipe,indian,medium,10,standard,vegetarian,Biryani Masala Powder Recipe,slow_keyword_but_short_total_time
+2687ee71-0e05-41cb-ad69-f7d150072cea,Lemon Cucumber Detox Water Recipe,indian,easy,10,standard,vegetarian,Lemon Cucumber Detox Water Recipe,slow_keyword_but_short_total_time
+49cfade9-7ebd-4c3a-b419-a903eb8fff92,Tomato Onita d Kara,indian,easy,10,standard,vegetarian,Tomato Onita d Kara,slow_keyword_but_short_total_time
+6fd99d57-b3a5-4509-ba04-e9cc6e1e9ff2,Vegan Cashew Mayonnaise Recipe,indian,easy,10,standard,vegetarian,Vegan Cashew Mayonnaise Recipe,slow_keyword_but_short_total_time
+447c99ec-7140-443b-9fcc-dc05cdd7594f,Blueberry-Mango Marble Froyo Bars Recipe,indian,easy,15,standard,vegetarian,Blueberry-Mango Marble Froyo Bars Recipe,slow_keyword_but_short_total_time
+535289b4-064a-4b25-ada1-cdfb1644ab5d,Curd Rice Style Overnight Oats Recipe,indian,medium,15,standard,vegetarian,Curd Rice Overnight Oats Recipe,slow_keyword_but_short_total_time
+d54aa317-7ac6-4024-938b-725950550540,Foxtail Millet Nucchina Unde Recipe (Foxtail Millet and Lentil Dumplings),indian,easy,15,standard,vegetarian,Foxtail Millet Nucchina Unde Recipe (Foxtail Millet and Lentil Dumplings),slow_keyword_but_short_total_time
+17261b13-e82a-4a97-aef8-a8c23555afa2,"Kala Chana Salad Recipe With Carrots, Cucumber & Tomatoes",indian,easy,15,standard,vegetarian,"Kala Chana Salad Recipe With Carrots, Cucumber & Tomatoes",slow_keyword_but_short_total_time
+f08ee9c6-7723-40db-8828-c512544ab081,Mango & Mixed Fruit Popsicle Recipe,indian,easy,15,standard,vegetarian,Mango & Mixed Fruit Popsicle Recipe,slow_keyword_but_short_total_time
+e7949260-e1df-4007-bb98-faa49571cecd,Meetha Daliya With Milk & Fruits Recipe - Broken Wheat Porridge,indian,easy,15,standard,vegetarian,Meetha Daliya With Milk & Fruits Recipe - Broken Wheat Porridge,slow_keyword_but_short_total_time
+7bb433be-3d2a-43d8-b2a6-aa3c00c3dbc6,Methi Sprouts Salad Recipe - Healthy & Tasty Diabetic Snack,indian,easy,15,standard,vegetarian,Methi Sprouts Salad Recipe - Healthy & Tasty Diabetic Snack,slow_keyword_but_short_total_time
+5aa25d65-3e64-4453-bd62-777f0a4b6537,Oriya Badi Chura Recipe | Sundried Lentil Dumpling Crumble,indian,easy,15,standard,vegetarian,Oriya Badi Chura Recipe | Sundried Lentil Dumpling Crumble,slow_keyword_but_short_total_time
+b7ffd606-f4f9-4a0a-b75e-3ada0221641d,Panjiri Ladoo Recipe,indian,easy,15,standard,vegetarian,Panjiri Ladoo Recipe,slow_keyword_but_short_total_time
+fbc1b884-d7bb-4fca-87be-aad7a0bee765,Broken Wheat Upma Or Dalia Khichdi Recipe for Babies & Toddlers,indian,medium,20,standard,vegetarian,Broken Wheat Upma Or Dalia Khichdi Recipe for Babies & Toddlers,slow_keyword_but_short_total_time
+4bbf5589-3f2f-4291-8736-4f42d63abba5,"Chickpea Salad with Cherry Tomatoes,Olives and Capsicum Recipe",indian,medium,20,standard,vegetarian,"Chickpea Salad with Cherry Tomatoes,Olives and Capsicum Recipe",slow_keyword_but_short_total_time
+99c262cd-e307-4c66-b133-d3a194fc3f51,Chilka Roti Recipe (Jharkhand Style Rice and Lentil Roti),indian,easy,20,standard,vegetarian,Chilka Roti Recipe (Jharkhand Rice and Lentil Roti),slow_keyword_but_short_total_time
+faf271f3-fdd3-452c-ad7b-6ed52c583243,Diabetic Friendly Green Moong Dal/ Mung Beans Soup Recipe,indian,medium,20,standard,vegetarian,Diabetic Friendly Green Moong Dal/ Mung Beans Soup Recipe,slow_keyword_but_short_total_time
+08a29926-0d80-4c22-bfe8-bb56effc37e5,Ice Wine Panna Cotta Recipe,indian,easy,20,standard,vegetarian,Ice Wine Panna Cotta Recipe,slow_keyword_but_short_total_time
+8752e7aa-3fef-4adc-baf5-01ce6aa4e5b8,Lemon Cherry Berry Spa Water Recipe,indian,easy,20,standard,vegetarian,Lemon Cherry Berry Spa Water Recipe,slow_keyword_but_short_total_time
+6a99c77e-c409-4b1d-806e-e1b285357a91,Nando's Peri Peri Chicken Recipe,indian,easy,20,standard,non_veg,Nando's Peri Peri Chicken Recipe,slow_keyword_but_short_total_time
+51f0ab45-d1ac-4c5f-8f39-18a5c241c7d0,Pinto Bean Salsa Salad Recipe,indian,easy,20,standard,vegetarian,Pinto Bean Salsa Salad Recipe,slow_keyword_but_short_total_time

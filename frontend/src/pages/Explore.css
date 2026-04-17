@@ -50,6 +50,9 @@
 }
 
 .cuisine-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   padding: 10px 20px;
   border-radius: var(--radius-full);
   background: var(--glass-bg);
@@ -58,6 +61,13 @@
   font-size: 0.9rem;
   font-weight: 500;
   transition: all var(--transition-base);
+}
+
+.cuisine-chip-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
 }
 
 .cuisine-chip:hover {

@@ -10,6 +10,7 @@ import Recommendations from './pages/Recommendations';
 import RecipeDetailPage from './pages/RecipeDetailPage';
 import Explore from './pages/Explore';
 import SavedRecipes from './pages/SavedRecipes';
+import MyRecipes from './pages/MyRecipes';
 import Profile from './pages/Profile';
 
 function ProtectedRoute({ children }) {
@@ -40,6 +41,7 @@ function AppRoutes() {
         <Route path="/recommendations" element={<ProtectedRoute><Recommendations /></ProtectedRoute>} />
         <Route path="/recipe/:id" element={<RecipeDetailPage />} />
         <Route path="/explore" element={<Explore />} />
+        <Route path="/my-recipes" element={<ProtectedRoute><MyRecipes /></ProtectedRoute>} />
         <Route path="/saved" element={<ProtectedRoute><SavedRecipes /></ProtectedRoute>} />
         <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
         <Route path="*" element={<Navigate to="/" replace />} />

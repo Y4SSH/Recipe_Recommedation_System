@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import api from '../services/api';
 import { useToast } from '../context/ToastContext';
+import { useAuth } from '../context/AuthContext';
 import {
   Share2, CheckCircle, Circle, Star, Plus, Minus, ArrowLeft, Bookmark, BookmarkCheck,
   ChefHat, Clock, Users, Globe
@@ -25,9 +26,10 @@ const getLocalImage = (title) => {
 export default function RecipeDetailPage() {
   const { id } = useParams();
   const toast = useToast();
+  const navigate = useNavigate();
+  const { isAuthenticated, savedRecipeIds, saveRecipe, unsaveRecipe } = useAuth();
   const [recipe, setRecipe] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [saved, setSaved] = useState(false);
   const [rating, setRating] = useState(0);
   const [hoverRating, setHoverRating] = useState(0);
   const [checkedIngredients, setCheckedIngredients] = useState({});
@@ -39,7 +41,6 @@ export default function RecipeDetailPage() {
       try {
         const data = await api.getRecipe(id);
         setRecipe(data);
-        setSaved(api.isRecipeSaved(id));
         if (data.servings) {
           const s = parseInt(data.servings.toString().replace(/\D/g, ''));
           setTargetServings(s || 1);
@@ -55,14 +56,19 @@ export default function RecipeDetailPage() {
     fetchRecipe();
   }, [id]);
 
-  const toggleSave = () => {
+  const saved = savedRecipeIds.includes(id);
+
+  const toggleSave = async () => {
+    if (!isAuthenticated) {
+      navigate('/login');
+      return;
+    }
+
     if (saved) {
-      api.unsaveRecipe(id);
-      setSaved(false);
+      await unsaveRecipe(id);
       toast.info('Recipe removed from bookmarks');
     } else {
-      api.saveRecipe(id);
-      setSaved(true);
+      await saveRecipe(id);
       toast.success('Recipe saved! 🔖');
     }
   };
@@ -144,7 +150,13 @@ export default function RecipeDetailPage() {
   };
   const fallbackBg = getCuisineColor(recipe.cuisine);
   const cleanTitle = recipe.title ? recipe.title.replace(/\s*[Rr]ecipe\s*$/i, '') : '';
-  const finalImageUrl = getLocalImage(cleanTitle) || recipe.image_url;
+  const variantType = recipe.variant_type;
+  const cookingMethod = recipe.cooking_method;
+  const proteinType = recipe.protein_type;
+  const baseRecipe = recipe.base_recipe;
+  const prettyValue = (value) => (value || '').toString().replace(/_/g, ' ');
+  
+  const finalImageUrl = getLocalImage(cleanTitle);
 
   const baseServings = recipe.servings ? parseInt(recipe.servings.toString().replace(/\D/g, '')) || 1 : 1;
   const multiplier = targetServings / baseServings;
@@ -167,10 +179,15 @@ export default function RecipeDetailPage() {
     <div className="page recipe-detail-page">
       <div className="rd-hero">
         {finalImageUrl ? (
-          <img src={finalImageUrl} alt={cleanTitle} className="rd-hero-img" onError={(e) => {
-            e.target.style.display = 'none';
-            e.target.parentElement.style.background = fallbackBg;
-          }} />
+          <img 
+            src={finalImageUrl} 
+            alt={cleanTitle} 
+            className="rd-hero-img" 
+            onError={(e) => {
+              e.target.style.display = 'none';
+              e.target.parentElement.style.background = fallbackBg;
+            }} 
+          />
         ) : (
           <div className="rd-hero-placeholder" style={{ background: fallbackBg }}>
             <ChefHat size={64} />
@@ -189,6 +206,20 @@ export default function RecipeDetailPage() {
               <span className="rd-meta-item"><Users size={16} /> {targetServings} servings</span>
               {recipe.difficulty && <span className="rd-meta-item"><ChefHat size={16} /> {recipe.difficulty}</span>}
               {recipe.cuisine && <span className="rd-meta-item"><Globe size={16} /> {recipe.cuisine}</span>}
+            </div>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 12 }}>
+              {variantType && variantType !== 'standard' && (
+                <span className="tag tag-neutral">Variant: {prettyValue(variantType)}</span>
+              )}
+              {cookingMethod && cookingMethod !== 'standard' && (
+                <span className="tag tag-neutral">Method: {prettyValue(cookingMethod)}</span>
+              )}
+              {proteinType && (
+                <span className="tag tag-neutral">Protein: {prettyValue(proteinType)}</span>
+              )}
+              {baseRecipe && baseRecipe !== recipe.title && (
+                <span className="tag tag-neutral">Base: {baseRecipe}</span>
+              )}
             </div>
           </div>
         </div>
@@ -271,6 +302,24 @@ export default function RecipeDetailPage() {
                   <span className="rd-info-label">Servings</span>
                   <span className="rd-info-value">{targetServings}</span>
                 </div>
+                {variantType && (
+                  <div className="rd-info-item">
+                    <span className="rd-info-label">Variant</span>
+                    <span className="rd-info-value">{prettyValue(variantType)}</span>
+                  </div>
+                )}
+                {cookingMethod && (
+                  <div className="rd-info-item">
+                    <span className="rd-info-label">Method</span>
+                    <span className="rd-info-value">{prettyValue(cookingMethod)}</span>
+                  </div>
+                )}
+                {proteinType && (
+                  <div className="rd-info-item">
+                    <span className="rd-info-label">Protein</span>
+                    <span className="rd-info-value">{prettyValue(proteinType)}</span>
+                  </div>
+                )}
               </div>
             </div>
 

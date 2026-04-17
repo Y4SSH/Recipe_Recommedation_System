@@ -16,18 +16,9 @@ export default function SavedRecipes() {
   useEffect(() => {
     const fetchSaved = async () => {
       setLoading(true);
-      const savedIds = api.getSavedRecipeIds();
-      if (savedIds.length === 0) {
-        setRecipes([]);
-        setLoading(false);
-        return;
-      }
-
       try {
-        const results = await Promise.all(
-          savedIds.map(id => api.getRecipe(id).catch(() => null))
-        );
-        setRecipes(results.filter(Boolean));
+        const results = await api.getSavedRecipes();
+        setRecipes(results);
       } catch {
         setRecipes([]);
       } finally {
@@ -37,8 +28,14 @@ export default function SavedRecipes() {
     fetchSaved();
   }, [refreshKey]);
 
-  const handleClearAll = () => {
-    localStorage.removeItem('chefai_saved');
+  const handleClearAll = async () => {
+    setLoading(true);
+    try {
+      await Promise.all(recipes.map(recipe => api.unsaveRecipe(recipe.id).catch(() => null)));
+      setRecipes([]);
+    } finally {
+      setLoading(false);
+    }
     setRefreshKey(k => k + 1);
   };
 

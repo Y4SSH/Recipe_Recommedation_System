@@ -5,6 +5,10 @@ class ApiService {
     this.baseUrl = API_BASE;
   }
 
+  getSavedCacheKey(token = this.getToken()) {
+    return token ? `chefai_saved:${token}` : 'chefai_saved:anonymous';
+  }
+
   getToken() {
     return localStorage.getItem('chefai_token');
   }
@@ -71,14 +75,24 @@ class ApiService {
   }
 
   logout() {
+    const token = this.getToken();
     localStorage.removeItem('chefai_token');
     localStorage.removeItem('chefai_user');
+    if (token) {
+      localStorage.removeItem(this.getSavedCacheKey(token));
+    }
+    localStorage.removeItem('chefai_saved');
   }
 
   // Recipes
-  async getRecipes(skip = 0, limit = 20, search = '') {
-    const url = `/recipes/?skip=${skip}&limit=${limit}${search ? `&search=${encodeURIComponent(search)}` : ''}`;
-    return this.request(url);
+  async getRecipes(skip = 0, limit = 20, search = '', cuisine = '', diet = '', imageOnly = false) {
+    const params = new URLSearchParams({ skip, limit });
+    if (search) params.append('search', search);
+    if (cuisine) params.append('cuisine', cuisine);
+    if (diet) params.append('diet', diet);
+    if (imageOnly) params.append('image_only', 'true');
+    
+    return this.request(`/recipes/?${params.toString()}`);
   }
 
   async getRecipe(id) {
@@ -86,12 +100,17 @@ class ApiService {
   }
 
   // Recommendations
-  async getRecommendations({ ingredients, timeLimit, cuisine, diet, servings }) {
+  async getRecommendations({ ingredients, timeLimit, cuisine, diet, servings, budgetLimit, healthGoal, wasteMode, pantryItems, userId }) {
     const body = { ingredients };
+    if (userId) body.user_id = userId;
     if (timeLimit) body.time_limit = parseInt(timeLimit);
     if (cuisine) body.cuisine = cuisine;
     if (diet) body.diet = diet;
     if (servings) body.servings = parseInt(servings);
+    if (budgetLimit) body.budget_limit = parseFloat(budgetLimit);
+    if (healthGoal) body.health_goal = healthGoal;
+    if (wasteMode) body.waste_mode = true;
+    if (Array.isArray(pantryItems) && pantryItems.length > 0) body.pantry_items = pantryItems;
 
     return this.request('/recommend/', {
       method: 'POST',
@@ -99,26 +118,103 @@ class ApiService {
     });
   }
 
-  // Saved Recipes (localStorage-based)
+  async getModelStats() {
+    return this.request('/recommend/stats');
+  }
+
+  async submitFeedback({ recommendedRecipeId, accepted, context = '', reason = '' }) {
+    return this.request('/feedback/', {
+      method: 'POST',
+      body: JSON.stringify({
+        recommended_recipe_id: recommendedRecipeId,
+        accepted,
+        context,
+        reason,
+      }),
+    });
+  }
+
+  async getPantry() {
+    return this.request('/auth/pantry');
+  }
+
+  async updatePantry(items) {
+    return this.request('/auth/pantry', {
+      method: 'PUT',
+      body: JSON.stringify({ items }),
+    });
+  }
+
+  async getSavedRecipes() {
+    return this.request('/saved/');
+  }
+
+  async getMyRecipes() {
+    return this.request('/my-recipes/');
+  }
+
+  async markRecipeInterested(recipeId) {
+    return this.request(`/my-recipes/${recipeId}/interested`, {
+      method: 'POST',
+    });
+  }
+
+  async startMyRecipe(recipeId) {
+    return this.request(`/my-recipes/${recipeId}/start`, {
+      method: 'POST',
+    });
+  }
+
+  async updateMyRecipeProgress(recipeId, payload) {
+    return this.request(`/my-recipes/${recipeId}/progress`, {
+      method: 'PATCH',
+      body: JSON.stringify(payload),
+    });
+  }
+
+  async completeMyRecipe(recipeId) {
+    return this.request(`/my-recipes/${recipeId}/complete`, {
+      method: 'POST',
+    });
+  }
+
   getSavedRecipeIds() {
     try {
-      return JSON.parse(localStorage.getItem('chefai_saved') || '[]');
+      return JSON.parse(localStorage.getItem(this.getSavedCacheKey()) || '[]');
     } catch {
       return [];
     }
   }
 
-  saveRecipe(recipeId) {
-    const saved = this.getSavedRecipeIds();
-    if (!saved.includes(recipeId)) {
-      saved.push(recipeId);
-      localStorage.setItem('chefai_saved', JSON.stringify(saved));
+  setSavedRecipeIds(recipeIds) {
+    localStorage.setItem(this.getSavedCacheKey(), JSON.stringify([...new Set(recipeIds)]));
+  }
+
+  clearSavedRecipeIds() {
+    const token = this.getToken();
+    if (token) {
+      localStorage.removeItem(this.getSavedCacheKey(token));
     }
   }
 
-  unsaveRecipe(recipeId) {
+  async saveRecipe(recipeId) {
+    const response = await this.request(`/saved/${recipeId}`, {
+      method: 'POST',
+    });
+    const saved = this.getSavedRecipeIds();
+    if (!saved.includes(recipeId)) {
+      this.setSavedRecipeIds([...saved, recipeId]);
+    }
+    return response;
+  }
+
+  async unsaveRecipe(recipeId) {
+    const response = await this.request(`/saved/${recipeId}`, {
+      method: 'DELETE',
+    });
     const saved = this.getSavedRecipeIds().filter(id => id !== recipeId);
-    localStorage.setItem('chefai_saved', JSON.stringify(saved));
+    this.setSavedRecipeIds(saved);
+    return response;
   }
 
   isRecipeSaved(recipeId) {
